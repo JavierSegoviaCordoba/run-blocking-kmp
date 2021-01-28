@@ -1,0 +1,12 @@
+[versions]
+coroutines = "1.4.2"
+kotest = "4.3.2"
+
+[dependencies]
+common-main-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
+
+common-test-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
+common-test-kotest-assertions = { group = "io.kotest", name = "kotest-assertions-core", version.ref = "kotest" }
+common-test-kotlin-test-annotations = { group = "org.jetbrains.kotlin", name = "kotlin-test-annotations-common" }
+common-test-kotlin-test-common = { group = "org.jetbrains.kotlin", name = "kotlin-test" }
+common-test-kotlin-test-junit = { group = "org.jetbrains.kotlin", name = "kotlin-test-junit" }
