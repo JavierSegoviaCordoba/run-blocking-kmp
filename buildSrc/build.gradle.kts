@@ -19,10 +19,12 @@ dependencies {
         implementation(detekt)
         implementation(dokka.core)
         implementation(dokka.plugin)
-        implementation(kotlin.plugin)
         implementation(kotlin.binaryCompabilityValidator)
+        implementation(kotlin.plugin)
         implementation(kotlin.serialization)
         implementation(nexus.staging)
         implementation(nexus.publish)
+        implementation(reckon)
+        implementation(spotless)
     }
 }

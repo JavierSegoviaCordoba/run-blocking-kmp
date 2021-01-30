@@ -14,35 +14,20 @@
 
 ## Versioning
 
-You can change the version and indicate if is release or snapshot
-in [gradle.properties](/gradle.properties) file
-
-## Releases
-
-Change the project version if necessary and set `isLibRelease` to true.
-
-## Snapshots
-
-Change the project version if necessary and set `isLibRelease` to false.
-
-Automatically, the version generated includes a timestamp and the suffix `-SNAPSHOT`.
+// TODO
 
 ## Upload artifacts to Nexus Repository Manager
 
 ### Snapshot
 
-```
-./gradlew publishToSonatype -P"isLibRelease"="false"
-```
+Version should end with `-SNAPSHOT`
 
-If `isLibRelease` is set to false in [gradle.properties](/gradle.properties) you can
-remove `-P"isLibRelease"="false"`
+```
+./gradlew publishToSonatype
+```
 
 ### Release
 
 ```
-./gradlew publishToSonatype -P"isLibRelease"="true" -Psigning.gnupg.keyName=[keyId] -Psigning.gnupg.passphrase=[passphrase]
+./gradlew publishToSonatype -Psigning.gnupg.keyName=[keyId] -Psigning.gnupg.passphrase=[passphrase]
 ```
-
-If `isLibRelease` is set to true in [gradle.properties](/gradle.properties) you can
-remove `-P"isLibRelease"="true"`

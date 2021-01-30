@@ -1,7 +1,7 @@
 plugins {
     id("de.marcphilipp.nexus-publish")
     signing
-    id("Dokka")
+    id("Docs")
 }
 
 val dokkaJar by tasks.creating(Jar::class) {
@@ -44,12 +44,10 @@ publishing {
 
 nexusPublishing {
     this.repositories { sonatype() }
-
-    useStaging.set(isLibRelease)
 }
 
 signing {
-    if (isLibRelease) {
+    if (!project.version.toString().endsWith("-SNAPSHOT")) {
         useGpgCmd()
         sign(publishing.publications)
     }

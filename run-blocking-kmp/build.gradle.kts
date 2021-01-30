@@ -1,8 +1,6 @@
 plugins {
     KotlinMultiplatform
-    Dokka
     Publish
-    Versioning
 }
 
 kotlin {

@@ -93,11 +93,11 @@ jobs:
 
       - name: Publish a release
         if: github.ref == 'refs/heads/main'
-        run: ./gradlew publishToSonatype -P"isLibRelease"="true" -P"signing.gnupg.keyName"="${{ secrets.gpgKeyName }}" -P"signing.gnupg.passphrase"="${{ secrets.gpgPassphrase }}"
+        run: ./gradlew publishToSonatype -P"signing.gnupg.keyName"="${{ secrets.gpgKeyName }}" -P"signing.gnupg.passphrase"="${{ secrets.gpgPassphrase }}"
 
       - name: Publish a snapshot
         if: github.ref == 'refs/heads/develop'
-        run: ./gradlew publishToSonatype -P"isLibRelease"="false"
+        run: ./gradlew publishToSonatype
 
       - name: Deploy release docs to Github Pages
         if: matrix.os == 'ubuntu-latest' && github.ref == 'refs/heads/main'

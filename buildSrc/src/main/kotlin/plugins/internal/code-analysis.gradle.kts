@@ -2,6 +2,14 @@ import io.gitlab.arturbosch.detekt.Detekt
 
 plugins {
     id("io.gitlab.arturbosch.detekt")
+    id("com.diffplug.spotless")
+}
+
+spotless {
+    kotlin {
+        target("src/**/*.kt")
+        ktfmt(ktfmtVersion).dropboxStyle()
+    }
 }
 
 dependencies {
@@ -11,7 +19,7 @@ dependencies {
 val detekt by tasks.named<Detekt>("detekt") {
     parallel = true
     ignoreFailures = true
-    autoCorrect = true
+    autoCorrect = false
     buildUponDefaultConfig = true
     setSource(files(projectDir))
     exclude("**/build/**")
@@ -30,4 +38,10 @@ internal val Project.detektVersion: String
     get() = File("$rootDir/gradle/gradle-plugin-dependencies.toml")
         .readLines()
         .first { it.contains("detekt") }
+        .split("\"")[1]
+
+internal val Project.ktfmtVersion: String
+    get() = File("$rootDir/gradle/gradle-plugin-dependencies.toml")
+        .readLines()
+        .first { it.contains("ktfmt") }
         .split("\"")[1]

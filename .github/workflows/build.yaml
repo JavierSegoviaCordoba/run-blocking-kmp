@@ -1,0 +1,71 @@
+name: build
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+    paths:
+      - '**'
+      - '!**.md'
+  pull_request:
+    branches:
+      - main
+      - develop
+    paths-ignore:
+      - '**/*.md'
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ macOS-latest, windows-latest, ubuntu-latest ]
+
+    runs-on: ${{matrix.os}}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up Java
+        uses: actions/setup-java@v1
+        with:
+          java-version: 15
+
+      - name: Gradle cache
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+            ~/.konan
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*') }}-${{ hashFiles('**/gradle.properties') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+
+      - name: Gradle build
+        run: ./gradlew build
+
+      - name: Generate snapshot docs
+        if: matrix.os == 'ubuntu-latest' && github.ref == 'refs/heads/develop'
+        run: ./gradlew dokkaHtmlMultiModule
+
+      - name: Publish a snapshot
+        if: github.ref == 'refs/heads/develop'
+        env:
+          ossUser: ${{ secrets.ossUser }}
+          ossToken: ${{ secrets.ossToken }}
+        run: ./gradlew publishToSonatype -P"reckon.stage"="snapshot" -P"isSnapshot"="true"
+
+      - name: Deploy snapshot docs to Github Pages
+        if: matrix.os == 'ubuntu-latest' && github.ref == 'refs/heads/develop'
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TARGET_FOLDER: snapshot
+          BRANCH: gh-pages
+          FOLDER: build/dokka
+          CLEAN: false
+          SINGLE_COMMIT: true

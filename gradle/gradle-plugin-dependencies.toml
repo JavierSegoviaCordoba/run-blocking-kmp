@@ -3,10 +3,13 @@ changelog = "1.0.1"
 dependencyUpdates = "0.36.0"
 detekt = "1.15.0"
 dokka = "1.4.20"
+ktfmt = "0.19"
 kotlin = "1.4.21"
 kotlinBinaryValidator = "0.3.0"
 nexusPublish = "0.4.0"
 nexusStaging = "0.22.0"
+reckon = "0.13.0"
+spotless = "5.9.0"
 
 [dependencies]
 changelog = { group = "org.jetbrains.intellij.plugins", name = "gradle-changelog-plugin", version.ref = "changelog" }
@@ -19,3 +22,5 @@ kotlin-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin",
 kotlin-serialization = { group = "org.jetbrains.kotlin", name = "kotlin-serialization", version.ref = "kotlin" }
 nexus-staging = { group = "io.codearte.gradle.nexus", name = "gradle-nexus-staging-plugin", version.ref = "nexusStaging" }
 nexus-publish = { group = "de.marcphilipp.gradle", name = "nexus-publish-plugin", version.ref = "nexusPublish" }
+reckon = { group = "org.ajoberstar.reckon", name = "reckon-gradle", version.ref = "reckon" }
+spotless = { group = "com.diffplug.spotless", name = "spotless-plugin-gradle", version.ref = "spotless" }
