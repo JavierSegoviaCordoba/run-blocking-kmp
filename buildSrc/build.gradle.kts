@@ -14,6 +14,7 @@ dependencies {
     implementation(localGroovy())
 
     gradlePluginLibs.apply {
+        implementation(changelog)
         implementation(dependencyUpdates)
         implementation(detekt)
         implementation(dokka.core)

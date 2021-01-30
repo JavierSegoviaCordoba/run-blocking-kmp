@@ -1,4 +1,5 @@
 [versions]
+changelog = "1.0.1"
 dependencyUpdates = "0.36.0"
 detekt = "1.15.0"
 dokka = "1.4.20"
@@ -8,6 +9,7 @@ nexusPublish = "0.4.0"
 nexusStaging = "0.22.0"
 
 [dependencies]
+changelog = { group = "org.jetbrains.intellij.plugins", name = "gradle-changelog-plugin", version.ref = "changelog" }
 detekt = { group = "io.gitlab.arturbosch.detekt", name = "detekt-gradle-plugin", version.ref = "detekt" }
 dependencyUpdates = { group = "com.github.ben-manes", name = "gradle-versions-plugin", version.ref = "dependencyUpdates" }
 dokka-core = { group = "org.jetbrains.dokka", name = "dokka-core", version.ref = "dokka" }

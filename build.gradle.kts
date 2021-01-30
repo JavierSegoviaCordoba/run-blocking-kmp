@@ -1,6 +1,8 @@
 import tasks.baseKotlinOptions
 
 plugins {
+    Versioning
+    Changelog
     DependencyUpdates
     Detekt
     Dokka
