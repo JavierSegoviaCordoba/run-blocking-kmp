@@ -4,6 +4,7 @@ plugins {
     DependencyUpdates
     Detekt
     Dokka
+    KotlinBinaryCompatibilityValidator
     NexusStaging
 }
 
