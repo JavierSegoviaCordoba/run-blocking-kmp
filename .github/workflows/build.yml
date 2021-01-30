@@ -1,15 +1,12 @@
-name: Develop-PR
+name: build
 
-on:
-  pull_request:
-    branches:
-      - develop
+on: [ push, pull_request, workflow_dispatch ]
 
 jobs:
   build:
     strategy:
       matrix:
-        os: [ macOS-latest, windows-latest ]
+        os: [ macOS-latest, windows-latest, ubuntu-latest ]
 
     runs-on: ${{matrix.os}}
 
