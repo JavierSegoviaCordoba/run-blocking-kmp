@@ -1,4 +1,4 @@
-name: publish-dispatcher
+name: publish
 
 on: [ workflow_dispatch ]
 

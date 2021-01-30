@@ -1,6 +1,21 @@
 name: build
 
-on: [ push, pull_request, workflow_dispatch ]
+on:
+  push:
+    branches:
+      - main
+      - develop
+    paths:
+      - '**'
+      - '!**.md'
+  pull_request:
+    branches:
+      - main
+      - develop
+    paths:
+      - '**'
+      - '!**.md'
+  workflow_dispatch:
 
 jobs:
   build:
