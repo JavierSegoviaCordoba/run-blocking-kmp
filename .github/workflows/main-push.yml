@@ -64,3 +64,4 @@ jobs:
           BRANCH: gh-pages
           FOLDER: build/dokka
           CLEAN: false
+          SINGLE_COMMIT: true
