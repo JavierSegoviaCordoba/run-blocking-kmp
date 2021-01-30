@@ -4,9 +4,13 @@
 
 # RunBLocking KMP
 
-_TODO_ 
+```kotlin
+fun main() = runBlocking {
+    println(getUsers())
+}
 
-- [ ] Add samples
+suspend fun getUsers() = usersService.getUsers()
+```
 
 ### Docs
 
