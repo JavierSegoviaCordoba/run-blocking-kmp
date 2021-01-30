@@ -3,6 +3,7 @@ dependencyUpdates = "0.36.0"
 detekt = "1.15.0"
 dokka = "1.4.20"
 kotlin = "1.4.21"
+kotlinBinaryValidator = "0.3.0"
 jacoco = "0.8.6"
 jacocoKordamp = "0.42.1"
 nexusPublish = "0.4.0"
@@ -15,6 +16,7 @@ dokka-core = { group = "org.jetbrains.dokka", name = "dokka-core", version.ref =
 dokka-plugin = { group = "org.jetbrains.dokka", name = "dokka-gradle-plugin", version.ref = "dokka" }
 jacoco = { group = "org.kordamp.gradle", name = "jacoco-gradle-plugin", version.ref = "jacocoKordamp" }
 kotlin-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlin-binaryCompabilityValidator = { group = "org.jetbrains.kotlinx", name = "binary-compatibility-validator", version.ref = "kotlinBinaryValidator" }
 kotlin-serialization = { group = "org.jetbrains.kotlin", name = "kotlin-serialization", version.ref = "kotlin" }
 nexus-staging = { group = "io.codearte.gradle.nexus", name = "gradle-nexus-staging-plugin", version.ref = "nexusStaging" }
 nexus-publish = { group = "de.marcphilipp.gradle", name = "nexus-publish-plugin", version.ref = "nexusPublish" }
