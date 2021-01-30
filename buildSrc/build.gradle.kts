@@ -21,7 +21,6 @@ dependencies {
         implementation(kotlin.plugin)
         implementation(kotlin.binaryCompabilityValidator)
         implementation(kotlin.serialization)
-        implementation(jacoco)
         implementation(nexus.staging)
         implementation(nexus.publish)
     }
