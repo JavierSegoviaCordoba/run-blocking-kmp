@@ -2,7 +2,7 @@
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [![Snapshot Download](https://img.shields.io/nexus/s/com.javiersc.run-blocking-kmp/run-blocking-kmp?server=https%3A%2F%2Foss.sonatype.org%2F&label=Snapshot&color=orange)](https://oss.sonatype.org/content/repositories/snapshots/com/javiersc/run-blocking-kmp/run-blocking-kmp/)  | [![Develop Checks](https://img.shields.io/github/checks-status/JavierSegoviaCordoba/run-blocking-kmp/develop?label=develop&logo=GitHub)](https://github.com/JavierSegoviaCordoba/run-blocking-kmp/tree/develop) | [![Quality Develop](https://img.shields.io/codacy/grade/6e5701cb8b2a48c3969fcb3edd27b4ce/develop?label=develop&logo=codacy&logoColor=white)](https://app.codacy.com/gh/JavierSegoviaCordoba/run-blocking-kmp/dashboard?branch=develop) |
 
-# RunBLocking KMP
+# RunBlocking KMP
 
 ```kotlin
 fun main() = runBlocking {
