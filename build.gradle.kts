@@ -1,6 +1,7 @@
 plugins {
     Versioning
     Changelog
+    CodeAnalysis
     DependencyUpdates
     Docs
     BinaryCompatibilityValidator

@@ -1,6 +1,6 @@
 plugins {
     kotlin("multiplatform")
-    id("code-analysis")
+    id("CodeFormatter")
 }
 
 kotlin {
