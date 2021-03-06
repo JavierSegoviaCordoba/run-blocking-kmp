@@ -6,11 +6,11 @@ on:
       - '**'
 
 env:
-  ossUser: ${{ secrets.ossUser }}
-  ossToken: ${{ secrets.ossToken }}
-  gpgKeyName: ${{ secrets.gpgKeyName }}
-  gpgPassphrase: ${{ secrets.gpgPassphrase }}
-  ossStagingProfileId: ${{ secrets.ossStagingProfileId }}
+  OSS_USER: ${{ secrets.OSS_USER }}
+  OSS_TOKEN: ${{ secrets.OSS_TOKEN }}
+  OSS_STAGING_PROFILE_ID: ${{ secrets.OSS_STAGING_PROFILE_ID }}
+  GPG_KEY_NAME: ${{ secrets.GPG_KEY_NAME }}
+  GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
 
 jobs:
   publish:
@@ -50,11 +50,11 @@ jobs:
       - name: Import GPG key
         uses: crazy-max/ghaction-import-gpg@v3
         with:
-          gpg-private-key: ${{ secrets.gpgKey }}
-          passphrase: ${{ secrets.gpgPassphrase }}
+          gpg-private-key: ${{ secrets.GPG_KEY }}
+          passphrase: ${{ secrets.GPG_PASSPHRASE }}
 
       - name: Publish a release
-        run: ./gradlew publishToSonatype -P"signing.gnupg.keyName"="${{ secrets.gpgKeyName }}" -P"signing.gnupg.passphrase"="${{ secrets.gpgPassphrase }}"
+        run: ./gradlew publishToSonatype closeSonatypeStagingRepository -P"signing.gnupg.keyName"="${{ secrets.GPG_KEY_NAME }}" -P"signing.gnupg.passphrase"="${{ secrets.GPG_PASSPHRASE }}"
 
       - name: Set version
         if: matrix.os == 'ubuntu-latest'

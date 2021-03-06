@@ -1,15 +1,27 @@
 
-rootProject.name = "run-blocking-kmp"
+rootProject.name = providers.gradleProperty("libName").forUseAtConfigurationTime().get()
 
-enableFeaturePreview("GRADLE_METADATA")
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 dependencyResolutionManagement {
     repositories {
-        mavenLocal()
         mavenCentral()
         jcenter()
     }
 }
 
-include(":run-blocking-kmp")
+pluginManagement {
+    val autoIncludeVersion =
+        File("$rootDir/gradle/libs.versions.toml")
+            .readLines()
+            .first { it.contains("autoInclude") }
+            .split("\"")[1]
+
+    plugins {
+        id("com.pablisco.gradle.auto.include") version autoIncludeVersion
+    }
+}
+
+plugins {
+    id("com.pablisco.gradle.auto.include")
+}

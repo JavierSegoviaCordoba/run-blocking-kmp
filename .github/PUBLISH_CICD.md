@@ -2,10 +2,10 @@
 
 ## Prerequisites
 
-  1. Generate key: `gpg --full-generate-key`
-  2. Check key id: `gpg --list-signatures`
-  3. Upload to server: `gpg --keyserver hkps://keys.openpgp.org --send-keys [keyId]`
-  4. Show the private key: `gpg --armor --export-secret-keys [keyId]`
+1. Generate key: `gpg --full-generate-key`
+2. Check key id: `gpg --list-signatures`
+3. Upload to server: `gpg --keyserver hkps://keys.openpgp.org --send-keys [keyId]`
+4. Show the private key: `gpg --armor --export-secret-keys [keyId]`
 
 > You can use GUI utilities:
 > - Kleopatra for Windows
@@ -21,15 +21,15 @@ You can change the version in the next file:
 
 ### GitHub secrets
 
-- KeyId as `gpgKeyName`
-- Passphrase as `gpgPassphrase`
-- Private key as `gpgKey`
+- KeyId as `GPG_KEY_NAME`
+- Passphrase as `GPG_KEYPHRASE`
+- Private key as `GPG_KEY`
     - Get the key using the command from point 4 in prerequisites.
-- Sonatype - Nexus user as `ossUser`
-- Sonatype - Nexus token as `ossToken`
-- Sonatype - Nexus Profile ID as `ossStagingProfileId`
-  - Visit this [link](https://oss.sonatype.org/#stagingProfiles), select your profile and copy
-    `SOME_NUMBER` from the url `https://oss.sonatype.org/#stagingProfiles;SOME_NUMBERS`
+- Sonatype - Nexus user as `OSS_USER`
+- Sonatype - Nexus token as `OSS_TOKEN`
+- Sonatype - Nexus Profile ID as `OSS_STAGING_PROFILE_ID`
+    - Visit this [link](https://oss.sonatype.org/#stagingProfiles), select your profile and copy
+      `SOME_NUMBER` from the url `https://oss.sonatype.org/#stagingProfiles;SOME_NUMBERS`
 
 ### GitHub workflow jobs
 
@@ -41,11 +41,11 @@ name: publish-dispatcher
 on: [ workflow_dispatch ]
 
 env:
-  ossUser: ${{ secrets.ossUser }}
-  ossToken: ${{ secrets.ossToken }}
-  gpgKeyName: ${{ secrets.gpgKeyName }}
-  gpgPassphrase: ${{ secrets.gpgPassphrase }}
-  ossStagingProfileId: ${{ secrets.ossStagingProfileId }}
+  OSS_USER: ${{ secrets.OSS_USER }}
+  OSS_TOKEN: ${{ secrets.OSS_TOKEN }}
+  OSS_STAGING_PROFILE_ID: ${{ secrets.OSS_STAGING_PROFILE_ID }}
+  GPG_KEYNAME: ${{ secrets.GPG_KEY_NAME }}
+  GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
 
 jobs:
   build_and_release:
@@ -88,12 +88,12 @@ jobs:
         if: github.ref == 'refs/heads/main'
         uses: crazy-max/ghaction-import-gpg@v3
         with:
-          gpg-private-key: ${{ secrets.gpgKey }}
-          passphrase: ${{ secrets.gpgPassphrase }}
+          gpg-private-key: ${{ secrets.GPG_KEY }}
+          passphrase: ${{ secrets.GPG_PASSPHRASE }}
 
       - name: Publish a release
         if: github.ref == 'refs/heads/main'
-        run: ./gradlew publishToSonatype -P"signing.gnupg.keyName"="${{ secrets.gpgKeyName }}" -P"signing.gnupg.passphrase"="${{ secrets.gpgPassphrase }}"
+        run: ./gradlew publishToSonatype -P"signing.gnupg.keyName"="${{ secrets.GPG_KEY_NAME }}" -P"signing.gnupg.passphrase"="${{ secrets.GPG_PASSPHRASE }}"
 
       - name: Publish a snapshot
         if: github.ref == 'refs/heads/develop'

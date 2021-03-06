@@ -17,5 +17,5 @@ All docs are available on the [RunBlocking KMP website](https://run-blocking-kmp
 ### Download from MavenCentral
 
 ```kotlin
-implementation("com.javiersc.run-blocking-kmp:run-blocking-kmp:$version")
+implementation("com.javiersc.run-blocking:run-blocking-core:$version")
 ```

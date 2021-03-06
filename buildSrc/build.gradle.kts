@@ -10,10 +10,16 @@ repositories {
 }
 
 dependencies {
+    /**
+     * ToDo: workaround until accessors are available (https://github.com/gradle/gradle/issues/15383)
+     *  When it is fixed, remove both implementations and remove `VersionCatalogExtension.kt` file
+     */
+    implementation(files(libs.javaClass.protectionDomain.codeSource.location))
+
     implementation(gradleApi())
     implementation(localGroovy())
 
-    gradlePluginLibs.apply {
+    libs.plugin.apply {
         implementation(changelog)
         implementation(dependencyUpdates)
         implementation(detekt)
@@ -22,7 +28,6 @@ dependencies {
         implementation(kotlin.binaryCompabilityValidator)
         implementation(kotlin.plugin)
         implementation(kotlin.serialization)
-        implementation(nexus.staging)
         implementation(nexus.publish)
         implementation(reckon)
         implementation(spotless)
