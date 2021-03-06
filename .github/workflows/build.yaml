@@ -4,22 +4,26 @@ on:
   push:
     branches:
       - main
-      - develop
-    paths:
-      - '**'
-      - '!**.md'
+    paths-ignore:
+      - '**/*.md'
+
   pull_request:
     branches:
       - main
-      - develop
     paths-ignore:
       - '**/*.md'
 
   workflow_dispatch:
 
+env:
+  OSS_USER: ${{ secrets.OSS_USER }}
+  OSS_TOKEN: ${{ secrets.OSS_TOKEN }}
+  OSS_STAGING_PROFILE_ID: ${{ secrets.OSS_STAGING_PROFILE_ID }}
+
 jobs:
   build:
     strategy:
+      fail-fast: false
       matrix:
         os: [ macOS-latest, windows-latest, ubuntu-latest ]
 
@@ -46,30 +50,42 @@ jobs:
             ${{ runner.os }}-gradle-
 
       - name: Gradle build
-        run: ./gradlew build
-
-      - name: Run code analysis
-        run: ./gradlew detekt
-
-      - name: Upload SARIF to Github
-        uses: github/codeql-action/upload-sarif@v1
         if: ${{ always() }}
+        run: ./gradlew build -P"reckon.stage"="snapshot" -P"isSnapshot"="true"
+
+      - name: Generate code analysis reports
+        if: ${{ always() }}
+        run: ./gradlew detekt -P"reckon.stage"="snapshot" -P"isSnapshot"="true"
+
+      - name: Upload code analysis reports
+        if: ${{ matrix.os == 'ubuntu-latest' && always() }}
+        uses: github/codeql-action/upload-sarif@v1
         with:
           sarif_file: build/reports/detekt/detekt.sarif
 
+      - name: Generate coverage reports
+        run: ./gradlew jacocoTestReport -P"reckon.stage"="snapshot" -P"isSnapshot"="true"
+
+      - name: Upload coverage reports
+        if: ${{ matrix.os == 'ubuntu-latest' }}
+        uses: codacy/codacy-coverage-reporter-action@master
+        with:
+          project-token: ${{ secrets.CODACY_TOKEN }}
+          coverage-reports: build/reports/jacoco/xml/jacoco.xml
+
       - name: Generate snapshot docs
-        if: matrix.os == 'ubuntu-latest' && github.ref == 'refs/heads/develop'
-        run: ./gradlew dokkaHtmlMultiModule
+        if: ${{ !(github.event_name == 'pull_request') }}
+        run: ./gradlew dokkaHtmlMultiModule -P"reckon.stage"="snapshot" -P"isSnapshot"="true"
 
       - name: Publish a snapshot
-        if: github.ref == 'refs/heads/develop'
+        if: ${{ !(github.event_name == 'pull_request') }}
         env:
-          ossUser: ${{ secrets.ossUser }}
-          ossToken: ${{ secrets.ossToken }}
+          ossUser: ${{ secrets.OSS_USER }}
+          ossToken: ${{ secrets.OSS_TOKEN }}
         run: ./gradlew publishToSonatype -P"reckon.stage"="snapshot" -P"isSnapshot"="true"
 
       - name: Deploy snapshot docs to Github Pages
-        if: matrix.os == 'ubuntu-latest' && github.ref == 'refs/heads/develop'
+        if: ${{ matrix.os == 'ubuntu-latest' && !(github.event_name == 'pull_request') }}
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

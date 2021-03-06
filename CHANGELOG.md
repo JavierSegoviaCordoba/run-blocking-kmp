@@ -4,7 +4,8 @@
 
 ### Added
 
-- `RunBlocking` function
+- `runBlocking` function to `run-blocking`
+- `suspendTest` function to `suspend-test`
 
 ### Changed
 

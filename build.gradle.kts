@@ -1,11 +1,12 @@
 plugins {
-    Versioning
-    Changelog
-    CodeAnalysis
-    DependencyUpdates
-    Docs
-    BinaryCompatibilityValidator
-    Staging
+    versioning
+    changelog
+    `code-analysis`
+    `dependency-updates`
+    docs
+    `binary-compatibility-validator`
+    `jacoco-root`
+    nexus
 }
 
 tasks {
