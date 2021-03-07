@@ -66,13 +66,15 @@ jobs:
             ${{ runner.os }}-gradle-
 
       - name: Gradle build
+        if: always()
         run: ./gradlew build -P"reckon.stage"="${{ steps.versioning.outputs.stage }}" -P"isSnapshot"="${{ steps.versioning.outputs.is_snapshot }}"
 
       - name: Generate code analysis reports
+        if: always()
         run: ./gradlew detekt -P"reckon.stage"="${{ steps.versioning.outputs.stage }}" -P"isSnapshot"="${{ steps.versioning.outputs.is_snapshot }}"
 
       - name: Upload code analysis reports
-        if: matrix.os == 'ubuntu-latest' && always()
+        if: always()
         uses: github/codeql-action/upload-sarif@v1
         with:
           sarif_file: build/reports/detekt/detekt.sarif

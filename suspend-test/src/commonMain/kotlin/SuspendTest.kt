@@ -33,3 +33,5 @@ public expect fun <T> suspendTest(
     context: CoroutineContext = EmptyCoroutineContext,
     block: suspend CoroutineScope.() -> T
 )
+
+private fun main2() = println(10)
