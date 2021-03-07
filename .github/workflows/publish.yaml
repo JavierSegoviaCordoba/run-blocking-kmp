@@ -6,12 +6,12 @@ on:
       - '**'
 
 env:
-  OSS_USER: ${{ secrets.OSS_USER }}
-  OSS_TOKEN: ${{ secrets.OSS_TOKEN }}
-  OSS_STAGING_PROFILE_ID: ${{ secrets.OSS_STAGING_PROFILE_ID }}
-  GPG_KEY_NAME: ${{ secrets.GPG_KEY_NAME }}
-  GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
-  GPG_KEY: ${{ secrets.GPG_KEY }}
+  OSS_USER: '${{ secrets.OSS_USER }}'
+  OSS_TOKEN: '${{ secrets.OSS_TOKEN }}'
+  OSS_STAGING_PROFILE_ID: '${{ secrets.OSS_STAGING_PROFILE_ID }}'
+  GPG_KEY_NAME: '${{ secrets.GPG_KEY_NAME }}'
+  GPG_PASSPHRASE: '${{ secrets.GPG_PASSPHRASE }}'
+  GPG_KEY: '${{ secrets.GPG_KEY }}'
 
 jobs:
   publish:
@@ -68,10 +68,10 @@ jobs:
         if: matrix.os == 'ubuntu-latest'
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
           TARGET_FOLDER: 'versions/${{ steps.tags.outputs.version }}'
-          BRANCH: gh-pages
-          FOLDER: build/dokka
+          BRANCH: 'gh-pages'
+          FOLDER: 'build/dokka'
           CLEAN: false
           SINGLE_COMMIT: true
 
@@ -82,9 +82,9 @@ jobs:
           !contains(github.ref, 'rc')
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: build/dokka
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+          BRANCH: 'gh-pages'
+          FOLDER: 'build/dokka'
           CLEAN: false
           SINGLE_COMMIT: true
 
@@ -98,11 +98,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Set pre-release
+        shell: bash
+        id: pre_release
+        run: |
+          if [[ ${{ !contains(github.ref, 'alpha') && !contains(github.ref, 'beta') && !contains(github.ref, 'rc') }} ]]
+          then
+            echo ::set-output name=is_pre_release::true
+          else
+            echo ::set-output name=is_pre_release::false
+          fi
+
       - name: Release
         uses: docker://antonyurchenko/git-release:latest
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DRAFT_RELEASE: "true"
-          PRE_RELEASE: "false"
-          CHANGELOG_FILE: "CHANGELOG.md"
-          ALLOW_EMPTY_CHANGELOG: "false"
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+          DRAFT_RELEASE: true
+          PRE_RELEASE: '${{ steps.pre_release.outputs.is_pre_release }}'
+          CHANGELOG_FILE: 'CHANGELOG.md'
+          ALLOW_EMPTY_CHANGELOG: false

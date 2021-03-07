@@ -16,9 +16,9 @@ on:
   workflow_dispatch:
 
 env:
-  OSS_USER: ${{ secrets.OSS_USER }}
-  OSS_TOKEN: ${{ secrets.OSS_TOKEN }}
-  OSS_STAGING_PROFILE_ID: ${{ secrets.OSS_STAGING_PROFILE_ID }}
+  OSS_USER: '${{ secrets.OSS_USER }}'
+  OSS_TOKEN: '${{ secrets.OSS_TOKEN }}'
+  OSS_STAGING_PROFILE_ID: '${{ secrets.OSS_STAGING_PROFILE_ID }}'
 
 jobs:
   build:
@@ -63,7 +63,7 @@ jobs:
         if: ${{ matrix.os == 'ubuntu-latest' && always() }}
         uses: github/codeql-action/upload-sarif@v1
         with:
-          sarif_file: build/reports/detekt/detekt.sarif
+          sarif_file: 'build/reports/detekt/detekt.sarif'
 
       - name: Generate coverage reports
         run: ./gradlew jacocoTestReport -P"reckon.stage"="snapshot" -P"isSnapshot"="true"
@@ -72,8 +72,8 @@ jobs:
         if: ${{ matrix.os == 'ubuntu-latest' }}
         uses: codacy/codacy-coverage-reporter-action@master
         with:
-          project-token: ${{ secrets.CODACY_TOKEN }}
-          coverage-reports: build/reports/jacoco/xml/jacoco.xml
+          project-token: '${{ secrets.CODACY_TOKEN }}'
+          coverage-reports: 'build/reports/jacoco/xml/jacoco.xml'
 
       - name: Generate snapshot docs
         if: ${{ !(github.event_name == 'pull_request') }}
@@ -90,9 +90,9 @@ jobs:
         if: ${{ matrix.os == 'ubuntu-latest' && !(github.event_name == 'pull_request') }}
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TARGET_FOLDER: snapshot
-          BRANCH: gh-pages
-          FOLDER: build/dokka
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+          TARGET_FOLDER: 'snapshot'
+          BRANCH: 'gh-pages'
+          FOLDER: 'build/dokka'
           CLEAN: false
           SINGLE_COMMIT: true
