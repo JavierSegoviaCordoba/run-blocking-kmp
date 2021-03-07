@@ -1,0 +1,8 @@
+fixes:
+  - run-blocking/src/commonMain/kotlin/com/javiersc/runBlocking::run-blocking/src/commonMain/kotlin
+  - run-blocking/src/jvmMain/kotlin/com/javiersc/runBlocking::run-blocking/src/jvmMain/kotlin
+  - run-blocking/src/nativeMain/kotlin/com/javiersc/runBlocking::run-blocking/src/nativeMain/kotlin
+  - suspend-test/src/commonMain/kotlin/com/javiersc/runBlocking::suspend-test/src/commonMain/kotlin
+  - suspend-test/src/jsMain/kotlin/com/javiersc/runBlocking::suspend-test/src/jsMain/kotlin
+  - suspend-test/src/jvmMain/kotlin/com/javiersc/runBlocking::suspend-test/src/jvmMain/kotlin
+  - suspend-test/src/nativeMain/kotlin/com/javiersc/runBlocking::suspend-test/src/nativeMain/kotlin

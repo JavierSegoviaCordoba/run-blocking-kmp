@@ -1,3 +1,4 @@
+import kotlinx.validation.sourceSets
 
 plugins {
     jacoco
@@ -41,4 +42,19 @@ tasks.register<JacocoReport>("jacocoTestReport") {
         html.isEnabled = true
         html.destination = file("$buildDir/reports/jacoco/html")
     }
+
+//    generateCodecovYml()
 }
+
+//fun generateCodecovYml() {
+//    File("$rootDir/codecov.yml").apply {
+//        if (!exists()) createNewFile()
+//        subprojects.forEach { project ->
+//            project.sourceSets.forEach { set ->
+//                set.allSource.sourceDirectories.asFileTree.forEach {
+//                    println("HELLO: $it")
+//                }
+//            }
+//        }
+//    }
+//}
