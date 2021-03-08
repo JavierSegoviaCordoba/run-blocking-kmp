@@ -71,12 +71,17 @@ jobs:
       - name: Generate coverage reports
         run: ./gradlew jacocoTestReport -P"reckon.stage"="snapshot" -P"isSnapshot"="true"
 
-      - name: Upload coverage reports
+      - name: Upload coverage reports to Codacy
         if: ${{ matrix.os == 'ubuntu-latest' }}
         uses: codacy/codacy-coverage-reporter-action@master
         with:
           project-token: '${{ secrets.CODACY_TOKEN }}'
           coverage-reports: 'build/reports/jacoco/xml/jacoco.xml'
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v1
+        with:
+          file: 'build/reports/jacoco/xml/jacoco.xml'
 
       - name: Generate snapshot docs
         if: ${{ !(github.event_name == 'pull_request') }}

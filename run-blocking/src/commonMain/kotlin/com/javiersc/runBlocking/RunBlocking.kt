@@ -2,7 +2,6 @@ package com.javiersc.runBlocking
 
 import kotlin.coroutines.CoroutineContext
 import kotlin.coroutines.EmptyCoroutineContext
-import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.CoroutineScope
 
 /**
@@ -29,7 +28,7 @@ import kotlinx.coroutines.CoroutineScope
  * thread.
  * @param block the coroutine code.
  */
-public expect fun <T> suspendTest(
+public expect fun <T> runBlocking(
     context: CoroutineContext = EmptyCoroutineContext,
     block: suspend CoroutineScope.() -> T
-)
+): T
