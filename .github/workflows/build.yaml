@@ -51,6 +51,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle-
 
+      - name: Increment version
+        run: ./gradlew reckonTagCreate -P"reckon.stage"="final"
+
       - name: Gradle build
         if: ${{ always() }}
         run: ./gradlew build -P"reckon.stage"="snapshot" -P"isSnapshot"="true"
