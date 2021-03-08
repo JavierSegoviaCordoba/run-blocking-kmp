@@ -15,24 +15,25 @@ tasks.register<JacocoMerge>("jacocoMerge") {
 
 tasks.register<JacocoReport>("jacocoTestReport") {
     group = "verification"
+
     dependsOn(subprojects.map { it.tasks.getByName("check") })
     dependsOn("jacocoMerge")
 
     val sources = subprojects.flatMap { project ->
         listOf(
-            File("${project.projectDir}/src/commonMain"),
-            File("${project.projectDir}/src/jvmMain"),
-            File("${project.projectDir}/src/androidMain"),
+            file("${project.projectDir}/src/commonMain/kotlin"),
+            file("${project.projectDir}/src/jvmMain/kotlin"),
+            file("${project.projectDir}/src/androidMain/kotlin"),
         )
     }
 
     val classes = subprojects.map { project ->
-        File("${project.buildDir}/classes/kotlin/jvm/main")
+        file("${project.buildDir}/classes/kotlin/jvm/main")
     }
 
-    additionalSourceDirs.setFrom(sources)
-    sourceDirectories.setFrom(sources)
     classDirectories.setFrom(classes)
+    sourceDirectories.setFrom(files(sources))
+
     executionData.setFrom(tasks.getByName<JacocoMerge>("jacocoMerge").destinationFile)
 
     reports {
