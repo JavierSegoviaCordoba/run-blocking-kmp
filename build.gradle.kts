@@ -7,6 +7,7 @@ plugins {
     `binary-compatibility-validator`
     `jacoco-root`
     nexus
+    readme
 }
 
 tasks {
