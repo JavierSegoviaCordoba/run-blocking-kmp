@@ -32,3 +32,5 @@ public expect fun <T> runBlocking(
     context: CoroutineContext = EmptyCoroutineContext,
     block: suspend CoroutineScope.() -> T
 ): T
+
+private fun hello() = println(20)
