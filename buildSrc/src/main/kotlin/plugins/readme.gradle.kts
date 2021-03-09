@@ -13,7 +13,7 @@ val repoWithoutUrlPrefix: String = repoUrl.replace("https://github.com/", "")
 fun buildKotlinVersionBadge(): String {
     return "![Kotlin version]" +
         "($shieldsIoUrl/badge/kotlin-${libs.versions.kotlin.get()}-blueviolet" +
-            "?logo=kotlin&logoColor=white)"
+        "?logo=kotlin&logoColor=white)"
 }
 
 fun buildMavenRepoBadge(subproject: String, mavenRepo: MavenRepo): String {
@@ -53,18 +53,18 @@ fun buildBuildBadge(): String {
         "($repoUrl/tree/main)"
 }
 
-fun buildAnalysisBadge(codacy: Codacy): String {
-    val projectId = property("codacyProjectId")!!.toString()
-    return "[![${codacy.label}]" +
-        "($shieldsIoUrl/codacy/${codacy.path}/$projectId/main" +
-        "?label=${codacy.label}&logo=codacy&logoColor=white)]" +
-        "(https://app.codacy.com/gh/$repoWithoutUrlPrefix/dashboard?branch=main)"
+fun buildAnalysisBadge(sonar: Sonar): String {
+    val projectId = repoWithoutUrlPrefix.replace("/", "_")
+    return "[![${sonar.label}]" +
+        "($shieldsIoUrl/sonar/${sonar.path}/$projectId" +
+        "?label=${sonar.label.replace(" ", "%20")}&logo=SonarCloud" +
+        "&logoColor=white&server=https%3A%2F%2Fsonarcloud.io)]" +
+        "(https://sonarcloud.io/dashboard?id=$projectId)"
 }
 
-/** Codacy analysis tools */
-enum class Codacy(val label: String, val path: String) {
-    Grade("Quality", "grade"),
-    Coverage("Coverage", "coverage")
+enum class Sonar(val label: String, val path: String) {
+    Quality("Quality", "quality_gate"),
+    TechDebt("Tech debt", "tech_debt")
 }
 
 fun buildReadmeBadges(): List<String> = buildList {
@@ -77,19 +77,19 @@ fun buildReadmeBadges(): List<String> = buildList {
             add(buildMavenRepoBadge(it.name, MavenRepo.Snapshot))
         }
     } else {
-        val mainProjectName: String =
+        val mainSubProjectName: String =
             rootProject.subprojects.find {
-                    it.name.contains(property("mainProject")!!.toString())
+                    it.name.contains(property("mainSubProject")!!.toString())
                 }!!
                 .name
-        add(buildMavenRepoBadge(mainProjectName, MavenRepo.MavenCentral))
-        add(buildMavenRepoBadge(mainProjectName, MavenRepo.Snapshot))
+        add(buildMavenRepoBadge(mainSubProjectName, MavenRepo.MavenCentral))
+        add(buildMavenRepoBadge(mainSubProjectName, MavenRepo.Snapshot))
     }
 
     add("")
     add(buildBuildBadge())
-    add(buildAnalysisBadge(Codacy.Grade))
-    add(buildAnalysisBadge(Codacy.Coverage))
+    add(buildAnalysisBadge(Sonar.Quality))
+    add(buildAnalysisBadge(Sonar.TechDebt))
     add("")
 }
 
