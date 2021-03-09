@@ -12,7 +12,8 @@ val repoWithoutUrlPrefix: String = repoUrl.replace("https://github.com/", "")
 
 fun buildKotlinVersionBadge(): String {
     return "![Kotlin version]" +
-        "($shieldsIoUrl/badge/kotlin-${libs.versions.kotlin.get()}-blueviolet)"
+        "($shieldsIoUrl/badge/kotlin-${libs.versions.kotlin.get()}-blueviolet" +
+            "?logo=kotlin&logoColor=white)"
 }
 
 fun buildMavenRepoBadge(subproject: String, mavenRepo: MavenRepo): String {
