@@ -5,7 +5,6 @@ plugins {
     `dependency-updates`
     docs
     `binary-compatibility-validator`
-    `jacoco-root`
     nexus
     readme
 }
