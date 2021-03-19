@@ -14,6 +14,7 @@ detekt {
     isIgnoreFailures = true
     autoCorrect = false
     buildUponDefaultConfig = true
+    basePath = rootProject.projectDir.path
 }
 
 tasks.withType<Detekt>().configureEach {
