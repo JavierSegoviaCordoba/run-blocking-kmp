@@ -1,12 +1,12 @@
 plugins {
-    versioning
-    changelog
-    `code-analysis`
-    `dependency-updates`
-    docs
-    `binary-compatibility-validator`
-    nexus
-    readme
+    `javiersc-versioning`
+    `javiersc-changelog`
+    `javiersc-code-analysis`
+    `javiersc-dependency-updates`
+    `javiersc-docs`
+    `kotlinx-binary-compatibility-validator`
+    `javiersc-nexus`
+    `javiersc-readme-badges-generator`
 }
 
 tasks {

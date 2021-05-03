@@ -10,26 +10,21 @@ repositories {
 }
 
 dependencies {
-    /**
-     * ToDo: workaround until accessors are available (https://github.com/gradle/gradle/issues/15383)
-     *  When it is fixed, remove both implementations and remove `VersionCatalogExtension.kt` file
-     */
-    implementation(files(libs.javaClass.protectionDomain.codeSource.location))
-
     implementation(gradleApi())
     implementation(localGroovy())
 
-    libs.plugin.apply {
-        implementation(changelog)
-        implementation(dependencyUpdates)
-        implementation(detekt)
-        implementation(dokka.core)
-        implementation(dokka.plugin)
-        implementation(kotlin.binaryCompabilityValidator)
-        implementation(kotlin.plugin)
-        implementation(kotlin.serialization)
-        implementation(nexus.publish)
-        implementation(reckon)
-        implementation(spotless)
+    pluginLibs.apply {
+        implementation(javiersc.gradlePlugins.changelog)
+        implementation(javiersc.gradlePlugins.codeAnalysis)
+        implementation(javiersc.gradlePlugins.codeFormatter)
+        implementation(javiersc.gradlePlugins.dependencyUpdates)
+        implementation(javiersc.gradlePlugins.docs)
+        implementation(javiersc.gradlePlugins.kotlinMultiplatform)
+        implementation(javiersc.gradlePlugins.nexus)
+        implementation(javiersc.gradlePlugins.publishKotlinMultiplatform)
+        implementation(javiersc.gradlePlugins.readmeBadgesGenerator)
+        implementation(javiersc.gradlePlugins.versioning)
+        implementation(javiersc.massiveCatalogs.pluginsAccessors)
+        implementation(jetbrains.kotlinx.binaryCompatibilityValidator)
     }
 }

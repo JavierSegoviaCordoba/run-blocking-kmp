@@ -1,6 +1,6 @@
 plugins {
-    `kotlin-multiplatform`
-    publish
+    `javiersc-kotlin-multiplatform`
+    `javiersc-publish-kotlin-multiplatform`
 }
 
 kotlin {
@@ -29,15 +29,13 @@ kotlin {
 
     sourceSets {
         val commonMain by getting {
-            dependencies { libs.common.main.apply { implementation(coroutines.core) } }
+            dependencies { implementation(libs.jetbrains.kotlinx.kotlinxCoroutinesCore) }
         }
 
         commonTest {
             dependencies {
-                libs.common.test.apply {
-                    implementation(kotest.assertions)
-                    implementation(kotlin.test.multiplatform)
-                }
+                implementation(libs.jetbrains.kotlin.kotlinTest)
+                implementation(libs.kotest.kotestAssertionsCore)
             }
         }
 
@@ -70,7 +68,5 @@ kotlin {
             tvosMain.dependsOn(this)
             // watchOsMain.dependsOn(this)
         }
-
-        defaultLanguageSettings
     }
 }

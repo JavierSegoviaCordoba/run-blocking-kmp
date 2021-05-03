@@ -68,24 +68,22 @@ jobs:
         with:
           sarif_file: 'build/reports/detekt/detekt.sarif'
 
-      - name: Generate snapshot docs
-        if: ${{ !(github.event_name == 'pull_request') }}
-        run: ./gradlew dokkaHtmlMultiModule -P"reckon.stage"="snapshot" -P"isSnapshot"="true"
+      - name: Generate docs
+        if: ${{ matrix.os == 'ubuntu-latest' && (github.event_name == 'push') || (github.event_name == 'workflow_dispatch') }}
+        run: ./gradlew buildDocs -P"reckon.stage"="snapshot" -P"isSnapshot"="true"
 
       - name: Publish a snapshot
-        if: ${{ !(github.event_name == 'pull_request') }}
+        if: ${{ (github.event_name == 'push') || (github.event_name == 'workflow_dispatch') }}
         env:
           ossUser: ${{ secrets.OSS_USER }}
           ossToken: ${{ secrets.OSS_TOKEN }}
         run: ./gradlew publishToSonatype -P"reckon.stage"="snapshot" -P"isSnapshot"="true"
 
       - name: Deploy snapshot docs to Github Pages
-        if: ${{ matrix.os == 'ubuntu-latest' && !(github.event_name == 'pull_request') }}
-        uses: JamesIves/github-pages-deploy-action@3.7.1
+        if: ${{ matrix.os == 'ubuntu-latest' && (github.event_name == 'push') || (github.event_name == 'workflow_dispatch') }}
+        uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
-          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
-          TARGET_FOLDER: 'snapshot'
-          BRANCH: 'gh-pages'
-          FOLDER: 'build/dokka'
-          CLEAN: false
-          SINGLE_COMMIT: true
+          branch: 'gh-pages'
+          folder: 'build/docs/_site'
+          clean: false
+          single-commit: true

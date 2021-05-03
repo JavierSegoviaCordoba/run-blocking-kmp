@@ -21,7 +21,7 @@ TODO
 
 - KeyId as `GPG_KEY_NAME`
 - Passphrase as `GPG_KEYPHRASE`
-- Private key as `GPG_KEY`
+- Private key as `GPG_PRIVATE_KEY`
     - Get the key using the command from point 4 in prerequisites.
 - Sonatype - Nexus user as `OSS_USER`
 - Sonatype - Nexus token as `OSS_TOKEN`

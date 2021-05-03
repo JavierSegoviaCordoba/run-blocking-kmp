@@ -5,7 +5,7 @@
 ### Download from MavenCentral
 
 ```kotlin
-implementation("com.javiersc.run-blocking:run-blocking:$version")
+implementation("com.javiersc.run-blocking:run-blocking-core:$version")
 ```
 
 ### Usage
@@ -19,11 +19,3 @@ class SomeTest {
     }
 }
 ```
-
-# Package com.javiersc.runBlockingKMP
-
-Function `runBlocking`.
-
-## Level 2 heading
-
-`runBlocking` for all targets except `JS`.

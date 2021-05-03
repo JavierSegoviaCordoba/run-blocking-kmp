@@ -1,6 +1,6 @@
 # Module suspend-test
 
-`suspendTest` function for all Kotlin Multiplatform Targets
+`suspendTest` function for all Kotlin Multiplatform targets
 
 ### Download from MavenCentral
 
@@ -15,11 +15,3 @@ fun main() = suspendTest {
     println(usersService.getUsers())
 }
 ```
-
-# Package com.javiersc.runBlockingKMP
-
-Function `suspendtest`.
-
-## Level 2 heading
-
-`suspendTest` for all targets .

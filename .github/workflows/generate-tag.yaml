@@ -68,6 +68,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
+          fetch-depth: 0
           token: ${{ secrets.TOKEN_GITHUB_ACTION }}
 
       - name: Setup Java
@@ -93,7 +94,7 @@ jobs:
           echo "lib_version=$(cat build/versioning/version.txt)" >> $GITHUB_ENV
 
       - name: Patch Changelog
-        run: ./gradlew patchChangelog -P"reckon.scope"="${{ github.event.inputs.scope }}" -P"reckon.stage"="${{ github.event.inputs.stage }}"
+        run: ./gradlew patchChangelog mergeChangelog buildReadmeBadges -P"reckon.scope"="${{ github.event.inputs.scope }}" -P"reckon.stage"="${{ github.event.inputs.stage }}"
 
       - name: Commit files
         run: |
