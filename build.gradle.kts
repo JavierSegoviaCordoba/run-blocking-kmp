@@ -8,12 +8,5 @@ plugins {
     `kotlinx-binary-compatibility-validator`
     `javiersc-nexus`
     `javiersc-readme-badges-generator`
-}
-
-tasks {
-    withType<Test> {
-        maxParallelForks = Runtime.getRuntime().availableProcessors()
-        useJUnitPlatform()
-        useTestNG()
-    }
+    `javiersc-all-projects`
 }
