@@ -1,4 +1,4 @@
-# Module run-blocking
+# Module run-blocking-core
 
 `runBlocking` for all Kotlin Multiplatform targets except JavaScript
 
