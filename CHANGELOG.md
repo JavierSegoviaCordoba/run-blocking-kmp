@@ -3,6 +3,7 @@
 ## [Unreleased]
 
 ### Added
+- `watchos` target support
 
 ### Changed
 
