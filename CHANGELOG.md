@@ -4,6 +4,7 @@
 
 ### Added
 - `watchos` target support
+- Improve targets
 
 ### Changed
 

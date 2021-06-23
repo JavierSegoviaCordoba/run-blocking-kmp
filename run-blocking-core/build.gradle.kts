@@ -6,13 +6,21 @@ plugins {
 kotlin {
     explicitApi()
 
-    ios()
+    iosArm64()
+    iosX64()
+
     jvm()
+
     linuxX64()
+
     macosX64()
     mingwX64()
-    tvos()
-    watchos()
+
+    tvosArm64()
+    tvosX64()
+
+    watchosArm64()
+    watchosX64()
 
     sourceSets {
         val commonMain by getting {
@@ -26,23 +34,40 @@ kotlin {
             }
         }
 
-        val iosMain by getting
+        val iosArm64Main by getting
+        val iosX64Main by getting
 
         named("jvmMain")
+
         val linuxX64Main by getting
+
         val macosX64Main by getting
+
         val mingwX64Main by getting
-        val tvosMain by getting
-        val watchosMain by getting
+
+        val tvosArm64Main by getting
+        val tvosX64Main by getting
+
+        val watchosArm64Main by getting
+        val watchosX64Main by getting
 
         create("nativeMain") {
             dependsOn(commonMain)
-            iosMain.dependsOn(this)
+
+            iosArm64Main.dependsOn(this)
+            iosX64Main.dependsOn(this)
+
             linuxX64Main.dependsOn(this)
+
             macosX64Main.dependsOn(this)
+
             mingwX64Main.dependsOn(this)
-            tvosMain.dependsOn(this)
-            watchosMain.dependsOn(this)
+
+            tvosArm64Main.dependsOn(this)
+            tvosX64Main.dependsOn(this)
+
+            watchosArm64Main.dependsOn(this)
+            watchosX64Main.dependsOn(this)
         }
     }
 }
