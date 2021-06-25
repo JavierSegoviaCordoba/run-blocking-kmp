@@ -56,7 +56,7 @@ jobs:
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.GPG_PASSPHRASE }}
 
-      - name: Publish a release
+      - name: Publish release
         run: ./gradlew publishToSonatype closeSonatypeStagingRepository -P"signing.gnupg.keyName"="${{ secrets.GPG_KEY_NAME }}" -P"signing.gnupg.passphrase"="${{ secrets.GPG_PASSPHRASE }}"
 
       - name: Deploy release docs to Github Pages
@@ -84,7 +84,7 @@ jobs:
         shell: bash
         id: pre_release
         run: |
-          if [[ ${{ !contains(github.ref, 'alpha') && !contains(github.ref, 'beta') && !contains(github.ref, 'rc') }} ]]
+          if [[ ${{ contains(github.ref, 'alpha') || contains(github.ref, 'beta') || contains(github.ref, 'rc') }} ]]
           then
             echo ::set-output name=is_pre_release::true
           else
