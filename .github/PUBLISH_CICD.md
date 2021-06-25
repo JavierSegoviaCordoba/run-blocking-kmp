@@ -20,7 +20,7 @@ TODO
 ### GitHub secrets
 
 - KeyId as `GPG_KEY_NAME`
-- Passphrase as `GPG_KEYPHRASE`
+- Passphrase as `GPG_PASSPHRASE`
 - Private key as `GPG_PRIVATE_KEY`
     - Get the key using the command from point 4 in prerequisites.
 - Sonatype - Nexus user as `OSS_USER`
