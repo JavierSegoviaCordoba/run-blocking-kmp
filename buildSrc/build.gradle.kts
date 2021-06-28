@@ -22,10 +22,10 @@ dependencies {
         implementation(javiersc.gradlePlugins.docs)
         implementation(javiersc.gradlePlugins.kotlinMultiplatform)
         implementation(javiersc.gradlePlugins.nexus)
+        implementation(javiersc.gradlePlugins.pluginAccessors) // THIS IS THE PROBLEM
         implementation(javiersc.gradlePlugins.publishKotlinMultiplatform)
         implementation(javiersc.gradlePlugins.readmeBadges)
         implementation(javiersc.gradlePlugins.versioning)
-        implementation(javiersc.massiveCatalogs.pluginsAccessors)
         implementation(jetbrains.kotlinx.binaryCompatibilityValidator)
     }
 }

@@ -6,7 +6,7 @@ plugins {
     `javiersc-code-formatter`
     `javiersc-dependency-updates`
     `javiersc-docs`
-    `kotlinx-binary-compatibility-validator`
+    id("org.jetbrains.kotlinx.binary-compatibility-validator")
     `javiersc-nexus`
     `javiersc-readme-badges-generator`
 }
