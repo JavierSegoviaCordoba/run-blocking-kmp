@@ -7,7 +7,6 @@ enableFeaturePreview("VERSION_CATALOGS")
 dependencyResolutionManagement {
     repositories {
         mavenCentral()
-        jcenter()
     }
 
     versionCatalogs {

@@ -9,4 +9,6 @@ plugins {
     `kotlinx-binary-compatibility-validator`
     `javiersc-nexus`
     `javiersc-readme-badges-generator`
+    `javiersc-gradle-wrapper-updater`
+    `javiersc-massive-catalogs-updater`
 }
