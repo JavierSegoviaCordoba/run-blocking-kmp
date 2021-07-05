@@ -1,0 +1,6 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.javiersc.runBlocking////PointingToDeclaration/suspend-test/com.javiersc.runBlocking/index.html
+$dokka.location:com.javiersc.runBlocking//suspendTest/#kotlin.coroutines.CoroutineContext#kotlin.coroutines.SuspendFunction1[kotlinx.coroutines.CoroutineScope,TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/suspend-test/com.javiersc.runBlocking/suspend-test.html
+com.javiersc.runBlocking
+
