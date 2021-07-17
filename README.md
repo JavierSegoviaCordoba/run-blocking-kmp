@@ -1,4 +1,4 @@
-![Kotlin version](https://img.shields.io/badge/kotlin-1.5.10-blueviolet?logo=kotlin&logoColor=white)
+![Kotlin version](https://img.shields.io/badge/kotlin-1.5.20-blueviolet?logo=kotlin&logoColor=white)
 [![MavenCentral](https://img.shields.io/maven-central/v/com.javiersc.run-blocking/run-blocking-core?label=MavenCentral)](https://repo1.maven.org/maven2/com/javiersc/run-blocking/run-blocking-core/)
 [![Snapshot](https://img.shields.io/nexus/s/com.javiersc.run-blocking/run-blocking-core?server=https%3A%2F%2Foss.sonatype.org%2F&label=Snapshot)](https://oss.sonatype.org/content/repositories/snapshots/com/javiersc/run-blocking/run-blocking-core/)
 
