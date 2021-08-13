@@ -4,17 +4,34 @@ rootProject.name = providers.gradleProperty("allProjects.name").forUseAtConfigur
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 enableFeaturePreview("VERSION_CATALOGS")
 
-dependencyResolutionManagement {
+pluginManagement {
     repositories {
         mavenCentral()
     }
 
-    versionCatalogs {
-        val massiveCatalogs: String by settings
+    plugins {
+        val buildVersionCatalogs: String by settings
 
-        create("libs") { from("com.javiersc.massive-catalogs:libs-catalog:$massiveCatalogs") }
+        id("com.javiersc.gradle.plugins.build.version.catalogs") version buildVersionCatalogs
     }
 }
 
-include(":run-blocking-core")
-include(":suspend-test")
+plugins {
+    id("com.javiersc.gradle.plugins.build.version.catalogs")
+}
+
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}
+
+include(
+    ":gradle:catalogs:libs",
+    ":gradle:catalogs:plugins",
+)
+
+include(
+    ":run-blocking-core",
+    ":suspend-test",
+)

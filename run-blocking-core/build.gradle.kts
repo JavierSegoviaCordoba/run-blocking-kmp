@@ -29,8 +29,7 @@ kotlin {
 
         commonTest {
             dependencies {
-                implementation(libs.jetbrains.kotlin.kotlinTest)
-                implementation(libs.kotest.kotestAssertionsCore)
+                implementation(libs.bundles.testing)
             }
         }
 
