@@ -27,8 +27,8 @@ dependencyResolutionManagement {
 }
 
 include(
-    ":gradle:catalogs:libs",
-    ":gradle:catalogs:plugins",
+    ":a--catalogs:libs",
+    ":a--catalogs:plugins",
 )
 
 include(
