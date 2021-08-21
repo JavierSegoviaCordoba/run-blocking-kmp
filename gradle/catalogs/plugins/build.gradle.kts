@@ -1,6 +1,6 @@
 @file:Suppress("PropertyName", "VariableNaming")
 
-// catalog start - pluginLibs
+// Catalog name: pluginLibs
 
 // [versions]
 val javierscGradlePlugins = "0.1.0-alpha.46"
@@ -37,6 +37,19 @@ val jetbrains_kotlinx_binaryCompatibilityValidator =
     "org.jetbrains.kotlinx:binary-compatibility-validator:$kotlinBinaryValidator"
 
 // [bundles]
-val javierscPlugins = javiersc_gradlePlugins_allProjects + javiersc_gradlePlugins_changelog
-
-// catalog end
+val javierscPlugins =
+    javiersc_gradlePlugins_allProjects +
+        javiersc_gradlePlugins_buildVersionCatalogsUpdater +
+        javiersc_gradlePlugins_changelog +
+        javiersc_gradlePlugins_codeAnalysis +
+        javiersc_gradlePlugins_codeFormatter +
+        javiersc_gradlePlugins_dependencyUpdates +
+        javiersc_gradlePlugins_docs +
+        javiersc_gradlePlugins_gradleWrapperUpdater +
+        javiersc_gradlePlugins_kotlinMultiplatform +
+        javiersc_gradlePlugins_nexus +
+        javiersc_gradlePlugins_pluginAccessors +
+        javiersc_gradlePlugins_publishKotlinMultiplatform +
+        javiersc_gradlePlugins_readmeBadges +
+        javiersc_gradlePlugins_versioning +
+        jetbrains_kotlinx_binaryCompatibilityValidator
