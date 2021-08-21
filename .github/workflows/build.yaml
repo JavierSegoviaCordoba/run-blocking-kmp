@@ -53,9 +53,9 @@ jobs:
             ~/.gradle/caches
             ~/.gradle/wrapper
             ~/.konan
-          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*') }}-${{ hashFiles('**/gradle.properties') }}
+          key: gradle-${{ runner.os }}-${{ hashFiles('**/*.gradle*', '**/gradle.properties', '**/gradle-wrapper.properties') }}
           restore-keys: |
-            ${{ runner.os }}-gradle-
+            gradle-${{ runner.os }}-
 
       - name: Increment version
         run: ./gradlew reckonTagCreate -P"reckon.stage"="final"
@@ -93,3 +93,6 @@ jobs:
           folder: 'build/docs/_site'
           clean: false
           single-commit: true
+
+      - name: Stop Gradle daemons
+        run: ./gradlew --stop
