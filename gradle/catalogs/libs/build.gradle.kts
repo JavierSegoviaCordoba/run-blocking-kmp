@@ -1,6 +1,6 @@
 @file:Suppress("PropertyName", "VariableNaming")
 
-// catalog start - libs
+// Catalog name: libs
 
 // [versions]
 val coroutines = "1.5.1-native-mt"
@@ -13,5 +13,3 @@ val kotest_kotestAssertionsCore = "io.kotest:kotest-assertions-core:$kotest"
 
 // [bundles]
 val testing = jetbrains_kotlin_kotlinTest + kotest_kotestAssertionsCore
-
-// catalog end
