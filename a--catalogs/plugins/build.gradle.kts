@@ -3,7 +3,7 @@
 // Catalog name: pluginLibs
 
 // [versions]
-val javierscGradlePlugins = "0.1.0-alpha.46"
+val javierscGradlePlugins = "0.1.0-alpha.49"
 val kotlinBinaryValidator = "0.7.0"
 
 // [libraries]
