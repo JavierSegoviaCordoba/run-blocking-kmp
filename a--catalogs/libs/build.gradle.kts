@@ -4,7 +4,7 @@
 
 // [versions]
 val coroutines = "1.5.1-native-mt"
-val kotest = "4.6.1"
+val kotest = "4.6.2"
 
 // [libraries]
 val jetbrains_kotlin_kotlinTest = "org.jetbrains.kotlin:kotlin-test"
