@@ -4,7 +4,7 @@
 
 // [versions]
 val javierscGradlePlugins = "0.1.0-alpha.49"
-val kotlinBinaryValidator = "0.7.0"
+val kotlinBinaryValidator = "0.7.1"
 
 // [libraries]
 val javiersc_gradlePlugins_allProjects =
