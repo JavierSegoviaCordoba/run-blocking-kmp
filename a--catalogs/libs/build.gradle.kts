@@ -3,7 +3,7 @@
 // Catalog name: libs
 
 // [versions]
-val coroutines = "1.5.1-native-mt"
+val coroutines = "1.5.2-native-mt"
 val kotest = "4.6.2"
 
 // [libraries]
