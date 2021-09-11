@@ -17,4 +17,5 @@ dependencies {
     implementation(files(pluginLibs.javaClass.superclass.protectionDomain.codeSource.location))
 
     implementation(pluginLibs.bundles.javierscPlugins)
+    implementation(pluginLibs.bundles.jetbrainsPlugins)
 }
