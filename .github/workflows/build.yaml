@@ -62,11 +62,11 @@ jobs:
 
       - name: Gradle build
         if: ${{ always() }}
-        run: ./gradlew build ${{ github.event.inputs.args }} -P"reckon.stage"="snapshot" -P"isSnapshot"="true"
+        run: ./gradlew build ${{ github.event.inputs.args }} -P"reckon.stage"="snapshot"
 
       - name: Generate code analysis reports
         if: ${{ always() }}
-        run: ./gradlew detekt -P"reckon.stage"="snapshot" -P"isSnapshot"="true"
+        run: ./gradlew detekt -P"reckon.stage"="snapshot"
 
       - name: Upload code analysis reports
         if: ${{ matrix.os == 'ubuntu-latest' && always() }}
@@ -76,14 +76,14 @@ jobs:
 
       - name: Generate docs
         if: ${{ matrix.os == 'ubuntu-latest' && (github.event_name == 'push') || (github.event_name == 'workflow_dispatch') }}
-        run: ./gradlew buildDocs -P"reckon.stage"="snapshot" -P"isSnapshot"="true"
+        run: ./gradlew buildDocs -P"reckon.stage"="snapshot"
 
       - name: Publish a snapshot
         if: ${{ (github.event_name == 'push') || (github.event_name == 'workflow_dispatch') }}
         env:
           ossUser: ${{ secrets.OSS_USER }}
           ossToken: ${{ secrets.OSS_TOKEN }}
-        run: ./gradlew publishToSonatype -P"reckon.stage"="snapshot" -P"isSnapshot"="true"
+        run: ./gradlew publishToSonatype -P"reckon.stage"="snapshot"
 
       - name: Deploy snapshot docs to Github Pages
         if: ${{ matrix.os == 'ubuntu-latest' && (github.event_name == 'push') || (github.event_name == 'workflow_dispatch') }}
