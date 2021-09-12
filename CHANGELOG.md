@@ -3,6 +3,7 @@
 ## [Unreleased]
 
 ### Added
+- Apple Silicon targets
 
 ### Changed
 
