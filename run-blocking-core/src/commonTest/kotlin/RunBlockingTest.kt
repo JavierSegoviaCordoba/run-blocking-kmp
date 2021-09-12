@@ -1,12 +1,12 @@
 package com.javiersc.runBlocking
 
-import io.kotest.matchers.booleans.shouldBeTrue
 import kotlin.test.Test
+import kotlin.test.assertTrue
 import kotlinx.coroutines.yield
 
 internal class RunBlockingTest {
 
-    @Test fun testRunBlocking() = runBlocking { getBoolean().shouldBeTrue() }
+    @Test fun testRunBlocking() = runBlocking { assertTrue { getBoolean() } }
 }
 
 internal suspend fun getBoolean(): Boolean = yield().run { true }

@@ -1,11 +1,9 @@
 [versions]
 coroutines = "1.5.2-native-mt"
-kotest = "4.6.2"
 
 [libraries]
 jetbrains-kotlin-kotlinTest = { module = "org.jetbrains.kotlin:kotlin-test" }
 jetbrains-kotlinx-kotlinxCoroutinesCore = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
-kotest-kotestAssertionsCore = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
 
 [bundles]
-testing = ["jetbrains-kotlin-kotlinTest", "kotest-kotestAssertionsCore"]
+testing = ["jetbrains-kotlin-kotlinTest"]
