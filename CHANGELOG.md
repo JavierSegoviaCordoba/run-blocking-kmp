@@ -3,7 +3,6 @@
 ## [Unreleased]
 
 ### Added
-- Apple Silicon targets
 
 ### Changed
 
@@ -14,6 +13,12 @@
 ### Fixed
 
 ### Updated
+
+
+## [0.1.0-beta.1] - 2021-09-23
+
+### Added
+- Apple Silicon targets
 
 ## [0.1.0-alpha.4] - 2021-07-17
 - No changes
