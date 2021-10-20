@@ -1,0 +1,24 @@
+name: test-qodana
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths-ignore:
+      - '**.md'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.5
+        with:
+          fetch-depth: 0
+
+      - name: Qodana
+        uses: JetBrains/qodana-action@v4.0.0
+        with:
+          linter: jetbrains/qodana-jvm-community:latest
+          fail-threshold: 10
