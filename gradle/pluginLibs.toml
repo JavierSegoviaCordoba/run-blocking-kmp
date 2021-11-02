@@ -1,23 +1,9 @@
 [versions]
-javierscGradlePlugins = "0.1.0-alpha.71"
+javierscGradlePlugins = "0.1.0-rc.4"
 kotlin = "1.5.31"
 kotlinBinaryValidator = "0.7.1"
 
 [libraries]
-javiersc-gradlePlugins-allProjects = { module = "com.javiersc.gradle-plugins:all-projects", version.ref = "javierscGradlePlugins" }
-javiersc-gradlePlugins-changelog = { module = "com.javiersc.gradle-plugins:changelog", version.ref = "javierscGradlePlugins" }
-javiersc-gradlePlugins-codeAnalysis = { module = "com.javiersc.gradle-plugins:code-analysis", version.ref = "javierscGradlePlugins" }
-javiersc-gradlePlugins-codeFormatter = { module = "com.javiersc.gradle-plugins:code-formatter", version.ref = "javierscGradlePlugins" }
-javiersc-gradlePlugins-docs = { module = "com.javiersc.gradle-plugins:docs", version.ref = "javierscGradlePlugins" }
-javiersc-gradlePlugins-kotlinMultiplatformNoAndroid = { module = "com.javiersc.gradle-plugins:kotlin-multiplatform-no-android", version.ref = "javierscGradlePlugins" }
-javiersc-gradlePlugins-nexus = { module = "com.javiersc.gradle-plugins:nexus", version.ref = "javierscGradlePlugins" }
-javiersc-gradlePlugins-pluginAccessors = { module = "com.javiersc.gradle-plugins:plugin-accessors", version.ref = "javierscGradlePlugins" }
-javiersc-gradlePlugins-publishKotlinMultiplatform = { module = "com.javiersc.gradle-plugins:publish-kotlin-multiplatform", version.ref = "javierscGradlePlugins" }
-javiersc-gradlePlugins-readmeBadges = { module = "com.javiersc.gradle-plugins:readme-badges", version.ref = "javierscGradlePlugins" }
-javiersc-gradlePlugins-versioning = { module = "com.javiersc.gradle-plugins:versioning", version.ref = "javierscGradlePlugins" }
+javiersc-gradlePlugins-allPluginsX = { module = "com.javiersc.gradle-plugins:all-plugins", version.ref = "javierscGradlePlugins" }
 jetbrains-kotlin-kotlinGradlePluginX = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 jetbrains-kotlinx-binaryCompatibilityValidator = { module = "org.jetbrains.kotlinx:binary-compatibility-validator", version.ref = "kotlinBinaryValidator" }
-
-[bundles]
-javierscPlugins = ["javiersc-gradlePlugins-allProjects", "javiersc-gradlePlugins-changelog", "javiersc-gradlePlugins-codeAnalysis", "javiersc-gradlePlugins-codeFormatter", "javiersc-gradlePlugins-docs", "javiersc-gradlePlugins-kotlinMultiplatformNoAndroid", "javiersc-gradlePlugins-nexus", "javiersc-gradlePlugins-pluginAccessors", "javiersc-gradlePlugins-publishKotlinMultiplatform", "javiersc-gradlePlugins-readmeBadges", "javiersc-gradlePlugins-versioning"]
-jetbrainsPlugins = ["jetbrains-kotlin-kotlinGradlePluginX", "jetbrains-kotlinx-binaryCompatibilityValidator"]
