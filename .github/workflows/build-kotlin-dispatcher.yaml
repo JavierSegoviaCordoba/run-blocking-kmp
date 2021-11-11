@@ -14,7 +14,6 @@ on:
 
 jobs:
   build:
-    if: ${{ github.event_name == 'workflow_dispatch' }}
     uses: JavierSegoviaCordoba/reusable-workflows/.github/workflows/build-kotlin.yaml@main
     with:
       machines: '${{ github.event.inputs.machines }}'

@@ -13,8 +13,8 @@
 ### Fixed
 
 ### Updated
+- `com.javiersc.gradle-plugins:all-plugins -> 0.1.0-rc.11`
 - `gradle -> 7.3`
-- `com.javiersc.gradle-plugins:all-plugins -> 0.1.0-rc.8`
 
 
 ## [0.1.0-beta.1] - 2021-09-23
