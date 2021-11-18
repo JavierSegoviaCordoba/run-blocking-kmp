@@ -9,7 +9,6 @@ jobs:
   publish:
     uses: JavierSegoviaCordoba/reusable-workflows/.github/workflows/publish-kotlin.yaml@main
     with:
-      machines: 'macos-latest, ubuntu-latest, windows-latest'
       gradle-plugin-portal: false
     secrets:
       GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
