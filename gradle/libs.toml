@@ -1,5 +1,5 @@
 [versions]
-coroutines = "1.5.2-native-mt"
+coroutines = "1.5.2"
 
 [libraries]
 jetbrains-kotlin-kotlinTest = { module = "org.jetbrains.kotlin:kotlin-test" }
