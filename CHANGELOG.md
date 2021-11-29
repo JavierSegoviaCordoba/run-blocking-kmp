@@ -3,10 +3,12 @@
 ## [Unreleased]
 
 ### Added
+- `run-blocking-all` which include JavaScript target
 
 ### Changed
 
 ### Deprecated
+- `suspend-test`
 
 ### Removed
 

@@ -23,8 +23,8 @@ All docs are available on the [RunBlocking KMP website](https://run-blocking-kmp
 ```kotlin
 implementation("com.javiersc.run-blocking:run-blocking-core:$version")
 
-// For testing
-implementation("com.javiersc.run-blocking:suspend-test:$version")
+// Including JavaScript
+implementation("com.javiersc.run-blocking:run-blocking-all:$version")
 ```
 
 ## License

@@ -18,6 +18,7 @@ dependencyResolutionManagement {
 }
 
 include(
+    ":run-blocking-all",
     ":run-blocking-core",
     ":suspend-test",
 )
