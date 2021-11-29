@@ -15,7 +15,7 @@
 ### Fixed
 
 ### Updated
-- `com.javiersc.gradle-plugins:all-plugins -> 0.1.0-rc.17`
+- `com.javiersc.gradle-plugins:all-plugins -> 0.1.0-rc.19`
 - `org.jetbrains.kotlinx:binary-compatibility-validator -> 0.8.0`
 - `org.jetbrains.kotlinx:kotlinx-coroutines-core -> 1.5.2`
 - `org.jetbrains.kotlin:kotlin-gradle-plugin -> 1.6.0`
