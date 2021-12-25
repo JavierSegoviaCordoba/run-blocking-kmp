@@ -1,6 +1,6 @@
 plugins {
     `kotlin-multiplatform`
-    `javiersc-kotlin-library`
+    `javiersc-kotlin-config`
     `javiersc-publish`
 }
 
