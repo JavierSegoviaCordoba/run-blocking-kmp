@@ -16,7 +16,7 @@ dependencies {
     //  https://github.com/gradle/gradle/issues/15383#issuecomment-779893192
     implementation(files(pluginLibs.javaClass.superclass.protectionDomain.codeSource.location))
 
-    implementation(pluginLibs.javiersc.gradlePlugins.allPluginsX)
-    implementation(pluginLibs.jetbrains.kotlin.kotlinGradlePluginX)
+    implementation(pluginLibs.javiersc.gradlePlugins.allPlugins)
+    implementation(pluginLibs.jetbrains.kotlin.kotlinGradlePlugin)
     implementation(pluginLibs.jetbrains.kotlinx.binaryCompatibilityValidator)
 }

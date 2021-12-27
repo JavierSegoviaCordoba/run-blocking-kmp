@@ -4,6 +4,7 @@ coroutines = "1.6.0"
 [libraries]
 jetbrains-kotlin-kotlinTest = { module = "org.jetbrains.kotlin:kotlin-test" }
 jetbrains-kotlinx-kotlinxCoroutinesCore = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+jetbrains-kotlinx-kotlinxCoroutinesTest = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
 
 [bundles]
 testing = ["jetbrains-kotlin-kotlinTest"]

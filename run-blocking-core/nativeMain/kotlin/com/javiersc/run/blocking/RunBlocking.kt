@@ -1,13 +1,11 @@
-package com.javiersc.runBlocking
+package com.javiersc.run.blocking
 
 import kotlin.coroutines.CoroutineContext
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.runBlocking
 
-/** JVM `runBlocking` implementation */
-public actual fun <T> suspendTest(
+/** Native `runBlocking` implementation */
+public actual fun <T> runBlocking(
     context: CoroutineContext,
     block: suspend CoroutineScope.() -> T
-) {
-    runBlocking(context, block)
-}
+): T = runBlocking(context, block)

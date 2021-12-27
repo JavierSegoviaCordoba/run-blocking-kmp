@@ -1,4 +1,4 @@
-package com.javiersc.runBlocking
+package com.javiersc.run.blocking
 
 import kotlin.coroutines.CoroutineContext
 import kotlin.coroutines.EmptyCoroutineContext
@@ -28,8 +28,7 @@ import kotlinx.coroutines.CoroutineScope
  * thread.
  * @param block the coroutine code.
  */
-@Deprecated("kotlinx-coroutines-test:1.6.0+ has added support to Kotlin Multiplatform")
-public expect fun <T> suspendTest(
+public expect fun <T> runBlocking(
     context: CoroutineContext = EmptyCoroutineContext,
     block: suspend CoroutineScope.() -> T
-)
+): T

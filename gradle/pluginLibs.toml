@@ -1,9 +1,9 @@
 [versions]
-javierscGradlePlugins = "0.1.0-rc.28"
+javierscGradlePlugins = "0.1.0-rc.33"
 kotlin = "1.6.10"
 kotlinBinaryValidator = "0.8.0"
 
 [libraries]
-javiersc-gradlePlugins-allPluginsX = { module = "com.javiersc.gradle-plugins:all-plugins", version.ref = "javierscGradlePlugins" }
-jetbrains-kotlin-kotlinGradlePluginX = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+javiersc-gradlePlugins-allPlugins = { module = "com.javiersc.gradle-plugins:all-plugins", version.ref = "javierscGradlePlugins" }
+jetbrains-kotlin-kotlinGradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 jetbrains-kotlinx-binaryCompatibilityValidator = { module = "org.jetbrains.kotlinx:binary-compatibility-validator", version.ref = "kotlinBinaryValidator" }
