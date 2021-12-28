@@ -6,16 +6,22 @@
 
 ### Changed
 
-- `suspend-test` returns `TestResult`
-- `suspend-test` block only accepts `TestScope`
-- `suspend-test` used `runTest` under the hood
-- package to `com.javiersc.run.blocking`
-
 ### Deprecated
 
 ### Removed
 
 ### Fixed
+
+### Updated
+
+## [0.1.0-beta.3] - 2021-12-28
+
+### Changed
+
+- `suspend-test` returns `TestResult`
+- `suspend-test` block only accepts `TestScope`
+- `suspend-test` used `runTest` under the hood
+- package to `com.javiersc.run.blocking`
 
 ### Updated
 
