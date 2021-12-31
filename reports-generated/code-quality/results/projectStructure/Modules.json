@@ -4044,13 +4044,7 @@
         },
         {
           "path": "file://$PROJECT_DIR$/suspend-test/jsMain",
-          "sourceFolders": [
-            {
-              "path": "file://$PROJECT_DIR$/suspend-test/jsMain/kotlin",
-              "type": "Source",
-              "packagePrefix": ""
-            }
-          ]
+          "sourceFolders": []
         }
       ],
       "orderEntries": [
@@ -4188,13 +4182,7 @@
       "contentEntries": [
         {
           "path": "file://$PROJECT_DIR$/suspend-test/jvmMain",
-          "sourceFolders": [
-            {
-              "path": "file://$PROJECT_DIR$/suspend-test/jvmMain/kotlin",
-              "type": "Source",
-              "packagePrefix": ""
-            }
-          ]
+          "sourceFolders": []
         }
       ],
       "orderEntries": [
@@ -5634,13 +5622,7 @@
       "contentEntries": [
         {
           "path": "file://$PROJECT_DIR$/suspend-test/nativeMain",
-          "sourceFolders": [
-            {
-              "path": "file://$PROJECT_DIR$/suspend-test/nativeMain/kotlin",
-              "type": "Source",
-              "packagePrefix": ""
-            }
-          ]
+          "sourceFolders": []
         }
       ],
       "orderEntries": [
@@ -5840,7 +5822,7 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:all-plugins:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:all-plugins:0.1.0-rc.34",
           "type": "Library"
         },
         {
@@ -5860,71 +5842,71 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:kotlin-config:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:kotlin-config:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:publish:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:publish:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:core:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:core:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:all-projects:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:all-projects:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:code-analysis:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:code-analysis:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:code-coverage:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:code-coverage:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:code-formatter:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:code-formatter:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:dependency-updates:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:dependency-updates:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:versioning:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:versioning:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:changelog:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:changelog:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:docs:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:docs:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:readme-badges:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:readme-badges:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:gradle-wrapper-updater:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:gradle-wrapper-updater:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:nexus:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:nexus:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:massive-catalogs-updater:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:massive-catalogs-updater:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:projects-version-catalog:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:projects-version-catalog:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:plugin-accessors:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:plugin-accessors:0.1.0-rc.34",
           "type": "Library"
         },
         {
@@ -5996,7 +5978,7 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.0",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.10",
           "type": "Library"
         },
         {
@@ -6068,11 +6050,19 @@
           "type": "Library"
         },
         {
+          "name": "Gradle: org.jetbrains.dokka:dokka-gradle-plugin:1.6.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: ru.vyarus:gradle-mkdocs-plugin:2.2.0",
+          "type": "Library"
+        },
+        {
           "name": "Gradle: com.github.triplet.gradle:play-publisher:3.7.0",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.gradle.publish:plugin-publish-plugin:0.18.0",
+          "name": "Gradle: com.gradle.publish:plugin-publish-plugin:0.19.0",
           "type": "Library"
         },
         {
@@ -6085,14 +6075,6 @@
         },
         {
           "name": "Gradle: org.eclipse.jgit:org.eclipse.jgit:6.0.0.202111291000-r",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.jetbrains.dokka:dokka-gradle-plugin:1.6.0",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: ru.vyarus:gradle-mkdocs-plugin:2.2.0",
           "type": "Library"
         },
         {
@@ -6164,6 +6146,22 @@
           "type": "Library"
         },
         {
+          "name": "Gradle: org.jetbrains.dokka:dokka-core:1.6.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.ajoberstar.grgit:grgit-core:4.1.1",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: ru.vyarus:gradle-use-python-plugin:2.3.0",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.ajoberstar:gradle-git-publish:3.0.0",
+          "type": "Library"
+        },
+        {
           "name": "Gradle: com.github.triplet.gradle:android-publisher:3.7.0",
           "type": "Library"
         },
@@ -6232,23 +6230,15 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.dokka:dokka-core:1.6.0",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.ajoberstar.grgit:grgit-core:4.1.1",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: ru.vyarus:gradle-use-python-plugin:2.3.0",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.ajoberstar:gradle-git-publish:3.0.0",
-          "type": "Library"
-        },
-        {
           "name": "Gradle: org.antlr:antlr4-runtime:4.7.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.12.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.12.4",
           "type": "Library"
         },
         {
@@ -6288,11 +6278,27 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.12.4",
+          "name": "Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.12.4",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.12.4",
+          "name": "Gradle: com.fasterxml.jackson.core:jackson-databind:2.12.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.fasterxml.jackson.core:jackson-annotations:2.12.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.fasterxml.jackson.core:jackson-core:2.12.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.fasterxml.woodstox:woodstox-core:6.2.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.codehaus.woodstox:stax2-api:4.2.1",
           "type": "Library"
         },
         {
@@ -6336,27 +6342,11 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.12.4",
+          "name": "Gradle: jakarta.xml.bind:jakarta.xml.bind-api:2.3.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.fasterxml.jackson.core:jackson-databind:2.12.4",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: com.fasterxml.jackson.core:jackson-annotations:2.12.4",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: com.fasterxml.jackson.core:jackson-core:2.12.4",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: com.fasterxml.woodstox:woodstox-core:6.2.4",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.codehaus.woodstox:stax2-api:4.2.1",
+          "name": "Gradle: jakarta.activation:jakarta.activation-api:1.2.1",
           "type": "Library"
         },
         {
@@ -6369,14 +6359,6 @@
         },
         {
           "name": "Gradle: io.grpc:grpc-context:1.27.2",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: jakarta.xml.bind:jakarta.xml.bind-api:2.3.2",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: jakarta.activation:jakarta.activation-api:1.2.1",
           "type": "Library"
         },
         {
@@ -6503,7 +6485,7 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:all-plugins:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:all-plugins:0.1.0-rc.34",
           "type": "Library"
         },
         {
@@ -6523,71 +6505,71 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:kotlin-config:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:kotlin-config:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:publish:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:publish:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:core:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:core:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:all-projects:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:all-projects:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:code-analysis:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:code-analysis:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:code-coverage:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:code-coverage:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:code-formatter:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:code-formatter:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:dependency-updates:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:dependency-updates:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:versioning:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:versioning:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:changelog:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:changelog:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:docs:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:docs:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:readme-badges:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:readme-badges:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:gradle-wrapper-updater:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:gradle-wrapper-updater:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:nexus:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:nexus:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:massive-catalogs-updater:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:massive-catalogs-updater:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:projects-version-catalog:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:projects-version-catalog:0.1.0-rc.34",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.gradle-plugins:plugin-accessors:0.1.0-rc.33",
+          "name": "Gradle: com.javiersc.gradle-plugins:plugin-accessors:0.1.0-rc.34",
           "type": "Library"
         },
         {
@@ -6723,11 +6705,19 @@
           "type": "Library"
         },
         {
+          "name": "Gradle: org.jetbrains.dokka:dokka-gradle-plugin:1.6.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: ru.vyarus:gradle-mkdocs-plugin:2.2.0",
+          "type": "Library"
+        },
+        {
           "name": "Gradle: com.github.triplet.gradle:play-publisher:3.7.0",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.gradle.publish:plugin-publish-plugin:0.18.0",
+          "name": "Gradle: com.gradle.publish:plugin-publish-plugin:0.19.0",
           "type": "Library"
         },
         {
@@ -6740,14 +6730,6 @@
         },
         {
           "name": "Gradle: org.eclipse.jgit:org.eclipse.jgit:6.0.0.202111291000-r",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.jetbrains.dokka:dokka-gradle-plugin:1.6.0",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: ru.vyarus:gradle-mkdocs-plugin:2.2.0",
           "type": "Library"
         },
         {
@@ -6819,6 +6801,22 @@
           "type": "Library"
         },
         {
+          "name": "Gradle: org.jetbrains.dokka:dokka-core:1.6.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.ajoberstar.grgit:grgit-core:4.1.1",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: ru.vyarus:gradle-use-python-plugin:2.3.0",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.ajoberstar:gradle-git-publish:3.0.0",
+          "type": "Library"
+        },
+        {
           "name": "Gradle: com.github.triplet.gradle:android-publisher:3.7.0",
           "type": "Library"
         },
@@ -6887,23 +6885,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.dokka:dokka-core:1.6.0",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.ajoberstar.grgit:grgit-core:4.1.1",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: ru.vyarus:gradle-use-python-plugin:2.3.0",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.ajoberstar:gradle-git-publish:3.0.0",
-          "type": "Library"
-        },
-        {
           "name": "Gradle: org.antlr:antlr4-runtime:4.7.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.12.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.12.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.10",
           "type": "Library"
         },
         {
@@ -6943,15 +6937,27 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.12.4",
+          "name": "Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.12.4",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.12.4",
+          "name": "Gradle: com.fasterxml.jackson.core:jackson-databind:2.12.4",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.0",
+          "name": "Gradle: com.fasterxml.jackson.core:jackson-annotations:2.12.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.fasterxml.jackson.core:jackson-core:2.12.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.fasterxml.woodstox:woodstox-core:6.2.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.codehaus.woodstox:stax2-api:4.2.1",
           "type": "Library"
         },
         {
@@ -6995,27 +7001,11 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.12.4",
+          "name": "Gradle: jakarta.xml.bind:jakarta.xml.bind-api:2.3.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.fasterxml.jackson.core:jackson-databind:2.12.4",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: com.fasterxml.jackson.core:jackson-annotations:2.12.4",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: com.fasterxml.jackson.core:jackson-core:2.12.4",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: com.fasterxml.woodstox:woodstox-core:6.2.4",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.codehaus.woodstox:stax2-api:4.2.1",
+          "name": "Gradle: jakarta.activation:jakarta.activation-api:1.2.1",
           "type": "Library"
         },
         {
@@ -7028,14 +7018,6 @@
         },
         {
           "name": "Gradle: io.grpc:grpc-context:1.27.2",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: jakarta.xml.bind:jakarta.xml.bind-api:2.3.2",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: jakarta.activation:jakarta.activation-api:1.2.1",
           "type": "Library"
         },
         {

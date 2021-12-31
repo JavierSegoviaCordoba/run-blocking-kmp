@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="4.3">
+<file name="run-blocking-all/commonTest/kotlin/com/javiersc/run/blocking/RunBlockingAllTest.kt">
+	<error line="9" column="5" severity="warning" message="A member is named after the class. This might result in confusion. Either rename the member or change it to a constructor." source="detekt.MemberNameEqualsClassName" />
+</file>
+<file name="buildSrc/build.gradle.kts">
+	<error line="15" column="5" severity="warning" message="This comment contains &apos;TODO:&apos; that has been defined as forbidden in detekt." source="detekt.ForbiddenComment" />
+</file>
+</checkstyle>

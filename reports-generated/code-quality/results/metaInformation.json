@@ -2,5 +2,15 @@
   "total": 4,
   "tools inspection": {
     "Code Inspection": 4
+  },
+  "attributes": {
+    "vcs": {
+      "sarifIdea": {
+        "repositoryUri": "https://github.com/JavierSegoviaCordoba/run-blocking-kmp",
+        "revisionId": "4e68ecfd92e43d903f5588d9fe82de2cf080ac5f",
+        "branch": "main"
+      }
+    },
+    "deviceId": "200820300000000-915f-f685-10b7-14ac1cb0fc39"
   }
 }
