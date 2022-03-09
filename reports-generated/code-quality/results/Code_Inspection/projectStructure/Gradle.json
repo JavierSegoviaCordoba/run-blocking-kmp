@@ -232,16 +232,10 @@
       "version": "1.6.0"
     },
     {
-      "ideaName": "Kotlin/Native 1.6.10 - linux | linux_x64",
-      "gradleName": "Kotlin/Native 1.6.10 - linux | linux_x64",
+      "ideaName": "Kotlin/Native 1.6.10 - builtin | linux_x64",
+      "gradleName": "Kotlin/Native 1.6.10 - builtin | linux_x64",
       "unresolved": false,
-      "artifactId": "Kotlin/Native 1.6.10 - linux | linux_x64"
-    },
-    {
-      "ideaName": "Kotlin/Native 1.6.10 - zlib | linux_x64",
-      "gradleName": "Kotlin/Native 1.6.10 - zlib | linux_x64",
-      "unresolved": false,
-      "artifactId": "Kotlin/Native 1.6.10 - zlib | linux_x64"
+      "artifactId": "Kotlin/Native 1.6.10 - builtin | linux_x64"
     },
     {
       "ideaName": "Kotlin/Native 1.6.10 - posix | linux_x64",
@@ -250,16 +244,22 @@
       "artifactId": "Kotlin/Native 1.6.10 - posix | linux_x64"
     },
     {
+      "ideaName": "Kotlin/Native 1.6.10 - linux | linux_x64",
+      "gradleName": "Kotlin/Native 1.6.10 - linux | linux_x64",
+      "unresolved": false,
+      "artifactId": "Kotlin/Native 1.6.10 - linux | linux_x64"
+    },
+    {
       "ideaName": "Kotlin/Native 1.6.10 - iconv | linux_x64",
       "gradleName": "Kotlin/Native 1.6.10 - iconv | linux_x64",
       "unresolved": false,
       "artifactId": "Kotlin/Native 1.6.10 - iconv | linux_x64"
     },
     {
-      "ideaName": "Kotlin/Native 1.6.10 - builtin | linux_x64",
-      "gradleName": "Kotlin/Native 1.6.10 - builtin | linux_x64",
+      "ideaName": "Kotlin/Native 1.6.10 - zlib | linux_x64",
+      "gradleName": "Kotlin/Native 1.6.10 - zlib | linux_x64",
       "unresolved": false,
-      "artifactId": "Kotlin/Native 1.6.10 - builtin | linux_x64"
+      "artifactId": "Kotlin/Native 1.6.10 - zlib | linux_x64"
     },
     {
       "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-macosarm64:klib:1.6.0",
@@ -340,10 +340,10 @@
       "artifactId": "Kotlin/Native 1.6.10 - opengl32 | mingw_x64"
     },
     {
-      "ideaName": "Kotlin/Native 1.6.10 - zlib | mingw_x64",
-      "gradleName": "Kotlin/Native 1.6.10 - zlib | mingw_x64",
+      "ideaName": "Kotlin/Native 1.6.10 - builtin | mingw_x64",
+      "gradleName": "Kotlin/Native 1.6.10 - builtin | mingw_x64",
       "unresolved": false,
-      "artifactId": "Kotlin/Native 1.6.10 - zlib | mingw_x64"
+      "artifactId": "Kotlin/Native 1.6.10 - builtin | mingw_x64"
     },
     {
       "ideaName": "Kotlin/Native 1.6.10 - windows | mingw_x64",
@@ -352,16 +352,16 @@
       "artifactId": "Kotlin/Native 1.6.10 - windows | mingw_x64"
     },
     {
-      "ideaName": "Kotlin/Native 1.6.10 - gdiplus | mingw_x64",
-      "gradleName": "Kotlin/Native 1.6.10 - gdiplus | mingw_x64",
-      "unresolved": false,
-      "artifactId": "Kotlin/Native 1.6.10 - gdiplus | mingw_x64"
-    },
-    {
       "ideaName": "Kotlin/Native 1.6.10 - posix | mingw_x64",
       "gradleName": "Kotlin/Native 1.6.10 - posix | mingw_x64",
       "unresolved": false,
       "artifactId": "Kotlin/Native 1.6.10 - posix | mingw_x64"
+    },
+    {
+      "ideaName": "Kotlin/Native 1.6.10 - gdiplus | mingw_x64",
+      "gradleName": "Kotlin/Native 1.6.10 - gdiplus | mingw_x64",
+      "unresolved": false,
+      "artifactId": "Kotlin/Native 1.6.10 - gdiplus | mingw_x64"
     },
     {
       "ideaName": "Kotlin/Native 1.6.10 - iconv | mingw_x64",
@@ -370,10 +370,10 @@
       "artifactId": "Kotlin/Native 1.6.10 - iconv | mingw_x64"
     },
     {
-      "ideaName": "Kotlin/Native 1.6.10 - builtin | mingw_x64",
-      "gradleName": "Kotlin/Native 1.6.10 - builtin | mingw_x64",
+      "ideaName": "Kotlin/Native 1.6.10 - zlib | mingw_x64",
+      "gradleName": "Kotlin/Native 1.6.10 - zlib | mingw_x64",
       "unresolved": false,
-      "artifactId": "Kotlin/Native 1.6.10 - builtin | mingw_x64"
+      "artifactId": "Kotlin/Native 1.6.10 - zlib | mingw_x64"
     },
     {
       "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-tvosarm64:klib:1.6.0",
@@ -576,10 +576,10 @@
       "version": "0.17.0"
     },
     {
-      "ideaName": "Kotlin/Native 1.6.10 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
-      "gradleName": "Kotlin/Native 1.6.10 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+      "ideaName": "Kotlin/Native 1.6.10 - builtin | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+      "gradleName": "Kotlin/Native 1.6.10 - builtin | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
       "unresolved": false,
-      "artifactId": "Kotlin/Native 1.6.10 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]"
+      "artifactId": "Kotlin/Native 1.6.10 - builtin | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]"
     },
     {
       "ideaName": "Kotlin/Native 1.6.10 - posix | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
@@ -594,10 +594,10 @@
       "artifactId": "Kotlin/Native 1.6.10 - iconv | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]"
     },
     {
-      "ideaName": "Kotlin/Native 1.6.10 - builtin | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
-      "gradleName": "Kotlin/Native 1.6.10 - builtin | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+      "ideaName": "Kotlin/Native 1.6.10 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+      "gradleName": "Kotlin/Native 1.6.10 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
       "unresolved": false,
-      "artifactId": "Kotlin/Native 1.6.10 - builtin | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]"
+      "artifactId": "Kotlin/Native 1.6.10 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]"
     },
     {
       "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-iosarm64:klib:1.6.0",
