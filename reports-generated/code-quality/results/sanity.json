@@ -7,7 +7,39 @@
     "Sanity"
   ],
   "severity": "Critical",
-  "comment": "[MISSING_DEPENDENCY_CLASS] Cannot access class 'org.gradle.accessors.dm.LibrariesForLibs.JetbrainsLibraryAccessors'. Check your module classpath for missing or conflicting dependencies",
+  "comment": "[MISSING_DEPENDENCY_CLASS] Cannot access class 'org.gradle.accessors.dm.LibrariesForLibs'. Check your module classpath for missing or conflicting dependencies",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "suspend-test/build.gradle.kts",
+      "language": "kotlin",
+      "line": 38,
+      "offset": 42,
+      "length": 4,
+      "code": {
+        "startLine": 36,
+        "length": 4,
+        "offset": 95,
+        "surroundingCode": "    sourceSets {\n        val commonMain by getting {\n            dependencies { implementation(libs.jetbrains.kotlinx.kotlinxCoroutinesTest) }\n        }\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.suspend-test",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "-5710599259373422097"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[UNRESOLVED_REFERENCE_WRONG_RECEIVER] Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: \npublic val OrgPluginGroup.jetbrains: OrgJetbrainsPluginGroup defined in org.gradle.kotlin.dsl",
   "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
   "sources": [
     {
@@ -29,7 +61,7 @@
     "module": "run-blocking-kmp.suspend-test",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "-7639880821816637410"
+  "hash": "4859353743322879350"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -39,21 +71,21 @@
     "Sanity"
   ],
   "severity": "Critical",
-  "comment": "[UNRESOLVED_REFERENCE_WRONG_RECEIVER] Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: \npublic val OrgJetbrainsPluginGroup.kotlinx: OrgJetbrainsKotlinxPluginGroup defined in org.gradle.kotlin.dsl",
+  "comment": "[MISSING_DEPENDENCY_CLASS] Cannot access class 'org.gradle.accessors.dm.LibrariesForLibs'. Check your module classpath for missing or conflicting dependencies",
   "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
   "sources": [
     {
       "type": "file",
       "path": "suspend-test/build.gradle.kts",
       "language": "kotlin",
-      "line": 38,
-      "offset": 57,
-      "length": 7,
+      "line": 41,
+      "offset": 51,
+      "length": 4,
       "code": {
-        "startLine": 36,
-        "length": 7,
-        "offset": 110,
-        "surroundingCode": "    sourceSets {\n        val commonMain by getting {\n            dependencies { implementation(libs.jetbrains.kotlinx.kotlinxCoroutinesTest) }\n        }\n"
+        "startLine": 39,
+        "length": 4,
+        "offset": 62,
+        "surroundingCode": "        }\n\n        commonTest { dependencies { implementation(libs.bundles.testing) } }\n\n        val iosArm64Main by getting"
       }
     }
   ],
@@ -61,7 +93,7 @@
     "module": "run-blocking-kmp.suspend-test",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "3051925868728635729"
+  "hash": "8567967670452011762"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -71,7 +103,7 @@
     "Sanity"
   ],
   "severity": "Critical",
-  "comment": "[MISSING_DEPENDENCY_CLASS] Cannot access class 'org.gradle.accessors.dm.LibrariesForLibs.BundleAccessors'. Check your module classpath for missing or conflicting dependencies",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: bundles",
   "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
   "sources": [
     {
@@ -93,7 +125,7 @@
     "module": "run-blocking-kmp.suspend-test",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "-2957434752324623227"
+  "hash": "-340320939128283654"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -103,29 +135,29 @@
     "Sanity"
   ],
   "severity": "Critical",
-  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: testing",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: TestResult",
   "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
   "sources": [
     {
       "type": "file",
-      "path": "suspend-test/build.gradle.kts",
+      "path": "suspend-test/commonMain/kotlin/com/javiersc/run/blocking/SuspendTest.kt",
       "language": "kotlin",
-      "line": 41,
-      "offset": 64,
-      "length": 7,
+      "line": 5,
+      "offset": 31,
+      "length": 10,
       "code": {
-        "startLine": 39,
-        "length": 7,
-        "offset": 75,
-        "surroundingCode": "        }\n\n        commonTest { dependencies { implementation(libs.bundles.testing) } }\n\n        val iosArm64Main by getting"
+        "startLine": 3,
+        "length": 10,
+        "offset": 120,
+        "surroundingCode": "import kotlin.coroutines.CoroutineContext\nimport kotlin.coroutines.EmptyCoroutineContext\nimport kotlinx.coroutines.test.TestResult\nimport kotlinx.coroutines.test.TestScope\nimport kotlinx.coroutines.test.runTest\n"
       }
     }
   ],
   "attributes": {
-    "module": "run-blocking-kmp.suspend-test",
+    "module": "run-blocking-kmp.suspend-test.commonMain",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "-7490275106155567566"
+  "hash": "6794292960854235826"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -135,7 +167,455 @@
     "Sanity"
   ],
   "severity": "Critical",
-  "comment": "[MISSING_DEPENDENCY_CLASS] Cannot access class 'org.gradle.accessors.dm.LibrariesForLibs.JetbrainsLibraryAccessors'. Check your module classpath for missing or conflicting dependencies",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: TestScope",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "suspend-test/commonMain/kotlin/com/javiersc/run/blocking/SuspendTest.kt",
+      "language": "kotlin",
+      "line": 6,
+      "offset": 31,
+      "length": 9,
+      "code": {
+        "startLine": 4,
+        "length": 9,
+        "offset": 120,
+        "surroundingCode": "import kotlin.coroutines.EmptyCoroutineContext\nimport kotlinx.coroutines.test.TestResult\nimport kotlinx.coroutines.test.TestScope\nimport kotlinx.coroutines.test.runTest\n\n@Deprecated("
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.suspend-test.commonMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "-3413539076426379031"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: runTest",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "suspend-test/commonMain/kotlin/com/javiersc/run/blocking/SuspendTest.kt",
+      "language": "kotlin",
+      "line": 7,
+      "offset": 31,
+      "length": 7,
+      "code": {
+        "startLine": 5,
+        "length": 7,
+        "offset": 114,
+        "surroundingCode": "import kotlinx.coroutines.test.TestResult\nimport kotlinx.coroutines.test.TestScope\nimport kotlinx.coroutines.test.runTest\n\n@Deprecated(\n    message = \"kotlinx-coroutines-test:1.6.0+ has added support to Kotlin Multiplatform\",\n    replaceWith = ReplaceWith(\"runTest\", \"kotlinx.coroutines.test.runTest\"),"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.suspend-test.commonMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "-2245137779263744229"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: TestScope",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "suspend-test/commonMain/kotlin/com/javiersc/run/blocking/SuspendTest.kt",
+      "language": "kotlin",
+      "line": 15,
+      "offset": 19,
+      "length": 9,
+      "code": {
+        "startLine": 13,
+        "length": 9,
+        "offset": 98,
+        "surroundingCode": "public fun suspendTest(\n    context: CoroutineContext = EmptyCoroutineContext,\n    block: suspend TestScope.() -> Unit\n): TestResult = runTest(context = context, testBody = block)"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.suspend-test.commonMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "7213276268723306392"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[ACTUAL_WITHOUT_EXPECT] Actual function 'runBlocking' has no corresponding expected declaration\nThe following declaration is incompatible because parameter types are different:\n    public expect fun <T> runBlocking(context: CoroutineContext = ..., block: suspend [ERROR : CoroutineScope].() -> T): T\n",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "run-blocking-all/jsMain/kotlin/com/javiersc/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 9,
+      "offset": 33,
+      "length": 1,
+      "code": {
+        "startLine": 7,
+        "length": 1,
+        "offset": 73,
+        "surroundingCode": "\n/** JS `runBlocking` implementation */\npublic actual fun <T> runBlocking(\n    context: CoroutineContext,\n    block: suspend CoroutineScope.() -> T\n): dynamic = GlobalScope.promise(context) { block() }"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.run-blocking-all.jsMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "5576524651830797473"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[ACTUAL_WITHOUT_EXPECT] Actual function 'runBlocking' has no corresponding expected declaration\nThe following declaration is incompatible because parameter types are different:\n    public expect fun <T> runBlocking(context: CoroutineContext = ..., block: suspend [ERROR : CoroutineScope].() -> T): T\n",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "method",
+      "path": "run-blocking-all/jvmMain/kotlin/com/javiersc/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 8,
+      "offset": 33,
+      "length": 1,
+      "code": {
+        "startLine": 6,
+        "length": 1,
+        "offset": 74,
+        "surroundingCode": "\n/** JVM `runBlocking` implementation */\npublic actual fun <T> runBlocking(\n    context: CoroutineContext,\n    block: suspend CoroutineScope.() -> T\n): T = runBlocking(context, block)"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.run-blocking-all.jvmMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "3477587913613115018"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: CoroutineScope",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "run-blocking-all/commonMain/kotlin/com/javiersc/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 5,
+      "offset": 26,
+      "length": 14,
+      "code": {
+        "startLine": 3,
+        "length": 14,
+        "offset": 115,
+        "surroundingCode": "import kotlin.coroutines.CoroutineContext\nimport kotlin.coroutines.EmptyCoroutineContext\nimport kotlinx.coroutines.CoroutineScope\n\n/**\n * Runs a new coroutine and **blocks** the current thread _interruptibly_ until its completion. This\n * function should not be used from a coroutine. It is designed to bridge regular blocking code to"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.run-blocking-all.commonMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "-8578025845206549926"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[NO_ACTUAL_FOR_EXPECT] Expected function 'runBlocking' has no actual declaration in module run-blocking-kmp.run-blocking-all.iosArm64Main for Native\nThe following declaration is incompatible because parameter types are different:\n    public actual fun <T> runBlocking(context: CoroutineContext, block: suspend [ERROR : CoroutineScope].() -> T): T\n",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "run-blocking-all/commonMain/kotlin/com/javiersc/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 31,
+      "offset": 33,
+      "length": 1,
+      "code": {
+        "startLine": 29,
+        "length": 1,
+        "offset": 73,
+        "surroundingCode": " * @param block the coroutine code.\n */\npublic expect fun <T> runBlocking(\n    context: CoroutineContext = EmptyCoroutineContext,\n    block: suspend CoroutineScope.() -> T\n): T"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.run-blocking-all.commonMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "5052838393387477121"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[NO_ACTUAL_FOR_EXPECT] Expected function 'runBlocking' has no actual declaration in module run-blocking-kmp.run-blocking-all.iosSimulatorArm64Main for Native\nThe following declaration is incompatible because parameter types are different:\n    public actual fun <T> runBlocking(context: CoroutineContext, block: suspend [ERROR : CoroutineScope].() -> T): T\n",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "run-blocking-all/commonMain/kotlin/com/javiersc/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 31,
+      "offset": 33,
+      "length": 1,
+      "code": {
+        "startLine": 29,
+        "length": 1,
+        "offset": 73,
+        "surroundingCode": " * @param block the coroutine code.\n */\npublic expect fun <T> runBlocking(\n    context: CoroutineContext = EmptyCoroutineContext,\n    block: suspend CoroutineScope.() -> T\n): T"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.run-blocking-all.commonMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "5695334009533778340"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[NO_ACTUAL_FOR_EXPECT] Expected function 'runBlocking' has no actual declaration in module run-blocking-kmp.run-blocking-all.iosX64Main for Native\nThe following declaration is incompatible because parameter types are different:\n    public actual fun <T> runBlocking(context: CoroutineContext, block: suspend [ERROR : CoroutineScope].() -> T): T\n",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "run-blocking-all/commonMain/kotlin/com/javiersc/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 31,
+      "offset": 33,
+      "length": 1,
+      "code": {
+        "startLine": 29,
+        "length": 1,
+        "offset": 73,
+        "surroundingCode": " * @param block the coroutine code.\n */\npublic expect fun <T> runBlocking(\n    context: CoroutineContext = EmptyCoroutineContext,\n    block: suspend CoroutineScope.() -> T\n): T"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.run-blocking-all.commonMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "236269817734816313"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: CoroutineScope",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "run-blocking-all/nativeMain/kotlin/com/javiersc/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 4,
+      "offset": 26,
+      "length": 14,
+      "code": {
+        "startLine": 2,
+        "length": 14,
+        "offset": 69,
+        "surroundingCode": "\nimport kotlin.coroutines.CoroutineContext\nimport kotlinx.coroutines.CoroutineScope\nimport kotlinx.coroutines.runBlocking\n\n/** Native `runBlocking` implementation */"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.run-blocking-all.nativeMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "-8596209870820088914"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: runBlocking",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "run-blocking-all/nativeMain/kotlin/com/javiersc/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 5,
+      "offset": 26,
+      "length": 11,
+      "code": {
+        "startLine": 3,
+        "length": 11,
+        "offset": 109,
+        "surroundingCode": "import kotlin.coroutines.CoroutineContext\nimport kotlinx.coroutines.CoroutineScope\nimport kotlinx.coroutines.runBlocking\n\n/** Native `runBlocking` implementation */\npublic actual fun <T> runBlocking(\n    context: CoroutineContext,"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.run-blocking-all.nativeMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "5450807202432535248"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[ACTUAL_WITHOUT_EXPECT] Actual function 'runBlocking' has no corresponding expected declaration\nThe following declaration is incompatible because parameter types are different:\n    public expect fun <T> runBlocking(context: CoroutineContext = ..., block: suspend [ERROR : CoroutineScope].() -> T): T\n",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "run-blocking-all/nativeMain/kotlin/com/javiersc/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 8,
+      "offset": 33,
+      "length": 1,
+      "code": {
+        "startLine": 6,
+        "length": 1,
+        "offset": 77,
+        "surroundingCode": "\n/** Native `runBlocking` implementation */\npublic actual fun <T> runBlocking(\n    context: CoroutineContext,\n    block: suspend CoroutineScope.() -> T\n): T = runBlocking(context, block)"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.run-blocking-all.nativeMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "4008087575229634494"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: CoroutineScope",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "run-blocking-all/nativeMain/kotlin/com/javiersc/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 10,
+      "offset": 19,
+      "length": 14,
+      "code": {
+        "startLine": 8,
+        "length": 14,
+        "offset": 85,
+        "surroundingCode": "public actual fun <T> runBlocking(\n    context: CoroutineContext,\n    block: suspend CoroutineScope.() -> T\n): T = runBlocking(context, block)"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.run-blocking-all.nativeMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "-6813005396025445017"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[MISSING_DEPENDENCY_CLASS] Cannot access class 'org.gradle.accessors.dm.LibrariesForLibs'. Check your module classpath for missing or conflicting dependencies",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "run-blocking-all/build.gradle.kts",
+      "language": "kotlin",
+      "line": 38,
+      "offset": 42,
+      "length": 4,
+      "code": {
+        "startLine": 36,
+        "length": 4,
+        "offset": 95,
+        "surroundingCode": "    sourceSets {\n        val commonMain by getting {\n            dependencies { implementation(libs.jetbrains.kotlinx.kotlinxCoroutinesCore) }\n        }\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.run-blocking-all",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "1228439775637212403"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[UNRESOLVED_REFERENCE_WRONG_RECEIVER] Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: \npublic val OrgPluginGroup.jetbrains: OrgJetbrainsPluginGroup defined in org.gradle.kotlin.dsl",
   "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
   "sources": [
     {
@@ -157,7 +637,7 @@
     "module": "run-blocking-kmp.run-blocking-all",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "-2624330989766365924"
+  "hash": "-5726991366845323685"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -167,21 +647,21 @@
     "Sanity"
   ],
   "severity": "Critical",
-  "comment": "[UNRESOLVED_REFERENCE_WRONG_RECEIVER] Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: \npublic val OrgJetbrainsPluginGroup.kotlinx: OrgJetbrainsKotlinxPluginGroup defined in org.gradle.kotlin.dsl",
+  "comment": "[MISSING_DEPENDENCY_CLASS] Cannot access class 'org.gradle.accessors.dm.LibrariesForLibs'. Check your module classpath for missing or conflicting dependencies",
   "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
   "sources": [
     {
       "type": "file",
       "path": "run-blocking-all/build.gradle.kts",
       "language": "kotlin",
-      "line": 38,
-      "offset": 57,
-      "length": 7,
+      "line": 41,
+      "offset": 51,
+      "length": 4,
       "code": {
-        "startLine": 36,
-        "length": 7,
-        "offset": 110,
-        "surroundingCode": "    sourceSets {\n        val commonMain by getting {\n            dependencies { implementation(libs.jetbrains.kotlinx.kotlinxCoroutinesCore) }\n        }\n"
+        "startLine": 39,
+        "length": 4,
+        "offset": 62,
+        "surroundingCode": "        }\n\n        commonTest { dependencies { implementation(libs.bundles.testing) } }\n\n        val iosArm64Main by getting"
       }
     }
   ],
@@ -189,7 +669,7 @@
     "module": "run-blocking-kmp.run-blocking-all",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "5149361434720644845"
+  "hash": "-7187325756839770782"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -199,7 +679,7 @@
     "Sanity"
   ],
   "severity": "Critical",
-  "comment": "[MISSING_DEPENDENCY_CLASS] Cannot access class 'org.gradle.accessors.dm.LibrariesForLibs.BundleAccessors'. Check your module classpath for missing or conflicting dependencies",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: bundles",
   "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
   "sources": [
     {
@@ -221,7 +701,7 @@
     "module": "run-blocking-kmp.run-blocking-all",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "-989167048267661285"
+  "hash": "-8546532436994523839"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -231,29 +711,29 @@
     "Sanity"
   ],
   "severity": "Critical",
-  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: testing",
+  "comment": "[ACTUAL_WITHOUT_EXPECT] Actual function 'runBlocking' has no corresponding expected declaration\nThe following declaration is incompatible because parameter types are different:\n    public expect fun <T> runBlocking(context: CoroutineContext = ..., block: suspend [ERROR : CoroutineScope].() -> T): T\n",
   "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
   "sources": [
     {
-      "type": "file",
-      "path": "run-blocking-all/build.gradle.kts",
+      "type": "method",
+      "path": "run-blocking-core/jvmMain/kotlin/com/javiersc/run/blocking/RunBlocking.kt",
       "language": "kotlin",
-      "line": 41,
-      "offset": 64,
-      "length": 7,
+      "line": 8,
+      "offset": 33,
+      "length": 1,
       "code": {
-        "startLine": 39,
-        "length": 7,
-        "offset": 75,
-        "surroundingCode": "        }\n\n        commonTest { dependencies { implementation(libs.bundles.testing) } }\n\n        val iosArm64Main by getting"
+        "startLine": 6,
+        "length": 1,
+        "offset": 74,
+        "surroundingCode": "\n/** JVM `runBlocking` implementation */\npublic actual fun <T> runBlocking(\n    context: CoroutineContext,\n    block: suspend CoroutineScope.() -> T\n): T = runBlocking(context, block)"
       }
     }
   ],
   "attributes": {
-    "module": "run-blocking-kmp.run-blocking-all",
+    "module": "run-blocking-kmp.run-blocking-core.jvmMain",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "-793418029342361267"
+  "hash": "-6043895422408377926"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -263,7 +743,295 @@
     "Sanity"
   ],
   "severity": "Critical",
-  "comment": "[MISSING_DEPENDENCY_CLASS] Cannot access class 'org.gradle.accessors.dm.LibrariesForLibs.JetbrainsLibraryAccessors'. Check your module classpath for missing or conflicting dependencies",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: CoroutineScope",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "run-blocking-core/commonMain/kotlin/com/javiersc/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 5,
+      "offset": 26,
+      "length": 14,
+      "code": {
+        "startLine": 3,
+        "length": 14,
+        "offset": 115,
+        "surroundingCode": "import kotlin.coroutines.CoroutineContext\nimport kotlin.coroutines.EmptyCoroutineContext\nimport kotlinx.coroutines.CoroutineScope\n\n/**\n * Runs a new coroutine and **blocks** the current thread _interruptibly_ until its completion. This\n * function should not be used from a coroutine. It is designed to bridge regular blocking code to"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.run-blocking-core.commonMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "-5990640185419933093"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[NO_ACTUAL_FOR_EXPECT] Expected function 'runBlocking' has no actual declaration in module run-blocking-kmp.run-blocking-core.iosArm64Main for Native\nThe following declaration is incompatible because parameter types are different:\n    public actual fun <T> runBlocking(context: CoroutineContext, block: suspend [ERROR : CoroutineScope].() -> T): T\n",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "run-blocking-core/commonMain/kotlin/com/javiersc/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 31,
+      "offset": 33,
+      "length": 1,
+      "code": {
+        "startLine": 29,
+        "length": 1,
+        "offset": 73,
+        "surroundingCode": " * @param block the coroutine code.\n */\npublic expect fun <T> runBlocking(\n    context: CoroutineContext = EmptyCoroutineContext,\n    block: suspend CoroutineScope.() -> T\n): T"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.run-blocking-core.commonMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "-7803779234614644738"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[NO_ACTUAL_FOR_EXPECT] Expected function 'runBlocking' has no actual declaration in module run-blocking-kmp.run-blocking-core.iosSimulatorArm64Main for Native\nThe following declaration is incompatible because parameter types are different:\n    public actual fun <T> runBlocking(context: CoroutineContext, block: suspend [ERROR : CoroutineScope].() -> T): T\n",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "run-blocking-core/commonMain/kotlin/com/javiersc/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 31,
+      "offset": 33,
+      "length": 1,
+      "code": {
+        "startLine": 29,
+        "length": 1,
+        "offset": 73,
+        "surroundingCode": " * @param block the coroutine code.\n */\npublic expect fun <T> runBlocking(\n    context: CoroutineContext = EmptyCoroutineContext,\n    block: suspend CoroutineScope.() -> T\n): T"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.run-blocking-core.commonMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "2426442732864330251"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[NO_ACTUAL_FOR_EXPECT] Expected function 'runBlocking' has no actual declaration in module run-blocking-kmp.run-blocking-core.iosX64Main for Native\nThe following declaration is incompatible because parameter types are different:\n    public actual fun <T> runBlocking(context: CoroutineContext, block: suspend [ERROR : CoroutineScope].() -> T): T\n",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "run-blocking-core/commonMain/kotlin/com/javiersc/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 31,
+      "offset": 33,
+      "length": 1,
+      "code": {
+        "startLine": 29,
+        "length": 1,
+        "offset": 73,
+        "surroundingCode": " * @param block the coroutine code.\n */\npublic expect fun <T> runBlocking(\n    context: CoroutineContext = EmptyCoroutineContext,\n    block: suspend CoroutineScope.() -> T\n): T"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.run-blocking-core.commonMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "3412554234073001067"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: CoroutineScope",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "run-blocking-core/nativeMain/kotlin/com/javiersc/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 4,
+      "offset": 26,
+      "length": 14,
+      "code": {
+        "startLine": 2,
+        "length": 14,
+        "offset": 69,
+        "surroundingCode": "\nimport kotlin.coroutines.CoroutineContext\nimport kotlinx.coroutines.CoroutineScope\nimport kotlinx.coroutines.runBlocking\n\n/** Native `runBlocking` implementation */"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.run-blocking-core.nativeMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "1940675583572651609"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: runBlocking",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "run-blocking-core/nativeMain/kotlin/com/javiersc/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 5,
+      "offset": 26,
+      "length": 11,
+      "code": {
+        "startLine": 3,
+        "length": 11,
+        "offset": 109,
+        "surroundingCode": "import kotlin.coroutines.CoroutineContext\nimport kotlinx.coroutines.CoroutineScope\nimport kotlinx.coroutines.runBlocking\n\n/** Native `runBlocking` implementation */\npublic actual fun <T> runBlocking(\n    context: CoroutineContext,"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.run-blocking-core.nativeMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "5165857611608029959"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[ACTUAL_WITHOUT_EXPECT] Actual function 'runBlocking' has no corresponding expected declaration\nThe following declaration is incompatible because parameter types are different:\n    public expect fun <T> runBlocking(context: CoroutineContext = ..., block: suspend [ERROR : CoroutineScope].() -> T): T\n",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "run-blocking-core/nativeMain/kotlin/com/javiersc/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 8,
+      "offset": 33,
+      "length": 1,
+      "code": {
+        "startLine": 6,
+        "length": 1,
+        "offset": 77,
+        "surroundingCode": "\n/** Native `runBlocking` implementation */\npublic actual fun <T> runBlocking(\n    context: CoroutineContext,\n    block: suspend CoroutineScope.() -> T\n): T = runBlocking(context, block)"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.run-blocking-core.nativeMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "9091318941405145097"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: CoroutineScope",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "run-blocking-core/nativeMain/kotlin/com/javiersc/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 10,
+      "offset": 19,
+      "length": 14,
+      "code": {
+        "startLine": 8,
+        "length": 14,
+        "offset": 85,
+        "surroundingCode": "public actual fun <T> runBlocking(\n    context: CoroutineContext,\n    block: suspend CoroutineScope.() -> T\n): T = runBlocking(context, block)"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.run-blocking-core.nativeMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "7187137323612100366"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[MISSING_DEPENDENCY_CLASS] Cannot access class 'org.gradle.accessors.dm.LibrariesForLibs'. Check your module classpath for missing or conflicting dependencies",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "run-blocking-core/build.gradle.kts",
+      "language": "kotlin",
+      "line": 33,
+      "offset": 42,
+      "length": 4,
+      "code": {
+        "startLine": 31,
+        "length": 4,
+        "offset": 95,
+        "surroundingCode": "    sourceSets {\n        val commonMain by getting {\n            dependencies { implementation(libs.jetbrains.kotlinx.kotlinxCoroutinesCore) }\n        }\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.run-blocking-core",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "-6184519175940184534"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[UNRESOLVED_REFERENCE_WRONG_RECEIVER] Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: \npublic val OrgPluginGroup.jetbrains: OrgJetbrainsPluginGroup defined in org.gradle.kotlin.dsl",
   "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
   "sources": [
     {
@@ -285,7 +1053,7 @@
     "module": "run-blocking-kmp.run-blocking-core",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "-8041855635888450769"
+  "hash": "-5164498926563151709"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -295,21 +1063,21 @@
     "Sanity"
   ],
   "severity": "Critical",
-  "comment": "[UNRESOLVED_REFERENCE_WRONG_RECEIVER] Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: \npublic val OrgJetbrainsPluginGroup.kotlinx: OrgJetbrainsKotlinxPluginGroup defined in org.gradle.kotlin.dsl",
+  "comment": "[MISSING_DEPENDENCY_CLASS] Cannot access class 'org.gradle.accessors.dm.LibrariesForLibs'. Check your module classpath for missing or conflicting dependencies",
   "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
   "sources": [
     {
       "type": "file",
       "path": "run-blocking-core/build.gradle.kts",
       "language": "kotlin",
-      "line": 33,
-      "offset": 57,
-      "length": 7,
+      "line": 38,
+      "offset": 31,
+      "length": 4,
       "code": {
-        "startLine": 31,
-        "length": 7,
-        "offset": 110,
-        "surroundingCode": "    sourceSets {\n        val commonMain by getting {\n            dependencies { implementation(libs.jetbrains.kotlinx.kotlinxCoroutinesCore) }\n        }\n"
+        "startLine": 36,
+        "length": 4,
+        "offset": 79,
+        "surroundingCode": "        commonTest {\n            dependencies {\n                implementation(libs.bundles.testing)\n            }\n        }"
       }
     }
   ],
@@ -317,7 +1085,7 @@
     "module": "run-blocking-kmp.run-blocking-core",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "-7624528824928553495"
+  "hash": "-9185188508028098084"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -327,7 +1095,7 @@
     "Sanity"
   ],
   "severity": "Critical",
-  "comment": "[MISSING_DEPENDENCY_CLASS] Cannot access class 'org.gradle.accessors.dm.LibrariesForLibs.BundleAccessors'. Check your module classpath for missing or conflicting dependencies",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: bundles",
   "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
   "sources": [
     {
@@ -349,37 +1117,5 @@
     "module": "run-blocking-kmp.run-blocking-core",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "459434778228001400"
-},{
-  "tool": "Code Inspection",
-  "category": "General",
-  "type": "Kotlin annotator",
-  "tags": [
-    "kotlin",
-    "Sanity"
-  ],
-  "severity": "Critical",
-  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: testing",
-  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "run-blocking-core/build.gradle.kts",
-      "language": "kotlin",
-      "line": 38,
-      "offset": 44,
-      "length": 7,
-      "code": {
-        "startLine": 36,
-        "length": 7,
-        "offset": 92,
-        "surroundingCode": "        commonTest {\n            dependencies {\n                implementation(libs.bundles.testing)\n            }\n        }"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "run-blocking-kmp.run-blocking-core",
-    "inspectionName": "KotlinAnnotator"
-  },
-  "hash": "5244988354436284792"
+  "hash": "-7495698167277636263"
 }]}
