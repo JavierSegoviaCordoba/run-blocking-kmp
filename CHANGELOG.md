@@ -14,6 +14,8 @@
 
 ### Updated
 
+- `org.jetbrains.kotlinx:kotlinx-coroutines-test -> 1.6.1`
+- `org.jetbrains.kotlinx:kotlinx-coroutines-core -> 1.6.1`
 - `gradle -> 7.4.2`
 - `com.javiersc.gradle-plugins:all-plugins -> 0.1.0-rc.42`
 - `org.jetbrains.kotlin:kotlin-gradle-plugin -> 1.6.20`
