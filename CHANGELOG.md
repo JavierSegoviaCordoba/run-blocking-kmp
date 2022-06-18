@@ -14,12 +14,12 @@
 
 ### Updated
 
+- `com.javiersc.gradle-plugins:all-plugins -> 0.1.0-rc.45`
 - `org.jetbrains.kotlinx:binary-compatibility-validator -> 0.10.0`
 - `org.jetbrains.kotlin:kotlin-gradle-plugin -> 1.6.21`
 - `org.jetbrains.kotlinx:kotlinx-coroutines-test -> 1.6.1`
 - `org.jetbrains.kotlinx:kotlinx-coroutines-core -> 1.6.1`
 - `gradle -> 7.4.2`
-- `com.javiersc.gradle-plugins:all-plugins -> 0.1.0-rc.42`
 
 ## [0.1.0-beta.3] - 2021-12-28
 
