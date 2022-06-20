@@ -2,28 +2,36 @@
   "gradleJvm": "#JAVA_HOME",
   "libraries": [
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-iosarm64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-iosarm64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-iosarm64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-iosarm64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-core-iosarm64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-iosarm64:klib:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-iosarm64:klib:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-iosarm64:klib:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-iosarm64:klib:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-iosarm64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-iosarm64:klib:cinterop-interop:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-iosarm64:klib:cinterop-interop:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-iosarm64:klib:cinterop-interop:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-iosarm64:klib:cinterop-interop:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-iosarm64",
-      "version": "0.17.0"
+      "version": "0.17.3"
+    },
+    {
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.3",
+      "unresolved": false,
+      "groupId": "org.jetbrains.kotlinx",
+      "artifactId": "kotlinx-coroutines-core",
+      "version": "1.6.3"
     },
     {
       "ideaName": "Kotlin/Native 1.6.21 - stdlib",
@@ -32,52 +40,52 @@
       "artifactId": "Kotlin/Native 1.6.21 - stdlib"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-iossimulatorarm64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-iossimulatorarm64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-iossimulatorarm64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-iossimulatorarm64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-core-iossimulatorarm64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-iossimulatorarm64:klib:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-iossimulatorarm64:klib:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-iossimulatorarm64:klib:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-iossimulatorarm64:klib:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-iossimulatorarm64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-iossimulatorarm64:klib:cinterop-interop:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-iossimulatorarm64:klib:cinterop-interop:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-iossimulatorarm64:klib:cinterop-interop:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-iossimulatorarm64:klib:cinterop-interop:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-iossimulatorarm64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-iosx64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-iosx64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-iosx64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-iosx64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-core-iosx64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-iosx64:klib:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-iosx64:klib:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-iosx64:klib:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-iosx64:klib:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-iosx64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-iosx64:klib:cinterop-interop:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-iosx64:klib:cinterop-interop:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-iosx64:klib:cinterop-interop:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-iosx64:klib:cinterop-interop:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-iosx64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
       "ideaName": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21",
@@ -88,12 +96,12 @@
       "version": "1.6.21"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-core-jvm",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
       "ideaName": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21",
@@ -184,36 +192,36 @@
       "version": "1.6.0"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-linuxx64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-linuxx64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-linuxx64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-linuxx64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-core-linuxx64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-linuxx64:klib:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-linuxx64:klib:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-linuxx64:klib:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-linuxx64:klib:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-linuxx64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-linuxx64:klib:cinterop-interop:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-linuxx64:klib:cinterop-interop:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-linuxx64:klib:cinterop-interop:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-linuxx64:klib:cinterop-interop:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-linuxx64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeOtherMain:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeOtherMain:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeOtherMain:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeOtherMain:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-core",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
       "ideaName": "Kotlin/Native 1.6.21 - builtin | linux_x64",
@@ -228,6 +236,12 @@
       "artifactId": "Kotlin/Native 1.6.21 - linux | linux_x64"
     },
     {
+      "ideaName": "Kotlin/Native 1.6.21 - zlib | linux_x64",
+      "gradleName": "Kotlin/Native 1.6.21 - zlib | linux_x64",
+      "unresolved": false,
+      "artifactId": "Kotlin/Native 1.6.21 - zlib | linux_x64"
+    },
+    {
       "ideaName": "Kotlin/Native 1.6.21 - iconv | linux_x64",
       "gradleName": "Kotlin/Native 1.6.21 - iconv | linux_x64",
       "unresolved": false,
@@ -240,82 +254,76 @@
       "artifactId": "Kotlin/Native 1.6.21 - posix | linux_x64"
     },
     {
-      "ideaName": "Kotlin/Native 1.6.21 - zlib | linux_x64",
-      "gradleName": "Kotlin/Native 1.6.21 - zlib | linux_x64",
-      "unresolved": false,
-      "artifactId": "Kotlin/Native 1.6.21 - zlib | linux_x64"
-    },
-    {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-macosarm64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-macosarm64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-macosarm64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-macosarm64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-core-macosarm64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-macosarm64:klib:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-macosarm64:klib:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-macosarm64:klib:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-macosarm64:klib:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-macosarm64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-macosarm64:klib:cinterop-interop:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-macosarm64:klib:cinterop-interop:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-macosarm64:klib:cinterop-interop:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-macosarm64:klib:cinterop-interop:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-macosarm64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-macosx64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-macosx64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-macosx64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-macosx64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-core-macosx64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-macosx64:klib:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-macosx64:klib:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-macosx64:klib:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-macosx64:klib:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-macosx64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-macosx64:klib:cinterop-interop:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-macosx64:klib:cinterop-interop:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-macosx64:klib:cinterop-interop:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-macosx64:klib:cinterop-interop:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-macosx64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-mingwx64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-mingwx64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-mingwx64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-mingwx64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-core-mingwx64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-mingwx64:klib:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-mingwx64:klib:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-mingwx64:klib:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-mingwx64:klib:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-mingwx64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-mingwx64:klib:cinterop-interop:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-mingwx64:klib:cinterop-interop:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-mingwx64:klib:cinterop-interop:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-mingwx64:klib:cinterop-interop:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-mingwx64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
       "ideaName": "Kotlin/Native 1.6.21 - builtin | mingw_x64",
@@ -324,10 +332,10 @@
       "artifactId": "Kotlin/Native 1.6.21 - builtin | mingw_x64"
     },
     {
-      "ideaName": "Kotlin/Native 1.6.21 - windows | mingw_x64",
-      "gradleName": "Kotlin/Native 1.6.21 - windows | mingw_x64",
+      "ideaName": "Kotlin/Native 1.6.21 - zlib | mingw_x64",
+      "gradleName": "Kotlin/Native 1.6.21 - zlib | mingw_x64",
       "unresolved": false,
-      "artifactId": "Kotlin/Native 1.6.21 - windows | mingw_x64"
+      "artifactId": "Kotlin/Native 1.6.21 - zlib | mingw_x64"
     },
     {
       "ideaName": "Kotlin/Native 1.6.21 - gdiplus | mingw_x64",
@@ -342,166 +350,166 @@
       "artifactId": "Kotlin/Native 1.6.21 - iconv | mingw_x64"
     },
     {
-      "ideaName": "Kotlin/Native 1.6.21 - posix | mingw_x64",
-      "gradleName": "Kotlin/Native 1.6.21 - posix | mingw_x64",
-      "unresolved": false,
-      "artifactId": "Kotlin/Native 1.6.21 - posix | mingw_x64"
-    },
-    {
-      "ideaName": "Kotlin/Native 1.6.21 - zlib | mingw_x64",
-      "gradleName": "Kotlin/Native 1.6.21 - zlib | mingw_x64",
-      "unresolved": false,
-      "artifactId": "Kotlin/Native 1.6.21 - zlib | mingw_x64"
-    },
-    {
       "ideaName": "Kotlin/Native 1.6.21 - opengl32 | mingw_x64",
       "gradleName": "Kotlin/Native 1.6.21 - opengl32 | mingw_x64",
       "unresolved": false,
       "artifactId": "Kotlin/Native 1.6.21 - opengl32 | mingw_x64"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-tvosarm64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-tvosarm64:klib:1.6.1",
+      "ideaName": "Kotlin/Native 1.6.21 - windows | mingw_x64",
+      "gradleName": "Kotlin/Native 1.6.21 - windows | mingw_x64",
+      "unresolved": false,
+      "artifactId": "Kotlin/Native 1.6.21 - windows | mingw_x64"
+    },
+    {
+      "ideaName": "Kotlin/Native 1.6.21 - posix | mingw_x64",
+      "gradleName": "Kotlin/Native 1.6.21 - posix | mingw_x64",
+      "unresolved": false,
+      "artifactId": "Kotlin/Native 1.6.21 - posix | mingw_x64"
+    },
+    {
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-tvosarm64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-tvosarm64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-core-tvosarm64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-tvosarm64:klib:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-tvosarm64:klib:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-tvosarm64:klib:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-tvosarm64:klib:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-tvosarm64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-tvosarm64:klib:cinterop-interop:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-tvosarm64:klib:cinterop-interop:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-tvosarm64:klib:cinterop-interop:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-tvosarm64:klib:cinterop-interop:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-tvosarm64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-tvossimulatorarm64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-tvossimulatorarm64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-tvossimulatorarm64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-tvossimulatorarm64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-core-tvossimulatorarm64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-tvossimulatorarm64:klib:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-tvossimulatorarm64:klib:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-tvossimulatorarm64:klib:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-tvossimulatorarm64:klib:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-tvossimulatorarm64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-tvossimulatorarm64:klib:cinterop-interop:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-tvossimulatorarm64:klib:cinterop-interop:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-tvossimulatorarm64:klib:cinterop-interop:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-tvossimulatorarm64:klib:cinterop-interop:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-tvossimulatorarm64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-tvosx64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-tvosx64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-tvosx64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-tvosx64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-core-tvosx64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-tvosx64:klib:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-tvosx64:klib:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-tvosx64:klib:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-tvosx64:klib:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-tvosx64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-tvosx64:klib:cinterop-interop:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-tvosx64:klib:cinterop-interop:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-tvosx64:klib:cinterop-interop:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-tvosx64:klib:cinterop-interop:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-tvosx64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-watchosarm64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-watchosarm64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-watchosarm64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-watchosarm64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-core-watchosarm64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-watchosarm64:klib:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-watchosarm64:klib:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-watchosarm64:klib:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-watchosarm64:klib:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-watchosarm64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-watchosarm64:klib:cinterop-interop:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-watchosarm64:klib:cinterop-interop:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-watchosarm64:klib:cinterop-interop:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-watchosarm64:klib:cinterop-interop:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-watchosarm64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-watchossimulatorarm64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-watchossimulatorarm64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-watchossimulatorarm64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-watchossimulatorarm64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-core-watchossimulatorarm64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-watchossimulatorarm64:klib:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-watchossimulatorarm64:klib:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-watchossimulatorarm64:klib:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-watchossimulatorarm64:klib:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-watchossimulatorarm64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-watchossimulatorarm64:klib:cinterop-interop:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-watchossimulatorarm64:klib:cinterop-interop:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-watchossimulatorarm64:klib:cinterop-interop:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-watchossimulatorarm64:klib:cinterop-interop:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-watchossimulatorarm64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-watchosx64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-watchosx64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-watchosx64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-watchosx64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-core-watchosx64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-watchosx64:klib:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-watchosx64:klib:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-watchosx64:klib:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-watchosx64:klib:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-watchosx64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-watchosx64:klib:cinterop-interop:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-watchosx64:klib:cinterop-interop:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-watchosx64:klib:cinterop-interop:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-watchosx64:klib:cinterop-interop:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-watchosx64",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
       "ideaName": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.21",
@@ -512,20 +520,20 @@
       "version": "1.6.21"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-core",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-core",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
       "ideaName": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.6.21",
@@ -544,42 +552,48 @@
       "version": "1.6.21"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-core",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu:commonMain:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
       "ideaName": "Kotlin/Native 1.6.21 - builtin | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
       "gradleName": "Kotlin/Native 1.6.21 - builtin | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
       "unresolved": false,
       "artifactId": "Kotlin/Native 1.6.21 - builtin | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]"
+    },
+    {
+      "ideaName": "Kotlin/Native 1.6.21 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+      "gradleName": "Kotlin/Native 1.6.21 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+      "unresolved": false,
+      "artifactId": "Kotlin/Native 1.6.21 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]"
     },
     {
       "ideaName": "Kotlin/Native 1.6.21 - iconv | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
@@ -594,34 +608,28 @@
       "artifactId": "Kotlin/Native 1.6.21 - posix | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]"
     },
     {
-      "ideaName": "Kotlin/Native 1.6.21 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
-      "gradleName": "Kotlin/Native 1.6.21 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
-      "unresolved": false,
-      "artifactId": "Kotlin/Native 1.6.21 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]"
-    },
-    {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-iosarm64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-iosarm64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-iosarm64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-iosarm64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-test-iosarm64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-iossimulatorarm64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-iossimulatorarm64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-iossimulatorarm64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-iossimulatorarm64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-test-iossimulatorarm64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-iosx64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-iosx64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-iosx64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-iosx64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-test-iosx64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
       "ideaName": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-js:1.6.21",
@@ -632,60 +640,60 @@
       "version": "1.6.21"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-js:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-js:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-js:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-js:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-test-js",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-js:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-js:0.17.0",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-js:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-js:0.17.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "atomicfu-js",
-      "version": "0.17.0"
+      "version": "0.17.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-core-js",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-js:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-js:klib:1.6.1",
-      "unresolved": false,
-      "groupId": "org.jetbrains.kotlinx",
-      "artifactId": "kotlinx-coroutines-test-js",
-      "version": "1.6.1"
-    },
-    {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-js:klib:0.17.0",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-js:klib:0.17.0",
-      "unresolved": false,
-      "groupId": "org.jetbrains.kotlinx",
-      "artifactId": "atomicfu-js",
-      "version": "0.17.0"
-    },
-    {
-      "ideaName": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-js:1.6.0",
-      "gradleName": "org.jetbrains.kotlin:kotlin-stdlib-js:1.6.0",
+      "ideaName": "Gradle: org.jetbrains.kotlin:atomicfu:1.6.21",
+      "gradleName": "org.jetbrains.kotlin:atomicfu:1.6.21",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlin",
-      "artifactId": "kotlin-stdlib-js",
-      "version": "1.6.0"
+      "artifactId": "atomicfu",
+      "version": "1.6.21"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-js:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-js:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-js:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-js:klib:1.6.3",
+      "unresolved": false,
+      "groupId": "org.jetbrains.kotlinx",
+      "artifactId": "kotlinx-coroutines-test-js",
+      "version": "1.6.3"
+    },
+    {
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-js:klib:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-js:klib:0.17.3",
+      "unresolved": false,
+      "groupId": "org.jetbrains.kotlinx",
+      "artifactId": "atomicfu-js",
+      "version": "0.17.3"
+    },
+    {
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-js:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-js:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-core-js",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
       "ideaName": "Gradle: org.jetbrains.kotlin:kotlin-test-js:1.6.21",
@@ -696,108 +704,108 @@
       "version": "1.6.21"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-jvm:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-jvm:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-jvm:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-jvm:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-test-jvm",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-linuxx64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-linuxx64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-linuxx64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-linuxx64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-test-linuxx64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-macosarm64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-macosarm64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-macosarm64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-macosarm64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-test-macosarm64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-macosx64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-macosx64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-macosx64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-macosx64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-test-macosx64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-mingwx64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-mingwx64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-mingwx64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-mingwx64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-test-mingwx64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-tvosarm64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-tvosarm64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-tvosarm64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-tvosarm64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-test-tvosarm64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-tvossimulatorarm64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-tvossimulatorarm64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-tvossimulatorarm64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-tvossimulatorarm64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-test-tvossimulatorarm64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-tvosx64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-tvosx64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-tvosx64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-tvosx64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-test-tvosx64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-watchosarm64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-watchosarm64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-watchosarm64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-watchosarm64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-test-watchosarm64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-watchossimulatorarm64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-watchossimulatorarm64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-watchossimulatorarm64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-watchossimulatorarm64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-test-watchossimulatorarm64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-watchosx64:klib:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-watchosx64:klib:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-watchosx64:klib:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-watchosx64:klib:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-test-watchosx64",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-test",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:nativeMain:1.6.1",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test:nativeMain:1.6.1",
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:nativeMain:1.6.3",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test:nativeMain:1.6.3",
       "unresolved": false,
       "groupId": "org.jetbrains.kotlinx",
       "artifactId": "kotlinx-coroutines-test",
-      "version": "1.6.1"
+      "version": "1.6.3"
     },
     {
       "ideaName": "Gradle: com.javiersc.gradle-plugins:all-plugins:0.1.0-rc.42",
