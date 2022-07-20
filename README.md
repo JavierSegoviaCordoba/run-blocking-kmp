@@ -1,11 +1,11 @@
-![Kotlin version](https://img.shields.io/badge/kotlin-1.6.10-blueviolet?logo=kotlin&logoColor=white)
-[![MavenCentral](https://img.shields.io/maven-central/v/com.javiersc.run-blocking/run-blocking-core?label=MavenCentral)](https://repo1.maven.org/maven2/com/javiersc/run-blocking/run-blocking-core/)
-[![Snapshot](https://img.shields.io/nexus/s/com.javiersc.run-blocking/run-blocking-core?server=https%3A%2F%2Foss.sonatype.org%2F&label=Snapshot)](https://oss.sonatype.org/content/repositories/snapshots/com/javiersc/run-blocking/run-blocking-core/)
+![Kotlin version](https://img.shields.io/badge/kotlin-1.7.10-blueviolet?logo=kotlin&logoColor=white)
+[![MavenCentral](https://img.shields.io/maven-central/v/com.javiersc.kotlinx/run-blocking-core?label=MavenCentral)](https://repo1.maven.org/maven2/com/javiersc/kotlinx/run-blocking-core/)
+[![Snapshot](https://img.shields.io/nexus/s/com.javiersc.kotlinx/run-blocking-core?server=https%3A%2F%2Foss.sonatype.org%2F&label=Snapshot)](https://oss.sonatype.org/content/repositories/snapshots/com/javiersc/kotlinx/run-blocking-core/)
 
 [![Build](https://img.shields.io/github/workflow/status/JavierSegoviaCordoba/run-blocking-kmp/build-kotlin?label=Build&logo=GitHub)](https://github.com/JavierSegoviaCordoba/run-blocking-kmp/tree/main)
-[![Coverage](https://img.shields.io/sonar/coverage/com.javiersc.run-blocking:run-blocking-kmp?label=Coverage&logo=SonarCloud&logoColor=white&server=https%3A%2F%2Fsonarcloud.io)](https://sonarcloud.io/dashboard?id=com.javiersc.run-blocking:run-blocking-kmp)
-[![Quality](https://img.shields.io/sonar/quality_gate/com.javiersc.run-blocking:run-blocking-kmp?label=Quality&logo=SonarCloud&logoColor=white&server=https%3A%2F%2Fsonarcloud.io)](https://sonarcloud.io/dashboard?id=com.javiersc.run-blocking:run-blocking-kmp)
-[![Tech debt](https://img.shields.io/sonar/tech_debt/com.javiersc.run-blocking:run-blocking-kmp?label=Tech%20debt&logo=SonarCloud&logoColor=white&server=https%3A%2F%2Fsonarcloud.io)](https://sonarcloud.io/dashboard?id=com.javiersc.run-blocking:run-blocking-kmp)
+[![Coverage](https://img.shields.io/sonar/coverage/com.javiersc.kotlinx:run-blocking-kmp?label=Coverage&logo=SonarCloud&logoColor=white&server=https%3A%2F%2Fsonarcloud.io)](https://sonarcloud.io/dashboard?id=com.javiersc.kotlinx:run-blocking-kmp)
+[![Quality](https://img.shields.io/sonar/quality_gate/com.javiersc.kotlinx:run-blocking-kmp?label=Quality&logo=SonarCloud&logoColor=white&server=https%3A%2F%2Fsonarcloud.io)](https://sonarcloud.io/dashboard?id=com.javiersc.kotlinx:run-blocking-kmp)
+[![Tech debt](https://img.shields.io/sonar/tech_debt/com.javiersc.kotlinx:run-blocking-kmp?label=Tech%20debt&logo=SonarCloud&logoColor=white&server=https%3A%2F%2Fsonarcloud.io)](https://sonarcloud.io/dashboard?id=com.javiersc.kotlinx:run-blocking-kmp)
 
 # RunBlocking KMP
 
