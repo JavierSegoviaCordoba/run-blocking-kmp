@@ -8,22 +8,20 @@
       "properties": {}
     },
     {
-      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.4",
-      "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/commonMain/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-test/org.jetbrains.kotlinx-kotlinx-coroutines-test-commonMain.klib!/"
-      ]
-    },
-    {
       "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/commonMain/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-commonMain.klib!/"
-      ]
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/commonMain/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-commonMain.klib!/",
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/commonMain/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-commonMain.klib!/"
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.11",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/commonMain/implementation/com.javiersc.kotlin-kotlin-stdlib/com.javiersc.kotlin-kotlin-stdlib-commonMain.klib!/"
-      ]
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/commonMain/implementation/com.javiersc.kotlin-kotlin-stdlib/com.javiersc.kotlin-kotlin-stdlib-commonMain.klib!/",
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/commonMain/implementation/com.javiersc.kotlin-kotlin-stdlib/com.javiersc.kotlin-kotlin-stdlib-commonMain.klib!/"
+      ],
+      "properties": {}
     },
     {
       "name": "Kotlin/Native 1.7.10 - stdlib",
@@ -61,65 +59,82 @@
       "properties": {}
     },
     {
-      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:nativeMain:1.6.4",
-      "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-test/org.jetbrains.kotlinx-kotlinx-coroutines-test-nativeMain.klib!/"
-      ],
-      "properties": {}
-    },
-    {
       "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-concurrentMain.klib!/"
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-concurrentMain.klib!/"
       ]
     },
     {
       "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-nativeMain.klib!/"
-      ]
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-nativeMain.klib!/",
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-nativeMain.klib!/"
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-commonMain.klib!/"
-      ]
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-commonMain.klib!/",
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-commonMain.klib!/"
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-nativeInterop.klib!/"
-      ]
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-nativeInterop.klib!/",
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-nativeInterop.klib!/"
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-nativeMain.klib!/"
-      ]
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-nativeMain.klib!/",
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-nativeMain.klib!/"
+      ],
+      "properties": {}
+    },
+    {
+      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.4",
+      "roots": [
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/commonTest/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-test/org.jetbrains.kotlinx-kotlinx-coroutines-test-commonMain.klib!/",
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/commonTest/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-test/org.jetbrains.kotlinx-kotlinx-coroutines-test-commonMain.klib!/"
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: io.kotest:kotest-assertions-core:commonMain:5.3.2",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/commonTest/implementation/io.kotest-kotest-assertions-core/io.kotest-kotest-assertions-core-commonMain.klib!/"
-      ]
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/commonTest/implementation/io.kotest-kotest-assertions-core/io.kotest-kotest-assertions-core-commonMain.klib!/",
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/commonTest/implementation/io.kotest-kotest-assertions-core/io.kotest-kotest-assertions-core-commonMain.klib!/"
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5:commonMain:0.1.0-alpha.11",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/commonTest/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-commonMain.klib!/"
-      ]
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/commonTest/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-commonMain.klib!/",
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/commonTest/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-commonMain.klib!/"
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: io.kotest:kotest-assertions-shared:commonMain:5.3.2",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/commonTest/implementation/io.kotest-kotest-assertions-shared/io.kotest-kotest-assertions-shared-commonMain.klib!/"
-      ]
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/commonTest/implementation/io.kotest-kotest-assertions-shared/io.kotest-kotest-assertions-shared-commonMain.klib!/",
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/commonTest/implementation/io.kotest-kotest-assertions-shared/io.kotest-kotest-assertions-shared-commonMain.klib!/"
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: io.kotest:kotest-assertions-api:commonMain:5.3.2",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/commonTest/implementation/io.kotest-kotest-assertions-api/io.kotest-kotest-assertions-api-commonMain.klib!/"
-      ]
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/commonTest/implementation/io.kotest-kotest-assertions-api/io.kotest-kotest-assertions-api-commonMain.klib!/",
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/commonTest/implementation/io.kotest-kotest-assertions-api/io.kotest-kotest-assertions-api-commonMain.klib!/"
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.6.21",
@@ -136,13 +151,6 @@
       "properties": {}
     },
     {
-      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-watchosx64:klib:1.6.4",
-      "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-watchosx64/1.6.4/20a89b7ccf0675ae83db37c9dbb93e56c595fb2/kotlinx-coroutines-test.klib!/"
-      ],
-      "properties": {}
-    },
-    {
       "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-watchosx64:klib:1.6.4",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-watchosx64/1.6.4/76bcaeb199c94e14a7a852dd255d8e6257d72100/kotlinx-coroutines-core.klib!/"
@@ -152,7 +160,7 @@
     {
       "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/watchosX64Main/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-nativeDarwinMain.klib!/"
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/watchosX64Main/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-nativeDarwinMain.klib!/"
       ]
     },
     {
@@ -177,6 +185,13 @@
       "properties": {}
     },
     {
+      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-watchosx64:klib:1.6.4",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-watchosx64/1.6.4/20a89b7ccf0675ae83db37c9dbb93e56c595fb2/kotlinx-coroutines-test.klib!/"
+      ],
+      "properties": {}
+    },
+    {
       "name": "Gradle: io.kotest:kotest-assertions-core-watchosx64:klib:5.3.2",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.kotest/kotest-assertions-core-watchosx64/5.3.2/b3ced726d425ee43f196b86e84cfe7332b11cc19/kotest-assertions-core.klib!/"
@@ -193,13 +208,13 @@
     {
       "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5:darwinMain:0.1.0-alpha.11",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/watchosX64Test/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-darwinMain.klib!/"
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/watchosX64Test/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-darwinMain.klib!/"
       ]
     },
     {
       "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5:watchosMain:0.1.0-alpha.11",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/watchosX64Test/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-watchosMain.klib!/"
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/watchosX64Test/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-watchosMain.klib!/"
       ]
     },
     {
@@ -242,13 +257,6 @@
       ]
     },
     {
-      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-watchossimulatorarm64:klib:1.6.4",
-      "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-watchossimulatorarm64/1.6.4/3333cd941f8e1568c793337ab173e2274cd23727/kotlinx-coroutines-test.klib!/"
-      ],
-      "properties": {}
-    },
-    {
       "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-watchossimulatorarm64:klib:1.6.4",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-watchossimulatorarm64/1.6.4/3d380259ac557a21487f4852187d3b9adda71bd9/kotlinx-coroutines-core.klib!/"
@@ -273,6 +281,13 @@
       "name": "Gradle: org.jetbrains.kotlinx:atomicfu-watchossimulatorarm64:klib:cinterop-interop:0.17.3",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-watchossimulatorarm64/0.17.3/141979435769f13b422f23fcda53e49daf3c1380/atomicfu-cinterop-interop.klib!/"
+      ],
+      "properties": {}
+    },
+    {
+      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-watchossimulatorarm64:klib:1.6.4",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-watchossimulatorarm64/1.6.4/3333cd941f8e1568c793337ab173e2274cd23727/kotlinx-coroutines-test.klib!/"
       ],
       "properties": {}
     },
@@ -312,13 +327,6 @@
       "properties": {}
     },
     {
-      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-watchosarm64:klib:1.6.4",
-      "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-watchosarm64/1.6.4/2ed8454210d8c0c17d9f2131e8a1a1988b90cfe2/kotlinx-coroutines-test.klib!/"
-      ],
-      "properties": {}
-    },
-    {
       "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-watchosarm64:klib:1.6.4",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-watchosarm64/1.6.4/ccbf39bfbcf12683f6794c7decc37c782f2f9703/kotlinx-coroutines-core.klib!/"
@@ -343,6 +351,13 @@
       "name": "Gradle: org.jetbrains.kotlinx:atomicfu-watchosarm64:klib:cinterop-interop:0.17.3",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-watchosarm64/0.17.3/69b63d3b5057ff56fafee169a8126d0c346ac280/atomicfu-cinterop-interop.klib!/"
+      ],
+      "properties": {}
+    },
+    {
+      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-watchosarm64:klib:1.6.4",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-watchosarm64/1.6.4/2ed8454210d8c0c17d9f2131e8a1a1988b90cfe2/kotlinx-coroutines-test.klib!/"
       ],
       "properties": {}
     },
@@ -382,13 +397,6 @@
       "properties": {}
     },
     {
-      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-tvosx64:klib:1.6.4",
-      "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-tvosx64/1.6.4/4e4a78f984c6f8b2ee3a2452d5f4cdf5a4dce839/kotlinx-coroutines-test.klib!/"
-      ],
-      "properties": {}
-    },
-    {
       "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-tvosx64:klib:1.6.4",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-tvosx64/1.6.4/f0d33dd196116feaf3a71f580db3ee6c8e41cf78/kotlinx-coroutines-core.klib!/"
@@ -417,6 +425,13 @@
       "properties": {}
     },
     {
+      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-tvosx64:klib:1.6.4",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-tvosx64/1.6.4/4e4a78f984c6f8b2ee3a2452d5f4cdf5a4dce839/kotlinx-coroutines-test.klib!/"
+      ],
+      "properties": {}
+    },
+    {
       "name": "Gradle: io.kotest:kotest-assertions-core-tvosx64:klib:5.3.2",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.kotest/kotest-assertions-core-tvosx64/5.3.2/3593463e93dec3d0fcd3da703bcdb4bf13ea34c2/kotest-assertions-core.klib!/"
@@ -433,7 +448,7 @@
     {
       "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5:tvosMain:0.1.0-alpha.11",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/tvosX64Test/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-tvosMain.klib!/"
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/tvosX64Test/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-tvosMain.klib!/"
       ]
     },
     {
@@ -454,13 +469,6 @@
       "name": "Gradle: io.kotest:kotest-assertions-api-tvosx64:klib:5.3.2",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.kotest/kotest-assertions-api-tvosx64/5.3.2/50aad0edc3e2cbbde857a5e20369a56ec1318d6d/kotest-assertions-api.klib!/"
-      ],
-      "properties": {}
-    },
-    {
-      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-tvossimulatorarm64:klib:1.6.4",
-      "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-tvossimulatorarm64/1.6.4/4334fa97109f2beb50a920459ff5667208eaef6b/kotlinx-coroutines-test.klib!/"
       ],
       "properties": {}
     },
@@ -489,6 +497,13 @@
       "name": "Gradle: org.jetbrains.kotlinx:atomicfu-tvossimulatorarm64:klib:cinterop-interop:0.17.3",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-tvossimulatorarm64/0.17.3/d62c7af7b956ca47dd7ab5faf33e0894c92e54b5/atomicfu-cinterop-interop.klib!/"
+      ],
+      "properties": {}
+    },
+    {
+      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-tvossimulatorarm64:klib:1.6.4",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-tvossimulatorarm64/1.6.4/4334fa97109f2beb50a920459ff5667208eaef6b/kotlinx-coroutines-test.klib!/"
       ],
       "properties": {}
     },
@@ -528,13 +543,6 @@
       "properties": {}
     },
     {
-      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-tvosarm64:klib:1.6.4",
-      "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-tvosarm64/1.6.4/3f6afbe3cac332830cd28f919a5aa6cba018150e/kotlinx-coroutines-test.klib!/"
-      ],
-      "properties": {}
-    },
-    {
       "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-tvosarm64:klib:1.6.4",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-tvosarm64/1.6.4/5b1faf4db44035222d455bf2244c3da49813d5de/kotlinx-coroutines-core.klib!/"
@@ -559,6 +567,13 @@
       "name": "Gradle: org.jetbrains.kotlinx:atomicfu-tvosarm64:klib:cinterop-interop:0.17.3",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-tvosarm64/0.17.3/8e09c671f05580ac9e72dca1d744e3efaf7a5393/atomicfu-cinterop-interop.klib!/"
+      ],
+      "properties": {}
+    },
+    {
+      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-tvosarm64:klib:1.6.4",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-tvosarm64/1.6.4/3f6afbe3cac332830cd28f919a5aa6cba018150e/kotlinx-coroutines-test.klib!/"
       ],
       "properties": {}
     },
@@ -647,13 +662,6 @@
       "properties": {}
     },
     {
-      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-mingwx64:klib:1.6.4",
-      "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-mingwx64/1.6.4/dc8b4ccddea84f71bd7de377dd1773ef03b7c1c3/kotlinx-coroutines-test.klib!/"
-      ],
-      "properties": {}
-    },
-    {
       "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-mingwx64:klib:1.6.4",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-mingwx64/1.6.4/4d1a8741d749cdc2cb92081aa81449f24b40272f/kotlinx-coroutines-core.klib!/"
@@ -663,7 +671,7 @@
     {
       "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeOtherMain:1.6.4",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/mingwX64Main/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-nativeOtherMain.klib!/"
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/mingwX64Main/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-nativeOtherMain.klib!/"
       ]
     },
     {
@@ -688,6 +696,13 @@
       "properties": {}
     },
     {
+      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-mingwx64:klib:1.6.4",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-mingwx64/1.6.4/dc8b4ccddea84f71bd7de377dd1773ef03b7c1c3/kotlinx-coroutines-test.klib!/"
+      ],
+      "properties": {}
+    },
+    {
       "name": "Gradle: io.kotest:kotest-assertions-core-mingwx64:klib:5.3.2",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.kotest/kotest-assertions-core-mingwx64/5.3.2/b8ea38139e28576a04ed592cd0a8bf04900d455f/kotest-assertions-core.klib!/"
@@ -704,8 +719,10 @@
     {
       "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5:mingwMain:0.1.0-alpha.11",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/mingwX64Test/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-mingwMain.klib!/"
-      ]
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/mingwX64Test/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-mingwMain.klib!/",
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/mingwX64Test/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-mingwMain.klib!/"
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: io.kotest:kotest-assertions-shared-mingwx64:klib:5.3.2",
@@ -725,13 +742,6 @@
       "name": "Gradle: io.kotest:kotest-assertions-api-mingwx64:klib:5.3.2",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.kotest/kotest-assertions-api-mingwx64/5.3.2/45b2b005a32919ac57304fe4cb1cc8ee5617e64b/kotest-assertions-api.klib!/"
-      ],
-      "properties": {}
-    },
-    {
-      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-macosx64:klib:1.6.4",
-      "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-macosx64/1.6.4/c25a51dfffee434ace2e4d4906160dc3404fd3a4/kotlinx-coroutines-test.klib!/"
       ],
       "properties": {}
     },
@@ -764,6 +774,13 @@
       "properties": {}
     },
     {
+      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-macosx64:klib:1.6.4",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-macosx64/1.6.4/c25a51dfffee434ace2e4d4906160dc3404fd3a4/kotlinx-coroutines-test.klib!/"
+      ],
+      "properties": {}
+    },
+    {
       "name": "Gradle: io.kotest:kotest-assertions-core-macosx64:klib:5.3.2",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.kotest/kotest-assertions-core-macosx64/5.3.2/7c9801bb944266338355a3891a90e9fd0c6eafdd/kotest-assertions-core.klib!/"
@@ -780,7 +797,7 @@
     {
       "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5:macosMain:0.1.0-alpha.11",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/macosX64Test/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-macosMain.klib!/"
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/macosX64Test/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-macosMain.klib!/"
       ]
     },
     {
@@ -801,13 +818,6 @@
       "name": "Gradle: io.kotest:kotest-assertions-api-macosx64:klib:5.3.2",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.kotest/kotest-assertions-api-macosx64/5.3.2/fd5bbaa65b366e0e3a1b1f038fd0ed0f6759baa/kotest-assertions-api.klib!/"
-      ],
-      "properties": {}
-    },
-    {
-      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-macosarm64:klib:1.6.4",
-      "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-macosarm64/1.6.4/952a7d834a89603ec07cd7935451bbc40af90b23/kotlinx-coroutines-test.klib!/"
       ],
       "properties": {}
     },
@@ -836,6 +846,13 @@
       "name": "Gradle: org.jetbrains.kotlinx:atomicfu-macosarm64:klib:cinterop-interop:0.17.3",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-macosarm64/0.17.3/644eb6d8a15e924b0072877d75aa6398a0c2758d/atomicfu-cinterop-interop.klib!/"
+      ],
+      "properties": {}
+    },
+    {
+      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-macosarm64:klib:1.6.4",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-macosarm64/1.6.4/952a7d834a89603ec07cd7935451bbc40af90b23/kotlinx-coroutines-test.klib!/"
       ],
       "properties": {}
     },
@@ -910,13 +927,6 @@
       "properties": {}
     },
     {
-      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-linuxx64:klib:1.6.4",
-      "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-linuxx64/1.6.4/4757f4ccaeca3c186c03adb80dd4125932850259/kotlinx-coroutines-test.klib!/"
-      ],
-      "properties": {}
-    },
-    {
       "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-linuxx64:klib:1.6.4",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-linuxx64/1.6.4/b000135c53056e0b032a7342b69a09b5bddccdcb/kotlinx-coroutines-core.klib!/"
@@ -945,6 +955,13 @@
       "properties": {}
     },
     {
+      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-linuxx64:klib:1.6.4",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-linuxx64/1.6.4/4757f4ccaeca3c186c03adb80dd4125932850259/kotlinx-coroutines-test.klib!/"
+      ],
+      "properties": {}
+    },
+    {
       "name": "Gradle: io.kotest:kotest-assertions-core-linuxx64:klib:5.3.2",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.kotest/kotest-assertions-core-linuxx64/5.3.2/c273905a6e0737442f9c60e543609fc89ce2aca5/kotest-assertions-core.klib!/"
@@ -961,8 +978,10 @@
     {
       "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5:linuxMain:0.1.0-alpha.11",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/linuxX64Test/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-linuxMain.klib!/"
-      ]
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/linuxX64Test/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-linuxMain.klib!/",
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/linuxX64Test/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-linuxMain.klib!/"
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: io.kotest:kotest-assertions-shared-linuxx64:klib:5.3.2",
@@ -998,12 +1017,6 @@
       ]
     },
     {
-      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-jvm:1.6.4",
-      "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-jvm/1.6.4/27cee4a22d4149a86095bb1b4f4c5f10fbd3be97/kotlinx-coroutines-test-jvm-1.6.4.jar!/"
-      ]
-    },
-    {
       "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib-jvm:0.1.0-alpha.11",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.javiersc.kotlin/kotlin-stdlib-jvm/0.1.0-alpha.11/1912fdb6b7874fa50a5893702b8d18b354a09a62/kotlin-stdlib-jvm-0.1.0-alpha.11.jar!/"
@@ -1025,6 +1038,12 @@
       "name": "Gradle: org.jetbrains.kotlin:kotlin-test:1.6.21",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.6.21/1e9d81b013e31b22da67464948869fc56c652527/kotlin-test-1.6.21.jar!/"
+      ]
+    },
+    {
+      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-jvm:1.6.4",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-jvm/1.6.4/27cee4a22d4149a86095bb1b4f4c5f10fbd3be97/kotlinx-coroutines-test-jvm-1.6.4.jar!/"
       ]
     },
     {
@@ -1119,23 +1138,9 @@
       "properties": {}
     },
     {
-      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-js:klib:1.6.4",
-      "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-js/1.6.4/fb67a9257d9f18db0c9c668229357faa15a2fc5a/kotlinx-coroutines-test-jsir-1.6.4.klib!/"
-      ],
-      "properties": {}
-    },
-    {
       "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-js:klib:1.6.4",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-js/1.6.4/791d62c16e6fad7cc9b1e6fafe88a3d454744d99/kotlinx-coroutines-core-jsir-1.6.4.klib!/"
-      ],
-      "properties": {}
-    },
-    {
-      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-js:1.6.4",
-      "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-js/1.6.4/aefc4a4123fc2265c59293875cb5e4d6638b8831/kotlinx-coroutines-test-jslegacy-1.6.4.jar!/"
       ],
       "properties": {}
     },
@@ -1182,13 +1187,27 @@
     },
     {
       "roots": [
-        "file://$PROJECT_DIR$/suspend-test/build/classes/kotlin/jsIr/main"
+        "file://$PROJECT_DIR$/coroutines-run-blocking-all/build/classes/kotlin/jsIr/main"
       ]
+    },
+    {
+      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-js:klib:1.6.4",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-js/1.6.4/fb67a9257d9f18db0c9c668229357faa15a2fc5a/kotlinx-coroutines-test-jsir-1.6.4.klib!/"
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: io.kotest:kotest-assertions-core-js:klib:5.3.2",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.kotest/kotest-assertions-core-js/5.3.2/dddb1e3102e1befd289f0b870faeb0c715118a4a/kotest-assertions-core-jsir-5.3.2.klib!/"
+      ],
+      "properties": {}
+    },
+    {
+      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-js:1.6.4",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-js/1.6.4/aefc4a4123fc2265c59293875cb5e4d6638b8831/kotlinx-coroutines-test-jslegacy-1.6.4.jar!/"
       ],
       "properties": {}
     },
@@ -1256,13 +1275,6 @@
       "properties": {}
     },
     {
-      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-iosx64:klib:1.6.4",
-      "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-iosx64/1.6.4/c96a7bb98086b672f7625aeed9583c73cac93d46/kotlinx-coroutines-test.klib!/"
-      ],
-      "properties": {}
-    },
-    {
       "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-iosx64:klib:1.6.4",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-iosx64/1.6.4/c1751e7f249c39b92efc0167d59dd90d974518d4/kotlinx-coroutines-core.klib!/"
@@ -1291,6 +1303,13 @@
       "properties": {}
     },
     {
+      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-iosx64:klib:1.6.4",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-iosx64/1.6.4/c96a7bb98086b672f7625aeed9583c73cac93d46/kotlinx-coroutines-test.klib!/"
+      ],
+      "properties": {}
+    },
+    {
       "name": "Gradle: io.kotest:kotest-assertions-core-iosx64:klib:5.3.2",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.kotest/kotest-assertions-core-iosx64/5.3.2/efbb406a3deb4c3f6b78d69b969ad69ff91e7bd5/kotest-assertions-core.klib!/"
@@ -1307,7 +1326,7 @@
     {
       "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5:iosMain:0.1.0-alpha.11",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/suspend-test.run-blocking-kmp/iosX64Test/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-iosMain.klib!/"
+        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/iosX64Test/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-iosMain.klib!/"
       ]
     },
     {
@@ -1328,13 +1347,6 @@
       "name": "Gradle: io.kotest:kotest-assertions-api-iosx64:klib:5.3.2",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.kotest/kotest-assertions-api-iosx64/5.3.2/f68c97ffc8b5afc2ba947172745feb687d203ac1/kotest-assertions-api.klib!/"
-      ],
-      "properties": {}
-    },
-    {
-      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-iossimulatorarm64:klib:1.6.4",
-      "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-iossimulatorarm64/1.6.4/e930c8c8f30b14a9539e0f576a91a0e9435d02a6/kotlinx-coroutines-test.klib!/"
       ],
       "properties": {}
     },
@@ -1363,6 +1375,13 @@
       "name": "Gradle: org.jetbrains.kotlinx:atomicfu-iossimulatorarm64:klib:cinterop-interop:0.17.3",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-iossimulatorarm64/0.17.3/70c1e50382073724ce1ae71468bf4347efe379ff/atomicfu-cinterop-interop.klib!/"
+      ],
+      "properties": {}
+    },
+    {
+      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-iossimulatorarm64:klib:1.6.4",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-iossimulatorarm64/1.6.4/e930c8c8f30b14a9539e0f576a91a0e9435d02a6/kotlinx-coroutines-test.klib!/"
       ],
       "properties": {}
     },
@@ -1402,13 +1421,6 @@
       "properties": {}
     },
     {
-      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-iosarm64:klib:1.6.4",
-      "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-iosarm64/1.6.4/5f719924d9b4db4cf6696ac0b6b26e625ab31ee1/kotlinx-coroutines-test.klib!/"
-      ],
-      "properties": {}
-    },
-    {
       "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-iosarm64:klib:1.6.4",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-iosarm64/1.6.4/1a61190a32fe8a172de2c0404fa374b3ecd05de7/kotlinx-coroutines-core.klib!/"
@@ -1433,6 +1445,13 @@
       "name": "Gradle: org.jetbrains.kotlinx:atomicfu-iosarm64:klib:cinterop-interop:0.17.3",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-iosarm64/0.17.3/2dadd2e3238613df736b50e8c63f78ac08f28199/atomicfu-cinterop-interop.klib!/"
+      ],
+      "properties": {}
+    },
+    {
+      "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-iosarm64:klib:1.6.4",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-test-iosarm64/1.6.4/5f719924d9b4db4cf6696ac0b6b26e625ab31ee1/kotlinx-coroutines-test.klib!/"
       ],
       "properties": {}
     },

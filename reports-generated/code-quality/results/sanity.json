@@ -135,7 +135,7 @@
   "sources": [
     {
       "type": "file",
-      "path": "run-blocking-all/build.gradle.kts",
+      "path": "coroutines-run-blocking-all/build.gradle.kts",
       "language": "kotlin",
       "line": 2,
       "offset": 11,
@@ -149,10 +149,10 @@
     }
   ],
   "attributes": {
-    "module": "run-blocking-kmp.run-blocking-all",
+    "module": "run-blocking-kmp.coroutines-run-blocking-all",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "6c273f4251439567bd45be9def8414a370b9c5865abfb28a7fbb04d9eae54744"
+  "hash": "9bddce036752beba3d15c11b829d264e3e128bbe8f5bfb63550ec5336bdee9d9"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -166,7 +166,7 @@
   "sources": [
     {
       "type": "file",
-      "path": "run-blocking-all/build.gradle.kts",
+      "path": "coroutines-run-blocking-all/build.gradle.kts",
       "language": "kotlin",
       "line": 2,
       "offset": 11,
@@ -180,10 +180,10 @@
     }
   ],
   "attributes": {
-    "module": "run-blocking-kmp.run-blocking-all",
+    "module": "run-blocking-kmp.coroutines-run-blocking-all",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "f5af42032c9be940280da0e5c58e1eee09da1166a2cecf5d661221d7eec13c61"
+  "hash": "e0e3ac029823c1715e7a8f12bb201d3966ddb01a6adaa152fa640e0b0f740d9c"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -197,7 +197,7 @@
   "sources": [
     {
       "type": "file",
-      "path": "run-blocking-all/build.gradle.kts",
+      "path": "coroutines-run-blocking-all/build.gradle.kts",
       "language": "kotlin",
       "line": 2,
       "offset": 16,
@@ -211,10 +211,10 @@
     }
   ],
   "attributes": {
-    "module": "run-blocking-kmp.run-blocking-all",
+    "module": "run-blocking-kmp.coroutines-run-blocking-all",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "919f02f9f3b271204b5d225ae699be876432871e894edfad6104424b989187e6"
+  "hash": "cadfaac295560611a8312596cf7a2f4b7165734036463b0ab1c61585439ea4c2"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -228,7 +228,7 @@
   "sources": [
     {
       "type": "file",
-      "path": "run-blocking-all/build.gradle.kts",
+      "path": "coroutines-run-blocking-all/build.gradle.kts",
       "language": "kotlin",
       "line": 2,
       "offset": 16,
@@ -242,10 +242,10 @@
     }
   ],
   "attributes": {
-    "module": "run-blocking-kmp.run-blocking-all",
+    "module": "run-blocking-kmp.coroutines-run-blocking-all",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "246014369fd066b106cfab8957f3f89d2530bb585fb931e81b74ac91bd256075"
+  "hash": "d21bfc3de465fb16fdc2d7bf1fb1dd702579a59e67c55a17a815cb9761c0572b"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -259,7 +259,7 @@
   "sources": [
     {
       "type": "file",
-      "path": "suspend-test/build.gradle.kts",
+      "path": "coroutines-run-blocking/build.gradle.kts",
       "language": "kotlin",
       "line": 2,
       "offset": 11,
@@ -273,10 +273,10 @@
     }
   ],
   "attributes": {
-    "module": "run-blocking-kmp.suspend-test",
+    "module": "run-blocking-kmp.coroutines-run-blocking",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "87c2208a17295bbc0573084135c6e8761011cae1111bc974f5968d598295f6d2"
+  "hash": "e75729349524e250983ef098496099b40d0c361cf09f1fb3e9bee0576c63417b"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -290,7 +290,7 @@
   "sources": [
     {
       "type": "file",
-      "path": "suspend-test/build.gradle.kts",
+      "path": "coroutines-run-blocking/build.gradle.kts",
       "language": "kotlin",
       "line": 2,
       "offset": 11,
@@ -304,10 +304,10 @@
     }
   ],
   "attributes": {
-    "module": "run-blocking-kmp.suspend-test",
+    "module": "run-blocking-kmp.coroutines-run-blocking",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "278a42419bc35c9f19b35c761a648781147d3953958ce30e0f383a9218ef39e7"
+  "hash": "7ca9968bb676b27486857e080d8110c82c144ab19f554ceb60ed00bdb507d0eb"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -321,7 +321,7 @@
   "sources": [
     {
       "type": "file",
-      "path": "suspend-test/build.gradle.kts",
+      "path": "coroutines-run-blocking/build.gradle.kts",
       "language": "kotlin",
       "line": 2,
       "offset": 16,
@@ -335,10 +335,10 @@
     }
   ],
   "attributes": {
-    "module": "run-blocking-kmp.suspend-test",
+    "module": "run-blocking-kmp.coroutines-run-blocking",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "b5f12c1066692cd55250355fd2de9761843ce617a869eab814df7a0109905517"
+  "hash": "89de545a3e95ade0469cf07f358b265debc1ea1ea22d296e6df9087bd74148af"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -352,7 +352,7 @@
   "sources": [
     {
       "type": "file",
-      "path": "suspend-test/build.gradle.kts",
+      "path": "coroutines-run-blocking/build.gradle.kts",
       "language": "kotlin",
       "line": 2,
       "offset": 16,
@@ -366,132 +366,8 @@
     }
   ],
   "attributes": {
-    "module": "run-blocking-kmp.suspend-test",
+    "module": "run-blocking-kmp.coroutines-run-blocking",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "9a2cb43b9ca8de3c55a2c21aca2bd8c9f7c48fea59352071c07e11b4248d8fb6"
-},{
-  "tool": "Code Inspection",
-  "category": "General",
-  "type": "Kotlin annotator",
-  "tags": [
-    "Sanity"
-  ],
-  "severity": "Critical",
-  "comment": "'val Project.libs: LibrariesForLibs' can't be called in this context by implicit receiver. Use the explicit one if necessary",
-  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "run-blocking-core/build.gradle.kts",
-      "language": "kotlin",
-      "line": 2,
-      "offset": 11,
-      "length": 4,
-      "code": {
-        "startLine": 1,
-        "length": 4,
-        "offset": 20,
-        "surroundingCode": "plugins {\n    alias(libs.plugins.javiersc.hubdle)\n}\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "run-blocking-kmp.run-blocking-core",
-    "inspectionName": "KotlinAnnotator"
-  },
-  "hash": "4ff3a5f3e14a234e94906f77b144bbc1a20cb42d9cb30365b43ba68f18b8cb06"
-},{
-  "tool": "Code Inspection",
-  "category": "General",
-  "type": "Kotlin annotator",
-  "tags": [
-    "Sanity"
-  ],
-  "severity": "Critical",
-  "comment": "Cannot access class 'org.gradle.accessors.dm.LibrariesForLibs'. Check your module classpath for missing or conflicting dependencies",
-  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "run-blocking-core/build.gradle.kts",
-      "language": "kotlin",
-      "line": 2,
-      "offset": 11,
-      "length": 4,
-      "code": {
-        "startLine": 1,
-        "length": 4,
-        "offset": 20,
-        "surroundingCode": "plugins {\n    alias(libs.plugins.javiersc.hubdle)\n}\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "run-blocking-kmp.run-blocking-core",
-    "inspectionName": "KotlinAnnotator"
-  },
-  "hash": "c75cbf92bd48c96ee03fb1d57248e6ee5c5d32d26796e9f083fb0fc5b3a2eb46"
-},{
-  "tool": "Code Inspection",
-  "category": "General",
-  "type": "Kotlin annotator",
-  "tags": [
-    "Sanity"
-  ],
-  "severity": "Critical",
-  "comment": "Function invocation 'plugins(...)' expected",
-  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "run-blocking-core/build.gradle.kts",
-      "language": "kotlin",
-      "line": 2,
-      "offset": 16,
-      "length": 7,
-      "code": {
-        "startLine": 1,
-        "length": 7,
-        "offset": 25,
-        "surroundingCode": "plugins {\n    alias(libs.plugins.javiersc.hubdle)\n}\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "run-blocking-kmp.run-blocking-core",
-    "inspectionName": "KotlinAnnotator"
-  },
-  "hash": "1bb698e26b349c137f85d3f5b91a80149814dc71200351b513ce43c092928331"
-},{
-  "tool": "Code Inspection",
-  "category": "General",
-  "type": "Kotlin annotator",
-  "tags": [
-    "Sanity"
-  ],
-  "severity": "Critical",
-  "comment": "Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: public fun Project.plugins(block: PluginDependenciesSpec.() -> Unit): Nothing defined in org.gradle.kotlin.dsl",
-  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "run-blocking-core/build.gradle.kts",
-      "language": "kotlin",
-      "line": 2,
-      "offset": 16,
-      "length": 7,
-      "code": {
-        "startLine": 1,
-        "length": 7,
-        "offset": 25,
-        "surroundingCode": "plugins {\n    alias(libs.plugins.javiersc.hubdle)\n}\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "run-blocking-kmp.run-blocking-core",
-    "inspectionName": "KotlinAnnotator"
-  },
-  "hash": "180fbcc0139dbec8e9e47e723eb4246e4d7f6a3bb6f4212ae3ef1fc8a37f1fe7"
+  "hash": "21aaad208267d2f4859823b75174c79c87f91a9e4e8403b8ce108376ce2e9446"
 }]}

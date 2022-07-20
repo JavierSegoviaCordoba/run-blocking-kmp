@@ -4,35 +4,35 @@
 
 * 1 number of properties
 
-* 14 number of functions
+* 11 number of functions
 
-* 3 number of classes
+* 2 number of classes
 
 * 2 number of packages
 
-* 16 number of kt files
+* 13 number of kt files
 
 ## Complexity Report
 
-* 383 lines of code (loc)
+* 296 lines of code (loc)
 
-* 249 source lines of code (sloc)
+* 182 source lines of code (sloc)
 
-* 166 logical lines of code (lloc)
+* 121 logical lines of code (lloc)
 
 * 53 comment lines of code (cloc)
 
-* 17 cyclomatic complexity (mcc)
+* 13 cyclomatic complexity (mcc)
 
 * 4 cognitive complexity
 
 * 1 number of total code smells
 
-* 21% comment source ratio
+* 29% comment source ratio
 
-* 102 mcc per 1,000 lloc
+* 107 mcc per 1,000 lloc
 
-* 6 code smells per 1,000 lloc
+* 8 code smells per 1,000 lloc
 
 ## Findings (1)
 
@@ -42,7 +42,7 @@ A member should not be given the same name as its parent class or object.
 
 [Documentation](https://detekt.dev/docs/rules/naming#membernameequalsclassname)
 
-* run-blocking-all/common/test/kotlin/com/javiersc/run/blocking/RunBlockingAllTest.kt:9:5
+* coroutines-run-blocking-all/common/test/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlockingAllTest.kt:9:5
 ```
 A member is named after the class. This might result in confusion. Either rename the member or change it to a constructor.
 ```
@@ -58,4 +58,4 @@ A member is named after the class. This might result in confusion. Either rename
 
 ```
 
-generated with [detekt version 1.21.0](https://detekt.dev/) on 2022-07-20 20:41:39 UTC
+generated with [detekt version 1.21.0](https://detekt.dev/) on 2022-07-20 21:40:08 UTC

@@ -5,415 +5,275 @@
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core",
+      "name": "run-blocking-kmp.coroutines-run-blocking.iosArm64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.suspend-test",
+      "name": "run-blocking-kmp.coroutines-run-blocking",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.iosArm64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking.iosArm64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.iosArm64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking.iosSimulatorArm64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.iosSimulatorArm64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking.iosSimulatorArm64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.iosSimulatorArm64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking.iosX64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.iosX64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking.iosX64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.iosX64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking.jvmMain",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.jsMain",
+      "name": "run-blocking-kmp.coroutines-run-blocking.jvmTest",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.jsTest",
+      "name": "run-blocking-kmp.coroutines-run-blocking.linuxX64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.jvmMain",
+      "name": "run-blocking-kmp.coroutines-run-blocking.linuxX64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.jvmTest",
+      "name": "run-blocking-kmp.coroutines-run-blocking.macosArm64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.linuxX64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking.macosArm64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.linuxX64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking.macosX64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.macosArm64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking.macosX64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.macosArm64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking.mingwX64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.macosX64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking.mingwX64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.macosX64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking.tvosArm64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.mingwX64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking.tvosArm64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.mingwX64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking.tvosSimulatorArm64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.tvosArm64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking.tvosSimulatorArm64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.tvosArm64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking.tvosX64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.tvosSimulatorArm64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking.tvosX64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.tvosSimulatorArm64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking.watchosArm64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.tvosX64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking.watchosArm64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.tvosX64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking.watchosSimulatorArm64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.watchosArm64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking.watchosSimulatorArm64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.watchosArm64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking.watchosX64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.watchosSimulatorArm64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking.watchosX64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.watchosSimulatorArm64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.watchosX64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking.commonTest",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.watchosX64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.commonMain",
+      "name": "run-blocking-kmp.coroutines-run-blocking.nativeTest",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.commonTest",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.iosArm64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-all.nativeMain",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.iosArm64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.iosArm64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.iosSimulatorArm64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.iosArm64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.iosSimulatorArm64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.iosSimulatorArm64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.iosX64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.iosSimulatorArm64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.iosX64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.iosX64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.jsMain",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.iosX64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.jsTest",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.jvmMain",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.jvmMain",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.jvmTest",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.jvmTest",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.linuxX64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.linuxX64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.linuxX64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.linuxX64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.macosArm64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.macosArm64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.macosArm64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.macosArm64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.macosX64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.macosX64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.macosX64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.macosX64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.mingwX64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.mingwX64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.mingwX64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.mingwX64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.tvosArm64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosArm64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.tvosArm64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosArm64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.tvosSimulatorArm64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosSimulatorArm64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.tvosSimulatorArm64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosSimulatorArm64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.tvosX64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosX64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.tvosX64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosX64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.watchosArm64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosArm64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.watchosArm64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosArm64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.watchosSimulatorArm64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosSimulatorArm64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.watchosSimulatorArm64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosSimulatorArm64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.watchosX64Main",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosX64Main",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.watchosX64Test",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosX64Test",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.commonMain",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.commonTest",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.commonTest",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.run-blocking-core.nativeMain",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.suspend-test.iosArm64Main",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.iosArm64Test",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.iosSimulatorArm64Main",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.iosSimulatorArm64Test",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.iosX64Main",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.iosX64Test",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.jsMain",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.jsTest",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.jvmMain",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.jvmTest",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.linuxX64Main",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.linuxX64Test",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.macosArm64Main",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.macosArm64Test",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.macosX64Main",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.macosX64Test",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.mingwX64Main",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.mingwX64Test",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.tvosArm64Main",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.tvosArm64Test",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.tvosSimulatorArm64Main",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.tvosSimulatorArm64Test",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.tvosX64Main",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.tvosX64Test",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.watchosArm64Main",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.watchosArm64Test",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.watchosSimulatorArm64Main",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.watchosSimulatorArm64Test",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.watchosX64Main",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.watchosX64Test",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.commonMain",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.commonTest",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.nativeMain",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.run-blocking-all.nativeTest",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.run-blocking-core.nativeTest",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.suspend-test.nativeTest",
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeTest",
       "languageLevel": 11
     }
   ]

@@ -1,1 +1,225 @@
-{"version":"3","listProblem":[]}
+{"version":"3","listProblem":[{
+  "tool": "Code Inspection",
+  "category": "Probable bugs",
+  "type": "Unresolved reference in KDoc",
+  "severity": "High",
+  "comment": "Cannot resolve symbol 'CoroutineDispatcher'",
+  "detailsInfo": "Reports unresolved references in KDoc comments.\n\n**Example:**\n\n\n      /**\n       * [unresolvedLink]\n       */\n      fun foo() {}\n\nTo fix the problem make the link valid.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking-all/common/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 12,
+      "offset": 17,
+      "length": 19,
+      "code": {
+        "startLine": 10,
+        "length": 19,
+        "offset": 115,
+        "surroundingCode": " * libraries that are written in suspending style, to be used in `main` functions and in tests.\n *\n * The default [CoroutineDispatcher] for this builder is an internal implementation of event loop\n * that processes continuations in this blocked thread until the completion of this coroutine. See\n * [CoroutineDispatcher] for the other implementations that are provided by `kotlinx.coroutines`."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+    "inspectionName": "KDocUnresolvedReference"
+  },
+  "hash": "cbf6a71407e69724dd8c03b833edf240f6c800dd1b3ae48b81285cc41ddaf4b1"
+},{
+  "tool": "Code Inspection",
+  "category": "Probable bugs",
+  "type": "Unresolved reference in KDoc",
+  "severity": "High",
+  "comment": "Cannot resolve symbol 'CoroutineDispatcher'",
+  "detailsInfo": "Reports unresolved references in KDoc comments.\n\n**Example:**\n\n\n      /**\n       * [unresolvedLink]\n       */\n      fun foo() {}\n\nTo fix the problem make the link valid.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking-all/common/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 14,
+      "offset": 5,
+      "length": 19,
+      "code": {
+        "startLine": 12,
+        "length": 19,
+        "offset": 201,
+        "surroundingCode": " * The default [CoroutineDispatcher] for this builder is an internal implementation of event loop\n * that processes continuations in this blocked thread until the completion of this coroutine. See\n * [CoroutineDispatcher] for the other implementations that are provided by `kotlinx.coroutines`.\n *\n * When [CoroutineDispatcher] is explicitly specified in the [context], then the new coroutine runs"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+    "inspectionName": "KDocUnresolvedReference"
+  },
+  "hash": "cf965fdd59fc71d2dcb4650aec88d88910714634f5111be022b68f3238769796"
+},{
+  "tool": "Code Inspection",
+  "category": "Probable bugs",
+  "type": "Unresolved reference in KDoc",
+  "severity": "High",
+  "comment": "Cannot resolve symbol 'CoroutineDispatcher'",
+  "detailsInfo": "Reports unresolved references in KDoc comments.\n\n**Example:**\n\n\n      /**\n       * [unresolvedLink]\n       */\n      fun foo() {}\n\nTo fix the problem make the link valid.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking-all/common/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 16,
+      "offset": 10,
+      "length": 19,
+      "code": {
+        "startLine": 14,
+        "length": 19,
+        "offset": 110,
+        "surroundingCode": " * [CoroutineDispatcher] for the other implementations that are provided by `kotlinx.coroutines`.\n *\n * When [CoroutineDispatcher] is explicitly specified in the [context], then the new coroutine runs\n * in the context of the specified dispatcher while the current thread is blocked. If the specified\n * dispatcher is an event loop of another `runBlocking`, then this invocation uses the outer event"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+    "inspectionName": "KDocUnresolvedReference"
+  },
+  "hash": "9c6b5b67a0cba522c3ad4196416058042c275cc3ef46db9356e554d260c9e5d6"
+},{
+  "tool": "Code Inspection",
+  "category": "Probable bugs",
+  "type": "Unresolved reference in KDoc",
+  "severity": "High",
+  "comment": "Cannot resolve symbol 'Thread'",
+  "detailsInfo": "Reports unresolved references in KDoc comments.\n\n**Example:**\n\n\n      /**\n       * [unresolvedLink]\n       */\n      fun foo() {}\n\nTo fix the problem make the link valid.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking-all/common/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 21,
+      "offset": 48,
+      "length": 6,
+      "code": {
+        "startLine": 19,
+        "length": 6,
+        "offset": 59,
+        "surroundingCode": " * loop.\n *\n * If this blocked thread is interrupted (see [Thread.interrupt]), then the coroutine job is\n * cancelled and this `runBlocking` invocation throws [InterruptedException].\n *"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+    "inspectionName": "KDocUnresolvedReference"
+  },
+  "hash": "7137d42fa56e40b19fd91f55c153509388096f2faa892e19cdeae29c69109f25"
+},{
+  "tool": "Code Inspection",
+  "category": "Probable bugs",
+  "type": "Unresolved reference in KDoc",
+  "severity": "High",
+  "comment": "Cannot resolve symbol 'interrupt'",
+  "detailsInfo": "Reports unresolved references in KDoc comments.\n\n**Example:**\n\n\n      /**\n       * [unresolvedLink]\n       */\n      fun foo() {}\n\nTo fix the problem make the link valid.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking-all/common/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 21,
+      "offset": 55,
+      "length": 9,
+      "code": {
+        "startLine": 19,
+        "length": 9,
+        "offset": 66,
+        "surroundingCode": " * loop.\n *\n * If this blocked thread is interrupted (see [Thread.interrupt]), then the coroutine job is\n * cancelled and this `runBlocking` invocation throws [InterruptedException].\n *"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+    "inspectionName": "KDocUnresolvedReference"
+  },
+  "hash": "9cbf27c8130eb8eac58de7b9e331ddfd005db4f8fbf2d9f884f5028880879297"
+},{
+  "tool": "Code Inspection",
+  "category": "Probable bugs",
+  "type": "Unresolved reference in KDoc",
+  "severity": "High",
+  "comment": "Cannot resolve symbol 'InterruptedException'",
+  "detailsInfo": "Reports unresolved references in KDoc comments.\n\n**Example:**\n\n\n      /**\n       * [unresolvedLink]\n       */\n      fun foo() {}\n\nTo fix the problem make the link valid.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking-all/common/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 22,
+      "offset": 56,
+      "length": 20,
+      "code": {
+        "startLine": 20,
+        "length": 20,
+        "offset": 151,
+        "surroundingCode": " *\n * If this blocked thread is interrupted (see [Thread.interrupt]), then the coroutine job is\n * cancelled and this `runBlocking` invocation throws [InterruptedException].\n *\n * See [newCoroutineContext] [CoroutineScope.newCoroutineContext] for a description of debugging"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+    "inspectionName": "KDocUnresolvedReference"
+  },
+  "hash": "e8ed351d854ee844011091c6b56d46db3388884060b6a04d80cad4f42f967144"
+},{
+  "tool": "Code Inspection",
+  "category": "Probable bugs",
+  "type": "Unresolved reference in KDoc",
+  "severity": "High",
+  "comment": "Cannot resolve symbol 'newCoroutineContext'",
+  "detailsInfo": "Reports unresolved references in KDoc comments.\n\n**Example:**\n\n\n      /**\n       * [unresolvedLink]\n       */\n      fun foo() {}\n\nTo fix the problem make the link valid.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking-all/common/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 24,
+      "offset": 9,
+      "length": 19,
+      "code": {
+        "startLine": 22,
+        "length": 19,
+        "offset": 89,
+        "surroundingCode": " * cancelled and this `runBlocking` invocation throws [InterruptedException].\n *\n * See [newCoroutineContext] [CoroutineScope.newCoroutineContext] for a description of debugging\n * facilities that are available for a newly created coroutine.\n *"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+    "inspectionName": "KDocUnresolvedReference"
+  },
+  "hash": "d536ea5859416ca34c1382e49aa9a5fbfe43173bc7e7777751778a85232bbaad"
+},{
+  "tool": "Code Inspection",
+  "category": "Probable bugs",
+  "type": "Unresolved reference in KDoc",
+  "severity": "High",
+  "comment": "Cannot resolve symbol 'newCoroutineContext'",
+  "detailsInfo": "Reports unresolved references in KDoc comments.\n\n**Example:**\n\n\n      /**\n       * [unresolvedLink]\n       */\n      fun foo() {}\n\nTo fix the problem make the link valid.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking-all/common/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 24,
+      "offset": 46,
+      "length": 19,
+      "code": {
+        "startLine": 22,
+        "length": 19,
+        "offset": 126,
+        "surroundingCode": " * cancelled and this `runBlocking` invocation throws [InterruptedException].\n *\n * See [newCoroutineContext] [CoroutineScope.newCoroutineContext] for a description of debugging\n * facilities that are available for a newly created coroutine.\n *"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+    "inspectionName": "KDocUnresolvedReference"
+  },
+  "hash": "974d12d806fd29e2f75d873b1c6cf6703d01d0cdc18fbfc6ad5e7bad592b00f3"
+}]}

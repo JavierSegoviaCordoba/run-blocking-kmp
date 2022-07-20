@@ -296,6 +296,166 @@
       "version": "5.3.2"
     },
     {
+      "ideaName": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-js:1.7.10",
+      "gradleName": "org.jetbrains.kotlin:kotlin-stdlib-js:1.7.10",
+      "unresolved": false,
+      "groupId": "org.jetbrains.kotlin",
+      "artifactId": "kotlin-stdlib-js",
+      "version": "1.7.10"
+    },
+    {
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.6.4",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.6.4",
+      "unresolved": false,
+      "groupId": "org.jetbrains.kotlinx",
+      "artifactId": "kotlinx-coroutines-core-js",
+      "version": "1.6.4"
+    },
+    {
+      "ideaName": "Gradle: com.javiersc.kotlin:kotlin-stdlib-js:0.1.0-alpha.11",
+      "gradleName": "com.javiersc.kotlin:kotlin-stdlib-js:0.1.0-alpha.11",
+      "unresolved": false,
+      "groupId": "com.javiersc.kotlin",
+      "artifactId": "kotlin-stdlib-js",
+      "version": "0.1.0-alpha.11"
+    },
+    {
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-js:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-js:0.17.3",
+      "unresolved": false,
+      "groupId": "org.jetbrains.kotlinx",
+      "artifactId": "atomicfu-js",
+      "version": "0.17.3"
+    },
+    {
+      "ideaName": "Gradle: org.jetbrains.kotlin:atomicfu:1.6.21",
+      "gradleName": "org.jetbrains.kotlin:atomicfu:1.6.21",
+      "unresolved": false,
+      "groupId": "org.jetbrains.kotlin",
+      "artifactId": "atomicfu",
+      "version": "1.6.21"
+    },
+    {
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-js:klib:1.6.4",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-js:klib:1.6.4",
+      "unresolved": false,
+      "groupId": "org.jetbrains.kotlinx",
+      "artifactId": "kotlinx-coroutines-core-js",
+      "version": "1.6.4"
+    },
+    {
+      "ideaName": "Gradle: com.javiersc.kotlin:kotlin-stdlib-js:klib:0.1.0-alpha.11",
+      "gradleName": "com.javiersc.kotlin:kotlin-stdlib-js:klib:0.1.0-alpha.11",
+      "unresolved": false,
+      "groupId": "com.javiersc.kotlin",
+      "artifactId": "kotlin-stdlib-js",
+      "version": "0.1.0-alpha.11"
+    },
+    {
+      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-js:klib:0.17.3",
+      "gradleName": "org.jetbrains.kotlinx:atomicfu-js:klib:0.17.3",
+      "unresolved": false,
+      "groupId": "org.jetbrains.kotlinx",
+      "artifactId": "atomicfu-js",
+      "version": "0.17.3"
+    },
+    {
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-js:1.6.4",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-js:1.6.4",
+      "unresolved": false,
+      "groupId": "org.jetbrains.kotlinx",
+      "artifactId": "kotlinx-coroutines-test-js",
+      "version": "1.6.4"
+    },
+    {
+      "ideaName": "Gradle: org.jetbrains.kotlin:kotlin-test-js:1.6.21",
+      "gradleName": "org.jetbrains.kotlin:kotlin-test-js:1.6.21",
+      "unresolved": false,
+      "groupId": "org.jetbrains.kotlin",
+      "artifactId": "kotlin-test-js",
+      "version": "1.6.21"
+    },
+    {
+      "ideaName": "Gradle: io.kotest:kotest-assertions-core-js:5.3.2",
+      "gradleName": "io.kotest:kotest-assertions-core-js:5.3.2",
+      "unresolved": false,
+      "groupId": "io.kotest",
+      "artifactId": "kotest-assertions-core-js",
+      "version": "5.3.2"
+    },
+    {
+      "ideaName": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-js:0.1.0-alpha.11",
+      "gradleName": "com.javiersc.kotlin:kotlin-test-junit5-js:0.1.0-alpha.11",
+      "unresolved": false,
+      "groupId": "com.javiersc.kotlin",
+      "artifactId": "kotlin-test-junit5-js",
+      "version": "0.1.0-alpha.11"
+    },
+    {
+      "ideaName": "Gradle: io.kotest:kotest-assertions-shared-js:5.3.2",
+      "gradleName": "io.kotest:kotest-assertions-shared-js:5.3.2",
+      "unresolved": false,
+      "groupId": "io.kotest",
+      "artifactId": "kotest-assertions-shared-js",
+      "version": "5.3.2"
+    },
+    {
+      "ideaName": "Gradle: io.kotest:kotest-assertions-api-js:5.3.2",
+      "gradleName": "io.kotest:kotest-assertions-api-js:5.3.2",
+      "unresolved": false,
+      "groupId": "io.kotest",
+      "artifactId": "kotest-assertions-api-js",
+      "version": "5.3.2"
+    },
+    {
+      "ideaName": "Gradle: io.kotest:kotest-common-js:5.3.2",
+      "gradleName": "io.kotest:kotest-common-js:5.3.2",
+      "unresolved": false,
+      "groupId": "io.kotest",
+      "artifactId": "kotest-common-js",
+      "version": "5.3.2"
+    },
+    {
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-js:klib:1.6.4",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-js:klib:1.6.4",
+      "unresolved": false,
+      "groupId": "org.jetbrains.kotlinx",
+      "artifactId": "kotlinx-coroutines-test-js",
+      "version": "1.6.4"
+    },
+    {
+      "ideaName": "Gradle: io.kotest:kotest-assertions-core-js:klib:5.3.2",
+      "gradleName": "io.kotest:kotest-assertions-core-js:klib:5.3.2",
+      "unresolved": false,
+      "groupId": "io.kotest",
+      "artifactId": "kotest-assertions-core-js",
+      "version": "5.3.2"
+    },
+    {
+      "ideaName": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-js:klib:0.1.0-alpha.11",
+      "gradleName": "com.javiersc.kotlin:kotlin-test-junit5-js:klib:0.1.0-alpha.11",
+      "unresolved": false,
+      "groupId": "com.javiersc.kotlin",
+      "artifactId": "kotlin-test-junit5-js",
+      "version": "0.1.0-alpha.11"
+    },
+    {
+      "ideaName": "Gradle: io.kotest:kotest-assertions-shared-js:klib:5.3.2",
+      "gradleName": "io.kotest:kotest-assertions-shared-js:klib:5.3.2",
+      "unresolved": false,
+      "groupId": "io.kotest",
+      "artifactId": "kotest-assertions-shared-js",
+      "version": "5.3.2"
+    },
+    {
+      "ideaName": "Gradle: io.kotest:kotest-assertions-api-js:klib:5.3.2",
+      "gradleName": "io.kotest:kotest-assertions-api-js:klib:5.3.2",
+      "unresolved": false,
+      "groupId": "io.kotest",
+      "artifactId": "kotest-assertions-api-js",
+      "version": "5.3.2"
+    },
+    {
       "ideaName": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
       "gradleName": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
       "unresolved": false,
@@ -334,6 +494,14 @@
       "groupId": "org.jetbrains.kotlin",
       "artifactId": "kotlin-stdlib",
       "version": "1.7.10"
+    },
+    {
+      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+      "unresolved": false,
+      "groupId": "org.jetbrains.kotlinx",
+      "artifactId": "kotlinx-coroutines-core",
+      "version": "1.6.4"
     },
     {
       "ideaName": "Gradle: org.jetbrains.kotlin:kotlin-test:1.6.21",
@@ -1400,14 +1568,6 @@
       "version": "1.6.4"
     },
     {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
-      "unresolved": false,
-      "groupId": "org.jetbrains.kotlinx",
-      "artifactId": "kotlinx-coroutines-core",
-      "version": "1.6.4"
-    },
-    {
       "ideaName": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.11",
       "gradleName": "com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.11",
       "unresolved": false,
@@ -1526,174 +1686,6 @@
       "gradleName": "Kotlin/Native 1.7.10 - iconv | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
       "unresolved": false,
       "artifactId": "Kotlin/Native 1.7.10 - iconv | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]"
-    },
-    {
-      "ideaName": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-js:1.7.10",
-      "gradleName": "org.jetbrains.kotlin:kotlin-stdlib-js:1.7.10",
-      "unresolved": false,
-      "groupId": "org.jetbrains.kotlin",
-      "artifactId": "kotlin-stdlib-js",
-      "version": "1.7.10"
-    },
-    {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-js:1.6.4",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-js:1.6.4",
-      "unresolved": false,
-      "groupId": "org.jetbrains.kotlinx",
-      "artifactId": "kotlinx-coroutines-test-js",
-      "version": "1.6.4"
-    },
-    {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.6.4",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.6.4",
-      "unresolved": false,
-      "groupId": "org.jetbrains.kotlinx",
-      "artifactId": "kotlinx-coroutines-core-js",
-      "version": "1.6.4"
-    },
-    {
-      "ideaName": "Gradle: com.javiersc.kotlin:kotlin-stdlib-js:0.1.0-alpha.11",
-      "gradleName": "com.javiersc.kotlin:kotlin-stdlib-js:0.1.0-alpha.11",
-      "unresolved": false,
-      "groupId": "com.javiersc.kotlin",
-      "artifactId": "kotlin-stdlib-js",
-      "version": "0.1.0-alpha.11"
-    },
-    {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-js:0.17.3",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-js:0.17.3",
-      "unresolved": false,
-      "groupId": "org.jetbrains.kotlinx",
-      "artifactId": "atomicfu-js",
-      "version": "0.17.3"
-    },
-    {
-      "ideaName": "Gradle: org.jetbrains.kotlin:atomicfu:1.6.21",
-      "gradleName": "org.jetbrains.kotlin:atomicfu:1.6.21",
-      "unresolved": false,
-      "groupId": "org.jetbrains.kotlin",
-      "artifactId": "atomicfu",
-      "version": "1.6.21"
-    },
-    {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-js:klib:1.6.4",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test-js:klib:1.6.4",
-      "unresolved": false,
-      "groupId": "org.jetbrains.kotlinx",
-      "artifactId": "kotlinx-coroutines-test-js",
-      "version": "1.6.4"
-    },
-    {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-js:klib:1.6.4",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core-js:klib:1.6.4",
-      "unresolved": false,
-      "groupId": "org.jetbrains.kotlinx",
-      "artifactId": "kotlinx-coroutines-core-js",
-      "version": "1.6.4"
-    },
-    {
-      "ideaName": "Gradle: com.javiersc.kotlin:kotlin-stdlib-js:klib:0.1.0-alpha.11",
-      "gradleName": "com.javiersc.kotlin:kotlin-stdlib-js:klib:0.1.0-alpha.11",
-      "unresolved": false,
-      "groupId": "com.javiersc.kotlin",
-      "artifactId": "kotlin-stdlib-js",
-      "version": "0.1.0-alpha.11"
-    },
-    {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:atomicfu-js:klib:0.17.3",
-      "gradleName": "org.jetbrains.kotlinx:atomicfu-js:klib:0.17.3",
-      "unresolved": false,
-      "groupId": "org.jetbrains.kotlinx",
-      "artifactId": "atomicfu-js",
-      "version": "0.17.3"
-    },
-    {
-      "ideaName": "Gradle: org.jetbrains.kotlin:kotlin-test-js:1.6.21",
-      "gradleName": "org.jetbrains.kotlin:kotlin-test-js:1.6.21",
-      "unresolved": false,
-      "groupId": "org.jetbrains.kotlin",
-      "artifactId": "kotlin-test-js",
-      "version": "1.6.21"
-    },
-    {
-      "ideaName": "Gradle: io.kotest:kotest-assertions-core-js:5.3.2",
-      "gradleName": "io.kotest:kotest-assertions-core-js:5.3.2",
-      "unresolved": false,
-      "groupId": "io.kotest",
-      "artifactId": "kotest-assertions-core-js",
-      "version": "5.3.2"
-    },
-    {
-      "ideaName": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-js:0.1.0-alpha.11",
-      "gradleName": "com.javiersc.kotlin:kotlin-test-junit5-js:0.1.0-alpha.11",
-      "unresolved": false,
-      "groupId": "com.javiersc.kotlin",
-      "artifactId": "kotlin-test-junit5-js",
-      "version": "0.1.0-alpha.11"
-    },
-    {
-      "ideaName": "Gradle: io.kotest:kotest-assertions-shared-js:5.3.2",
-      "gradleName": "io.kotest:kotest-assertions-shared-js:5.3.2",
-      "unresolved": false,
-      "groupId": "io.kotest",
-      "artifactId": "kotest-assertions-shared-js",
-      "version": "5.3.2"
-    },
-    {
-      "ideaName": "Gradle: io.kotest:kotest-assertions-api-js:5.3.2",
-      "gradleName": "io.kotest:kotest-assertions-api-js:5.3.2",
-      "unresolved": false,
-      "groupId": "io.kotest",
-      "artifactId": "kotest-assertions-api-js",
-      "version": "5.3.2"
-    },
-    {
-      "ideaName": "Gradle: io.kotest:kotest-common-js:5.3.2",
-      "gradleName": "io.kotest:kotest-common-js:5.3.2",
-      "unresolved": false,
-      "groupId": "io.kotest",
-      "artifactId": "kotest-common-js",
-      "version": "5.3.2"
-    },
-    {
-      "ideaName": "Gradle: io.kotest:kotest-assertions-core-js:klib:5.3.2",
-      "gradleName": "io.kotest:kotest-assertions-core-js:klib:5.3.2",
-      "unresolved": false,
-      "groupId": "io.kotest",
-      "artifactId": "kotest-assertions-core-js",
-      "version": "5.3.2"
-    },
-    {
-      "ideaName": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-js:klib:0.1.0-alpha.11",
-      "gradleName": "com.javiersc.kotlin:kotlin-test-junit5-js:klib:0.1.0-alpha.11",
-      "unresolved": false,
-      "groupId": "com.javiersc.kotlin",
-      "artifactId": "kotlin-test-junit5-js",
-      "version": "0.1.0-alpha.11"
-    },
-    {
-      "ideaName": "Gradle: io.kotest:kotest-assertions-shared-js:klib:5.3.2",
-      "gradleName": "io.kotest:kotest-assertions-shared-js:klib:5.3.2",
-      "unresolved": false,
-      "groupId": "io.kotest",
-      "artifactId": "kotest-assertions-shared-js",
-      "version": "5.3.2"
-    },
-    {
-      "ideaName": "Gradle: io.kotest:kotest-assertions-api-js:klib:5.3.2",
-      "gradleName": "io.kotest:kotest-assertions-api-js:klib:5.3.2",
-      "unresolved": false,
-      "groupId": "io.kotest",
-      "artifactId": "kotest-assertions-api-js",
-      "version": "5.3.2"
-    },
-    {
-      "ideaName": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:nativeMain:1.6.4",
-      "gradleName": "org.jetbrains.kotlinx:kotlinx-coroutines-test:nativeMain:1.6.4",
-      "unresolved": false,
-      "groupId": "org.jetbrains.kotlinx",
-      "artifactId": "kotlinx-coroutines-test",
-      "version": "1.6.4"
     }
   ]
 }

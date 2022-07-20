@@ -17,10 +17,10 @@
 <div class="breadCrumbs">
 Current scope:     <a href="../../index.html">all classes</a>
     <span class="separator">|</span>
-    <a href="../index.html">com.javiersc.run.blocking</a>
+    <a href="../index.html">com.javiersc.kotlinx.coroutines.run.blocking</a>
 </div>
 
-<h1>Coverage Summary for Class: RunBlockingKt (com.javiersc.run.blocking)</h1>
+<h1>Coverage Summary for Class: RunBlockingKt (com.javiersc.kotlinx.coroutines.run.blocking)</h1>
 
 <table class="coverageStats">
 <tr>
@@ -90,17 +90,40 @@ Current scope:     <a href="../../index.html">all classes</a>
 
 
 <pre>
-<div class="sourceCode" id="sourceCode"><i class="no-highlight">1</i>&nbsp;package com.javiersc.run.blocking
+<div class="sourceCode" id="sourceCode"><i class="no-highlight">1</i>&nbsp;package com.javiersc.kotlinx.coroutines.run.blocking
 <i class="no-highlight">2</i>&nbsp;
 <i class="no-highlight">3</i>&nbsp;import kotlin.coroutines.CoroutineContext
-<i class="no-highlight">4</i>&nbsp;import kotlinx.coroutines.CoroutineScope
-<i class="no-highlight">5</i>&nbsp;import kotlinx.coroutines.runBlocking
+<i class="no-highlight">4</i>&nbsp;import kotlin.coroutines.EmptyCoroutineContext
+<i class="no-highlight">5</i>&nbsp;import kotlinx.coroutines.CoroutineScope
 <i class="no-highlight">6</i>&nbsp;
-<i class="no-highlight">7</i>&nbsp;/** JVM `runBlocking` implementation */
-<i class="no-highlight">8</i>&nbsp;public actual fun &lt;T&gt; runBlocking(
-<i class="no-highlight">9</i>&nbsp;    context: CoroutineContext,
-<i class="no-highlight">10</i>&nbsp;    block: suspend CoroutineScope.() -&gt; T
-<b class="fc"><i class="no-highlight">11</i>&nbsp;): T = runBlocking(context, block)</b>
+<i class="no-highlight">7</i>&nbsp;/**
+<i class="no-highlight">8</i>&nbsp; * Runs a new coroutine and **blocks** the current thread _interruptibly_ until its completion. This
+<i class="no-highlight">9</i>&nbsp; * function should not be used from a coroutine. It is designed to bridge regular blocking code to
+<i class="no-highlight">10</i>&nbsp; * libraries that are written in suspending style, to be used in `main` functions and in tests.
+<b class="fc"><i class="no-highlight">11</i>&nbsp; *</b>
+<b class="fc"><i class="no-highlight">12</i>&nbsp; * The default [CoroutineDispatcher] for this builder is an internal implementation of event loop</b>
+<i class="no-highlight">13</i>&nbsp; * that processes continuations in this blocked thread until the completion of this coroutine. See
+<i class="no-highlight">14</i>&nbsp; * [CoroutineDispatcher] for the other implementations that are provided by `kotlinx.coroutines`.
+<i class="no-highlight">15</i>&nbsp; *
+<i class="no-highlight">16</i>&nbsp; * When [CoroutineDispatcher] is explicitly specified in the [context], then the new coroutine runs
+<i class="no-highlight">17</i>&nbsp; * in the context of the specified dispatcher while the current thread is blocked. If the specified
+<i class="no-highlight">18</i>&nbsp; * dispatcher is an event loop of another `runBlocking`, then this invocation uses the outer event
+<i class="no-highlight">19</i>&nbsp; * loop.
+<i class="no-highlight">20</i>&nbsp; *
+<i class="no-highlight">21</i>&nbsp; * If this blocked thread is interrupted (see [Thread.interrupt]), then the coroutine job is
+<i class="no-highlight">22</i>&nbsp; * cancelled and this `runBlocking` invocation throws [InterruptedException].
+<i class="no-highlight">23</i>&nbsp; *
+<i class="no-highlight">24</i>&nbsp; * See [newCoroutineContext] [CoroutineScope.newCoroutineContext] for a description of debugging
+<i class="no-highlight">25</i>&nbsp; * facilities that are available for a newly created coroutine.
+<i class="no-highlight">26</i>&nbsp; *
+<i class="no-highlight">27</i>&nbsp; * @param context the context of the coroutine. The default value is an event loop on the current
+<i class="no-highlight">28</i>&nbsp; * thread.
+<i class="no-highlight">29</i>&nbsp; * @param block the coroutine code.
+<i class="no-highlight">30</i>&nbsp; */
+<i class="no-highlight">31</i>&nbsp;public expect fun &lt;T&gt; runBlocking(
+<i class="no-highlight">32</i>&nbsp;    context: CoroutineContext = EmptyCoroutineContext,
+<i class="no-highlight">33</i>&nbsp;    block: suspend CoroutineScope.() -&gt; T
+<i class="no-highlight">34</i>&nbsp;): T
 </div>
 </pre>
 </div>
@@ -127,7 +150,7 @@ Current scope:     <a href="../../index.html">all classes</a>
 
 <div class="footer">
     
-    <div style="float:right;">generated on 2022-07-20 20:42</div>
+    <div style="float:right;">generated on 2022-07-20 21:42</div>
 </div>
 </body>
 </html>

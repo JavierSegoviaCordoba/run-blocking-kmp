@@ -15,7 +15,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "run-blocking-all/common/test/kotlin/com/javiersc/run/blocking/RunBlockingAllTest.kt",
+                  "uri": "coroutines-run-blocking-all/common/test/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlockingAllTest.kt",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
