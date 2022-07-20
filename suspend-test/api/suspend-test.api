@@ -1,5 +1,0 @@
-public final class com/javiersc/run/blocking/SuspendTestKt {
-	public static final fun suspendTest (Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/functions/Function2;)V
-	public static synthetic fun suspendTest$default (Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/functions/Function2;ILjava/lang/Object;)V
-}
-

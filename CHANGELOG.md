@@ -6,9 +6,15 @@
 
 ### Changed
 
+- `com.javiersc.run-blocking:run-blocking-core` to `com.javiersc.kotlinx:coroutines-run-blocking`
+- `com.javiersc.run-blocking:run-blocking-all` to `com.javiersc.kotlinx:coroutines-run-blocking-all`
+- packages to `com.javiersc.kotlinx.coroutines.run.blocking`
+
 ### Deprecated
 
 ### Removed
+
+- `com.javiersc.run-blocking:suspend-test` artifact
 
 ### Fixed
 

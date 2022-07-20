@@ -22,10 +22,10 @@ All docs are available on the [RunBlocking KMP website](https://run-blocking-kmp
 ## Download from MavenCentral
 
 ```kotlin
-implementation("com.javiersc.run-blocking:run-blocking-core:$version")
+implementation("com.javiersc.kotlinx:coroutines-run-blocking:$version")
 
 // Including JavaScript
-implementation("com.javiersc.run-blocking:run-blocking-all:$version")
+implementation("com.javiersc.kotlinx:coroutines-run-blocking-all:$version")
 ```
 
 ## License
