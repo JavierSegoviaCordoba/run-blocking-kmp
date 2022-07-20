@@ -1,9 +1,7 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
 
-module:run-blocking-all
-com.javiersc.run.blocking
-module:run-blocking-core
-com.javiersc.run.blocking
-module:suspend-test
-com.javiersc.run.blocking
+module:coroutines-run-blocking
+com.javiersc.kotlinx.coroutines.run.blocking
+module:coroutines-run-blocking-all
+com.javiersc.kotlinx.coroutines.run.blocking
