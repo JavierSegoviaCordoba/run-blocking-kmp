@@ -1,34 +1,21 @@
-plugins {
-    `gradle-enterprise`
-}
+pluginManagement {
+    val hubdleVersion: String =
+        file("$rootDir/gradle/libs.versions.toml")
+            .readLines()
+            .first { it.contains("hubdle") }
+            .split("\"")[1]
 
-rootProject.name = providers.gradleProperty("project.name").forUseAtConfigurationTime().get()
-
-enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
-enableFeaturePreview("VERSION_CATALOGS")
-
-dependencyResolutionManagement {
     repositories {
+        gradlePluginPortal()
         mavenCentral()
+        google()
     }
 
-    dependencyResolutionManagement {
-        versionCatalogs {
-            create("libs") { from(files("gradle/libs.toml")) }
-            create("pluginLibs") { from(files("gradle/pluginLibs.toml")) }
-        }
+    plugins {
+        id("com.javiersc.hubdle.settings") version hubdleVersion
     }
 }
 
-gradleEnterprise {
-    buildScan {
-        termsOfServiceUrl = "https://gradle.com/terms-of-service"
-        termsOfServiceAgree = "yes"
-    }
+plugins {
+    id("com.javiersc.hubdle.settings")
 }
-
-include(
-    ":run-blocking-all",
-    ":run-blocking-core",
-    ":suspend-test",
-)
