@@ -1,6 +1,11 @@
 {
   "sdks": [
     {
+      "name": "Kotlin SDK",
+      "roots": [],
+      "sdkType": "KotlinSDK"
+    },
+    {
       "name": "jbr-11",
       "roots": [
         "jrt:///usr/lib/jvm/jbr!/java.base",
@@ -66,11 +71,6 @@
       ],
       "sdkType": "JavaSDK",
       "sdkVersion": "java version \"11.0.11\""
-    },
-    {
-      "name": "Kotlin SDK",
-      "roots": [],
-      "sdkType": "KotlinSDK"
     }
   ]
 }

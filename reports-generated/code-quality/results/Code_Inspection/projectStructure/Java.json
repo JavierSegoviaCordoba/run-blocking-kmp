@@ -17,10 +17,6 @@
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.buildSrc",
-      "languageLevel": 11
-    },
-    {
       "name": "run-blocking-kmp.run-blocking-all.iosArm64Main",
       "languageLevel": 11
     },
@@ -409,11 +405,15 @@
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.buildSrc.test",
+      "name": "run-blocking-kmp.run-blocking-all.nativeTest",
       "languageLevel": 11
     },
     {
-      "name": "run-blocking-kmp.buildSrc.main",
+      "name": "run-blocking-kmp.run-blocking-core.nativeTest",
+      "languageLevel": 11
+    },
+    {
+      "name": "run-blocking-kmp.suspend-test.nativeTest",
       "languageLevel": 11
     }
   ]
