@@ -6,6 +6,285 @@
     "Sanity"
   ],
   "severity": "Critical",
+  "comment": "Actual function 'runBlocking' has no corresponding expected declaration The following declaration is incompatible because parameter types are different: public expect fun runBlocking(context: CoroutineContext = ..., block: suspend [ERROR : CoroutineScope].() -> T): T",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking/jvm/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 8,
+      "offset": 34,
+      "length": 1,
+      "code": {
+        "startLine": 6,
+        "length": 1,
+        "offset": 74,
+        "surroundingCode": "\n/** JVM `runBlocking` implementation */\npublic actual fun <T> runBlocking(\n    context: CoroutineContext,\n    block: suspend CoroutineScope.() -> T"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking.jvmMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "79a18cfbdb8a7ac8a9e31e745d579e1c4e8add8250e6ba1437b8735dac2348f8"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Unresolved reference: kotlinx",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking-all/native/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 4,
+      "offset": 8,
+      "length": 7,
+      "code": {
+        "startLine": 2,
+        "length": 7,
+        "offset": 50,
+        "surroundingCode": "\nimport kotlin.coroutines.CoroutineContext\nimport kotlinx.coroutines.CoroutineScope\nimport kotlinx.coroutines.runBlocking\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "259458c071e228fd66bb414c0bd1011ee0e0d12521cfbe263497472b58b49260"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Unresolved reference: kotlinx",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking-all/native/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 5,
+      "offset": 8,
+      "length": 7,
+      "code": {
+        "startLine": 3,
+        "length": 7,
+        "offset": 90,
+        "surroundingCode": "import kotlin.coroutines.CoroutineContext\nimport kotlinx.coroutines.CoroutineScope\nimport kotlinx.coroutines.runBlocking\n\n/** Native `runBlocking` implementation */"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "b3cabc04dc2c565f7c42a4ca7ed4388158bd124f0def6767daee18fdcec2cb46"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Actual function 'runBlocking' has no corresponding expected declaration The following declaration is incompatible because parameter types are different: public expect fun runBlocking(context: CoroutineContext = ..., block: suspend [ERROR : CoroutineScope].() -> T): T",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking-all/native/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 8,
+      "offset": 34,
+      "length": 1,
+      "code": {
+        "startLine": 6,
+        "length": 1,
+        "offset": 77,
+        "surroundingCode": "\n/** Native `runBlocking` implementation */\npublic actual fun <T> runBlocking(\n    context: CoroutineContext,\n    block: suspend CoroutineScope.() -> T"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "faeeeefcebbd1c6e840fcb822b5cff54cca085f25708231dd50939297142a49f"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Unresolved reference: CoroutineScope",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking-all/native/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 10,
+      "offset": 20,
+      "length": 14,
+      "code": {
+        "startLine": 8,
+        "length": 14,
+        "offset": 85,
+        "surroundingCode": "public actual fun <T> runBlocking(\n    context: CoroutineContext,\n    block: suspend CoroutineScope.() -> T\n): T = runBlocking(context, block)\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "23ef77866d0b20fa9394e92193684cf9fcd28617cf3f7c443de12e001f5f98eb"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Unresolved reference: CoroutineScope",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking/common/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 5,
+      "offset": 27,
+      "length": 14,
+      "code": {
+        "startLine": 3,
+        "length": 14,
+        "offset": 115,
+        "surroundingCode": "import kotlin.coroutines.CoroutineContext\nimport kotlin.coroutines.EmptyCoroutineContext\nimport kotlinx.coroutines.CoroutineScope\n\n/**"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "d602820cef450c64f4a631e5b9dc33ff10b040dd6e3cb74852c42d66e42cd6e7"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Expected function 'runBlocking' has no actual declaration in module run-blocking-kmp.coroutines-run-blocking.iosArm64Main for Native The following declaration is incompatible because parameter types are different: public actual fun runBlocking(context: CoroutineContext, block: suspend [ERROR : CoroutineScope].() -> T): T",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking/common/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 31,
+      "offset": 34,
+      "length": 1,
+      "code": {
+        "startLine": 29,
+        "length": 1,
+        "offset": 73,
+        "surroundingCode": " * @param block the coroutine code.\n */\npublic expect fun <T> runBlocking(\n    context: CoroutineContext = EmptyCoroutineContext,\n    block: suspend CoroutineScope.() -> T"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "60da8e10bd31280424805d0d5c1a289d72d636044174a532db397a5eb18c4d9d"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Expected function 'runBlocking' has no actual declaration in module run-blocking-kmp.coroutines-run-blocking.iosSimulatorArm64Main for Native The following declaration is incompatible because parameter types are different: public actual fun runBlocking(context: CoroutineContext, block: suspend [ERROR : CoroutineScope].() -> T): T",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking/common/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 31,
+      "offset": 34,
+      "length": 1,
+      "code": {
+        "startLine": 29,
+        "length": 1,
+        "offset": 73,
+        "surroundingCode": " * @param block the coroutine code.\n */\npublic expect fun <T> runBlocking(\n    context: CoroutineContext = EmptyCoroutineContext,\n    block: suspend CoroutineScope.() -> T"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "34a0ece71df074b3fcf20c007cde482ba48026c401d200f7bf30b6098ee78533"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Expected function 'runBlocking' has no actual declaration in module run-blocking-kmp.coroutines-run-blocking.iosX64Main for Native The following declaration is incompatible because parameter types are different: public actual fun runBlocking(context: CoroutineContext, block: suspend [ERROR : CoroutineScope].() -> T): T",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking/common/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 31,
+      "offset": 34,
+      "length": 1,
+      "code": {
+        "startLine": 29,
+        "length": 1,
+        "offset": 73,
+        "surroundingCode": " * @param block the coroutine code.\n */\npublic expect fun <T> runBlocking(\n    context: CoroutineContext = EmptyCoroutineContext,\n    block: suspend CoroutineScope.() -> T"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "e3c3c38cc460af6b678894a73d439d9ad736038c0c406bddd1ad861ae8776366"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
   "comment": "Cannot access class 'org.gradle.accessors.dm.LibrariesForLibs'. Check your module classpath for missing or conflicting dependencies",
   "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
   "sources": [
@@ -122,6 +401,68 @@
     "inspectionName": "KotlinAnnotator"
   },
   "hash": "1696cde6075590b2b3b5ce2541f118ae8d9375c3b58bbfb2793e33e9bd550274"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Actual function 'runBlocking' has no corresponding expected declaration The following declaration is incompatible because parameter types are different: public expect fun runBlocking(context: CoroutineContext = ..., block: suspend [ERROR : CoroutineScope].() -> T): T",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking-all/js/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 9,
+      "offset": 34,
+      "length": 1,
+      "code": {
+        "startLine": 7,
+        "length": 1,
+        "offset": 73,
+        "surroundingCode": "\n/** JS `runBlocking` implementation */\npublic actual fun <T> runBlocking(\n    context: CoroutineContext,\n    block: suspend CoroutineScope.() -> T"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking-all.jsMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "8081f25202e6315ff793485591ba1b4276fc93578adeb7b59825cacc4d96514f"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Actual function 'runBlocking' has no corresponding expected declaration The following declaration is incompatible because parameter types are different: public expect fun runBlocking(context: CoroutineContext = ..., block: suspend [ERROR : CoroutineScope].() -> T): T",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking-all/jvm/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 8,
+      "offset": 34,
+      "length": 1,
+      "code": {
+        "startLine": 6,
+        "length": 1,
+        "offset": 74,
+        "surroundingCode": "\n/** JVM `runBlocking` implementation */\npublic actual fun <T> runBlocking(\n    context: CoroutineContext,\n    block: suspend CoroutineScope.() -> T"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking-all.jvmMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "5ffe2c19ebfda0ce61cb464f286426c9fa3130c1441770ae3c319405feeed439"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -370,4 +711,252 @@
     "inspectionName": "KotlinAnnotator"
   },
   "hash": "21aaad208267d2f4859823b75174c79c87f91a9e4e8403b8ce108376ce2e9446"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Unresolved reference: CoroutineScope",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking-all/common/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 5,
+      "offset": 27,
+      "length": 14,
+      "code": {
+        "startLine": 3,
+        "length": 14,
+        "offset": 115,
+        "surroundingCode": "import kotlin.coroutines.CoroutineContext\nimport kotlin.coroutines.EmptyCoroutineContext\nimport kotlinx.coroutines.CoroutineScope\n\n/**"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "0993db328055776230f69f686ae5718c897741863d92021ac7cc5f61611168fc"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Expected function 'runBlocking' has no actual declaration in module run-blocking-kmp.coroutines-run-blocking-all.iosArm64Main for Native The following declaration is incompatible because parameter types are different: public actual fun runBlocking(context: CoroutineContext, block: suspend [ERROR : CoroutineScope].() -> T): T",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking-all/common/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 31,
+      "offset": 34,
+      "length": 1,
+      "code": {
+        "startLine": 29,
+        "length": 1,
+        "offset": 73,
+        "surroundingCode": " * @param block the coroutine code.\n */\npublic expect fun <T> runBlocking(\n    context: CoroutineContext = EmptyCoroutineContext,\n    block: suspend CoroutineScope.() -> T"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "d8c11728dade7496dbfb8690fe11d3b72d9df359003b3f6d3f78a6d57e535035"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Expected function 'runBlocking' has no actual declaration in module run-blocking-kmp.coroutines-run-blocking-all.iosSimulatorArm64Main for Native The following declaration is incompatible because parameter types are different: public actual fun runBlocking(context: CoroutineContext, block: suspend [ERROR : CoroutineScope].() -> T): T",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking-all/common/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 31,
+      "offset": 34,
+      "length": 1,
+      "code": {
+        "startLine": 29,
+        "length": 1,
+        "offset": 73,
+        "surroundingCode": " * @param block the coroutine code.\n */\npublic expect fun <T> runBlocking(\n    context: CoroutineContext = EmptyCoroutineContext,\n    block: suspend CoroutineScope.() -> T"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "2b9da95ed399d028bbc5245cde6bd3dc0cf03071919d353103747814b84fff2a"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Expected function 'runBlocking' has no actual declaration in module run-blocking-kmp.coroutines-run-blocking-all.iosX64Main for Native The following declaration is incompatible because parameter types are different: public actual fun runBlocking(context: CoroutineContext, block: suspend [ERROR : CoroutineScope].() -> T): T",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking-all/common/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 31,
+      "offset": 34,
+      "length": 1,
+      "code": {
+        "startLine": 29,
+        "length": 1,
+        "offset": 73,
+        "surroundingCode": " * @param block the coroutine code.\n */\npublic expect fun <T> runBlocking(\n    context: CoroutineContext = EmptyCoroutineContext,\n    block: suspend CoroutineScope.() -> T"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "b7c8e1dd814052310c947d3f0dd01c2d136d56a558725776a6e4a7ae74035fc8"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Unresolved reference: CoroutineScope",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking/native/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 4,
+      "offset": 27,
+      "length": 14,
+      "code": {
+        "startLine": 2,
+        "length": 14,
+        "offset": 69,
+        "surroundingCode": "\nimport kotlin.coroutines.CoroutineContext\nimport kotlinx.coroutines.CoroutineScope\nimport kotlinx.coroutines.runBlocking\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "592cfe06d74eea3ddb6b833fbd64865182fe3d9ca25621944a40cf18e4be1d14"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Unresolved reference: runBlocking",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking/native/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 5,
+      "offset": 27,
+      "length": 11,
+      "code": {
+        "startLine": 3,
+        "length": 11,
+        "offset": 109,
+        "surroundingCode": "import kotlin.coroutines.CoroutineContext\nimport kotlinx.coroutines.CoroutineScope\nimport kotlinx.coroutines.runBlocking\n\n/** Native `runBlocking` implementation */"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "c39314a7b13a6be83b213606ae98a2ef42973127a0d818cadb36c7849cf07808"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Actual function 'runBlocking' has no corresponding expected declaration The following declaration is incompatible because parameter types are different: public expect fun runBlocking(context: CoroutineContext = ..., block: suspend [ERROR : CoroutineScope].() -> T): T",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking/native/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 8,
+      "offset": 34,
+      "length": 1,
+      "code": {
+        "startLine": 6,
+        "length": 1,
+        "offset": 77,
+        "surroundingCode": "\n/** Native `runBlocking` implementation */\npublic actual fun <T> runBlocking(\n    context: CoroutineContext,\n    block: suspend CoroutineScope.() -> T"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "2c8a673afbf86ab7f682c567cff2ef8ce4b9cd1d55a7fceeb3f0c6e2ebafe7bb"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Unresolved reference: CoroutineScope",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "coroutines-run-blocking/native/main/kotlin/com/javiersc/kotlinx/coroutines/run/blocking/RunBlocking.kt",
+      "language": "kotlin",
+      "line": 10,
+      "offset": 20,
+      "length": 14,
+      "code": {
+        "startLine": 8,
+        "length": 14,
+        "offset": 85,
+        "surroundingCode": "public actual fun <T> runBlocking(\n    context: CoroutineContext,\n    block: suspend CoroutineScope.() -> T\n): T = runBlocking(context, block)\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "b3acc28c0df97ce28beee643ac64515dec87af1c791df5b091e4b7a7e1a87037"
 }]}
