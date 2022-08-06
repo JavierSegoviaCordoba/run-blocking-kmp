@@ -20,6 +20,25 @@
       ]
     },
     {
+      "name": "run-blocking-kmp.coroutines-run-blocking",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "jbr-11",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        }
+      ]
+    },
+    {
       "name": "run-blocking-kmp.coroutines-run-blocking-all",
       "contentEntries": [
         {
@@ -86,25 +105,6 @@
         {
           "name": "Gradle: org.jetbrains.kotlinx:atomicfu-iosarm64:klib:cinterop-interop:0.17.3",
           "type": "Library"
-        }
-      ]
-    },
-    {
-      "name": "run-blocking-kmp.coroutines-run-blocking",
-      "contentEntries": [
-        {
-          "path": "file://$PROJECT_DIR$/coroutines-run-blocking",
-          "sourceFolders": []
-        }
-      ],
-      "orderEntries": [
-        {
-          "name": "jbr-11",
-          "type": "SDK"
-        },
-        {
-          "name": "<Module source>",
-          "type": "Own sources"
         }
       ]
     },

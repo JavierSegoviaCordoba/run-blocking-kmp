@@ -5,15 +5,15 @@
       "languageLevel": 11
     },
     {
+      "name": "run-blocking-kmp.coroutines-run-blocking",
+      "languageLevel": 11
+    },
+    {
       "name": "run-blocking-kmp.coroutines-run-blocking-all",
       "languageLevel": 11
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.iosArm64Main",
-      "languageLevel": 11
-    },
-    {
-      "name": "run-blocking-kmp.coroutines-run-blocking",
       "languageLevel": 11
     },
     {

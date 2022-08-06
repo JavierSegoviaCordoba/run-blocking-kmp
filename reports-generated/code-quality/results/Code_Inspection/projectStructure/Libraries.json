@@ -10,7 +10,6 @@
     {
       "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/commonMain/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-commonMain.klib!/",
         "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/commonMain/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-commonMain.klib!/"
       ],
       "properties": {}
@@ -18,7 +17,6 @@
     {
       "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.11",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/commonMain/implementation/com.javiersc.kotlin-kotlin-stdlib/com.javiersc.kotlin-kotlin-stdlib-commonMain.klib!/",
         "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/commonMain/implementation/com.javiersc.kotlin-kotlin-stdlib/com.javiersc.kotlin-kotlin-stdlib-commonMain.klib!/"
       ],
       "properties": {}
@@ -67,7 +65,6 @@
     {
       "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-nativeMain.klib!/",
         "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-nativeMain.klib!/"
       ],
       "properties": {}
@@ -75,7 +72,6 @@
     {
       "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-commonMain.klib!/",
         "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-commonMain.klib!/"
       ],
       "properties": {}
@@ -83,7 +79,6 @@
     {
       "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-nativeInterop.klib!/",
         "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-nativeInterop.klib!/"
       ],
       "properties": {}
@@ -91,7 +86,6 @@
     {
       "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-nativeMain.klib!/",
         "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/nativeMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-nativeMain.klib!/"
       ],
       "properties": {}
@@ -99,7 +93,6 @@
     {
       "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.4",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/commonTest/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-test/org.jetbrains.kotlinx-kotlinx-coroutines-test-commonMain.klib!/",
         "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/commonTest/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-test/org.jetbrains.kotlinx-kotlinx-coroutines-test-commonMain.klib!/"
       ],
       "properties": {}
@@ -107,7 +100,6 @@
     {
       "name": "Gradle: io.kotest:kotest-assertions-core:commonMain:5.3.2",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/commonTest/implementation/io.kotest-kotest-assertions-core/io.kotest-kotest-assertions-core-commonMain.klib!/",
         "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/commonTest/implementation/io.kotest-kotest-assertions-core/io.kotest-kotest-assertions-core-commonMain.klib!/"
       ],
       "properties": {}
@@ -115,7 +107,6 @@
     {
       "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5:commonMain:0.1.0-alpha.11",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/commonTest/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-commonMain.klib!/",
         "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/commonTest/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-commonMain.klib!/"
       ],
       "properties": {}
@@ -123,7 +114,6 @@
     {
       "name": "Gradle: io.kotest:kotest-assertions-shared:commonMain:5.3.2",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/commonTest/implementation/io.kotest-kotest-assertions-shared/io.kotest-kotest-assertions-shared-commonMain.klib!/",
         "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/commonTest/implementation/io.kotest-kotest-assertions-shared/io.kotest-kotest-assertions-shared-commonMain.klib!/"
       ],
       "properties": {}
@@ -131,7 +121,6 @@
     {
       "name": "Gradle: io.kotest:kotest-assertions-api:commonMain:5.3.2",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/commonTest/implementation/io.kotest-kotest-assertions-api/io.kotest-kotest-assertions-api-commonMain.klib!/",
         "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/commonTest/implementation/io.kotest-kotest-assertions-api/io.kotest-kotest-assertions-api-commonMain.klib!/"
       ],
       "properties": {}
@@ -719,7 +708,6 @@
     {
       "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5:mingwMain:0.1.0-alpha.11",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/mingwX64Test/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-mingwMain.klib!/",
         "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/mingwX64Test/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-mingwMain.klib!/"
       ],
       "properties": {}
@@ -978,7 +966,6 @@
     {
       "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5:linuxMain:0.1.0-alpha.11",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/run-blocking-core.run-blocking-kmp/linuxX64Test/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-linuxMain.klib!/",
         "jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/coroutines-run-blocking-all.run-blocking-kmp/linuxX64Test/implementation/com.javiersc.kotlin-kotlin-test-junit5/com.javiersc.kotlin-kotlin-test-junit5-linuxMain.klib!/"
       ],
       "properties": {}
