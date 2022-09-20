@@ -58,4 +58,4 @@ A member is named after the class. This might result in confusion. Either rename
 
 ```
 
-generated with [detekt version 1.21.0](https://detekt.dev/) on 2022-08-06 00:07:23 UTC
+generated with [detekt version 1.21.0](https://detekt.dev/) on 2022-09-20 20:43:53 UTC
