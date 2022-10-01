@@ -14,11 +14,11 @@
 
 ## Complexity Report
 
-* 296 lines of code (loc)
+* 290 lines of code (loc)
 
-* 182 source lines of code (sloc)
+* 177 source lines of code (sloc)
 
-* 121 logical lines of code (lloc)
+* 118 logical lines of code (lloc)
 
 * 53 comment lines of code (cloc)
 
@@ -30,7 +30,7 @@
 
 * 29% comment source ratio
 
-* 107 mcc per 1,000 lloc
+* 110 mcc per 1,000 lloc
 
 * 8 code smells per 1,000 lloc
 
@@ -58,4 +58,4 @@ A member is named after the class. This might result in confusion. Either rename
 
 ```
 
-generated with [detekt version 1.21.0](https://detekt.dev/) on 2022-09-26 19:46:20 UTC
+generated with [detekt version 1.21.0](https://detekt.dev/) on 2022-10-01 13:56:50 UTC
