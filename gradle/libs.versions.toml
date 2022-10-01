@@ -1,9 +1,5 @@
 [versions]
-hubdle = "0.2.0-alpha.37"
-kotlin = "1.7.10"
-
-[libraries]
-jetbrains-kotlin-kotlinGradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+hubdle = "0.2.0-alpha.42"
 
 [plugins]
 javiersc-hubdle = { id = "com.javiersc.hubdle", version.ref = "hubdle" }
