@@ -11,37 +11,6 @@
   "sources": [
     {
       "type": "file",
-      "path": "build.gradle.kts",
-      "language": "kotlin",
-      "line": 2,
-      "offset": 11,
-      "length": 4,
-      "code": {
-        "startLine": 1,
-        "length": 4,
-        "offset": 20,
-        "surroundingCode": "plugins {\n    alias(libs.plugins.javiersc.hubdle)\n}\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "run-blocking-kmp",
-    "inspectionName": "KotlinAnnotator"
-  },
-  "hash": "1bd5b080830cd3573c8b2d6fe69ba1456da34118dce7064e6ec5e7339d88466d"
-},{
-  "tool": "Code Inspection",
-  "category": "General",
-  "type": "Kotlin annotator",
-  "tags": [
-    "Sanity"
-  ],
-  "severity": "Critical",
-  "comment": "'val Project.libs: LibrariesForLibs' can't be called in this context by implicit receiver. Use the explicit one if necessary",
-  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
-  "sources": [
-    {
-      "type": "file",
       "path": "coroutines-run-blocking/build.gradle.kts",
       "language": "kotlin",
       "line": 2,
@@ -60,6 +29,37 @@
     "inspectionName": "KotlinAnnotator"
   },
   "hash": "e75729349524e250983ef098496099b40d0c361cf09f1fb3e9bee0576c63417b"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "'val Project.libs: LibrariesForLibs' can't be called in this context by implicit receiver. Use the explicit one if necessary",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "build.gradle.kts",
+      "language": "kotlin",
+      "line": 2,
+      "offset": 11,
+      "length": 4,
+      "code": {
+        "startLine": 1,
+        "length": 4,
+        "offset": 20,
+        "surroundingCode": "plugins {\n    alias(libs.plugins.javiersc.hubdle)\n}\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "run-blocking-kmp",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "1bd5b080830cd3573c8b2d6fe69ba1456da34118dce7064e6ec5e7339d88466d"
 },{
   "tool": "Code Inspection",
   "category": "General",
