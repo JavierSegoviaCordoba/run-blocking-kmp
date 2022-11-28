@@ -35,7 +35,7 @@
       ],
       "tool": {
         "driver": {
-          "downloadUri": "https://github.com/detekt/detekt/releases/download/v1.21.0/detekt",
+          "downloadUri": "https://github.com/detekt/detekt/releases/download/v1.22.0/detekt",
           "fullName": "detekt",
           "guid": "022ca8c2-f6a2-4c95-b107-bb72c43263f3",
           "informationUri": "https://detekt.dev",
@@ -228,6 +228,14 @@
               }
             },
             {
+              "helpUri": "https://detekt.dev/potential-bugs.html#unnecessarynotnullcheck",
+              "id": "detekt.potential-bugs.UnnecessaryNotNullCheck",
+              "name": "UnnecessaryNotNullCheck",
+              "shortDescription": {
+                "text": "Remove unnecessary not-null checks on non-null types."
+              }
+            },
+            {
               "helpUri": "https://detekt.dev/potential-bugs.html#unnecessarysafecall",
               "id": "detekt.potential-bugs.UnnecessarySafeCall",
               "name": "UnnecessarySafeCall",
@@ -356,9 +364,17 @@
               }
             },
             {
-              "helpUri": "https://detekt.dev/complexity.html#complexmethod",
-              "id": "detekt.complexity.ComplexMethod",
-              "name": "ComplexMethod",
+              "helpUri": "https://detekt.dev/complexity.html#cyclomaticcomplexmethod",
+              "id": "detekt.complexity.CyclomaticComplexMethod",
+              "name": "CyclomaticComplexMethod",
+              "shortDescription": {
+                "text": "Prefer splitting up complex methods into smaller, easier to test methods."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/complexity.html#cognitivecomplexmethod",
+              "id": "detekt.complexity.CognitiveComplexMethod",
+              "name": "CognitiveComplexMethod",
               "shortDescription": {
                 "text": "Prefer splitting up complex methods into smaller, easier to understand methods."
               }
@@ -812,142 +828,6 @@
               }
             },
             {
-              "helpUri": "https://detekt.dev/naming.html#variablenaming",
-              "id": "detekt.naming.VariableNaming",
-              "name": "VariableNaming",
-              "shortDescription": {
-                "text": "Variable names should follow the naming convention set in the projects configuration."
-              }
-            },
-            {
-              "helpUri": "https://detekt.dev/naming.html#variableminlength",
-              "id": "detekt.naming.VariableMinLength",
-              "name": "VariableMinLength",
-              "shortDescription": {
-                "text": "Variable names should not be shorter than the minimum defined in the configuration."
-              }
-            },
-            {
-              "helpUri": "https://detekt.dev/naming.html#variablemaxlength",
-              "id": "detekt.naming.VariableMaxLength",
-              "name": "VariableMaxLength",
-              "shortDescription": {
-                "text": "Variable names should not be longer than the maximum set in the configuration."
-              }
-            },
-            {
-              "helpUri": "https://detekt.dev/naming.html#toplevelpropertynaming",
-              "id": "detekt.naming.TopLevelPropertyNaming",
-              "name": "TopLevelPropertyNaming",
-              "shortDescription": {
-                "text": "Top level property names should follow the naming convention set in the projects configuration."
-              }
-            },
-            {
-              "helpUri": "https://detekt.dev/naming.html#objectpropertynaming",
-              "id": "detekt.naming.ObjectPropertyNaming",
-              "name": "ObjectPropertyNaming",
-              "shortDescription": {
-                "text": "Property names inside objects should follow the naming convention set in the projects configuration."
-              }
-            },
-            {
-              "helpUri": "https://detekt.dev/naming.html#nonbooleanpropertyprefixedwithis",
-              "id": "detekt.naming.NonBooleanPropertyPrefixedWithIs",
-              "name": "NonBooleanPropertyPrefixedWithIs",
-              "shortDescription": {
-                "text": "Only boolean property names can start with `is` prefix."
-              }
-            },
-            {
-              "helpUri": "https://detekt.dev/naming.html#packagenaming",
-              "id": "detekt.naming.PackageNaming",
-              "name": "PackageNaming",
-              "shortDescription": {
-                "text": "Package names should match the naming convention set in the configuration."
-              }
-            },
-            {
-              "helpUri": "https://detekt.dev/naming.html#classnaming",
-              "id": "detekt.naming.ClassNaming",
-              "name": "ClassNaming",
-              "shortDescription": {
-                "text": "A class or object name should fit the naming pattern defined in the projects configuration."
-              }
-            },
-            {
-              "helpUri": "https://detekt.dev/naming.html#enumnaming",
-              "id": "detekt.naming.EnumNaming",
-              "name": "EnumNaming",
-              "shortDescription": {
-                "text": "Enum names should follow the naming convention set in the projects configuration."
-              }
-            },
-            {
-              "helpUri": "https://detekt.dev/naming.html#functionnaming",
-              "id": "detekt.naming.FunctionNaming",
-              "name": "FunctionNaming",
-              "shortDescription": {
-                "text": "Function names should follow the naming convention set in the configuration."
-              }
-            },
-            {
-              "helpUri": "https://detekt.dev/naming.html#functionmaxlength",
-              "id": "detekt.naming.FunctionMaxLength",
-              "name": "FunctionMaxLength",
-              "shortDescription": {
-                "text": "Function names should not be longer than the maximum set in the project configuration."
-              }
-            },
-            {
-              "helpUri": "https://detekt.dev/naming.html#functionminlength",
-              "id": "detekt.naming.FunctionMinLength",
-              "name": "FunctionMinLength",
-              "shortDescription": {
-                "text": "Function names should not be shorter than the minimum defined in the configuration."
-              }
-            },
-            {
-              "helpUri": "https://detekt.dev/naming.html#forbiddenclassname",
-              "id": "detekt.naming.ForbiddenClassName",
-              "name": "ForbiddenClassName",
-              "shortDescription": {
-                "text": "Forbidden class name as per configuration detected."
-              }
-            },
-            {
-              "helpUri": "https://detekt.dev/naming.html#constructorparameternaming",
-              "id": "detekt.naming.ConstructorParameterNaming",
-              "name": "ConstructorParameterNaming",
-              "shortDescription": {
-                "text": "Constructor parameter names should follow the naming convention set in the projects configuration."
-              }
-            },
-            {
-              "helpUri": "https://detekt.dev/naming.html#functionparameternaming",
-              "id": "detekt.naming.FunctionParameterNaming",
-              "name": "FunctionParameterNaming",
-              "shortDescription": {
-                "text": "Function parameter names should follow the naming convention set in the projects configuration."
-              }
-            },
-            {
-              "helpUri": "https://detekt.dev/naming.html#lambdaparameternaming",
-              "id": "detekt.naming.LambdaParameterNaming",
-              "name": "LambdaParameterNaming",
-              "shortDescription": {
-                "text": "Lambda parameter names should follow the naming convention set in the projects configuration."
-              }
-            },
-            {
-              "helpUri": "https://detekt.dev/naming.html#booleanpropertynaming",
-              "id": "detekt.naming.BooleanPropertyNaming",
-              "name": "BooleanPropertyNaming",
-              "shortDescription": {
-                "text": "Boolean property name should follow the naming convention set in the projects configuration."
-              }
-            },
-            {
               "helpUri": "https://detekt.dev/naming.html#invalidpackagedeclaration",
               "id": "detekt.naming.InvalidPackageDeclaration",
               "name": "InvalidPackageDeclaration",
@@ -961,6 +841,142 @@
               "name": "NoNameShadowing",
               "shortDescription": {
                 "text": "Disallow shadowing variable declarations."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/naming.html#toplevelpropertynaming",
+              "id": "detekt.naming.TopLevelPropertyNaming",
+              "name": "TopLevelPropertyNaming",
+              "shortDescription": {
+                "text": "Top level property names should follow the naming convention set in the projects configuration."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/naming.html#booleanpropertynaming",
+              "id": "detekt.naming.BooleanPropertyNaming",
+              "name": "BooleanPropertyNaming",
+              "shortDescription": {
+                "text": "Boolean property name should follow the naming convention set in the projects configuration."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/naming.html#lambdaparameternaming",
+              "id": "detekt.naming.LambdaParameterNaming",
+              "name": "LambdaParameterNaming",
+              "shortDescription": {
+                "text": "Lambda parameter names should follow the naming convention set in the projects configuration."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/naming.html#constructorparameternaming",
+              "id": "detekt.naming.ConstructorParameterNaming",
+              "name": "ConstructorParameterNaming",
+              "shortDescription": {
+                "text": "Constructor parameter names should follow the naming convention set in the projects configuration."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/naming.html#forbiddenclassname",
+              "id": "detekt.naming.ForbiddenClassName",
+              "name": "ForbiddenClassName",
+              "shortDescription": {
+                "text": "Forbidden class name as per configuration detected."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/naming.html#classnaming",
+              "id": "detekt.naming.ClassNaming",
+              "name": "ClassNaming",
+              "shortDescription": {
+                "text": "A class or object name should fit the naming pattern defined in the projects configuration."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/naming.html#packagenaming",
+              "id": "detekt.naming.PackageNaming",
+              "name": "PackageNaming",
+              "shortDescription": {
+                "text": "Package names should match the naming convention set in the configuration."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/naming.html#enumnaming",
+              "id": "detekt.naming.EnumNaming",
+              "name": "EnumNaming",
+              "shortDescription": {
+                "text": "Enum names should follow the naming convention set in the projects configuration."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/naming.html#objectpropertynaming",
+              "id": "detekt.naming.ObjectPropertyNaming",
+              "name": "ObjectPropertyNaming",
+              "shortDescription": {
+                "text": "Property names inside objects should follow the naming convention set in the projects configuration."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/naming.html#functionparameternaming",
+              "id": "detekt.naming.FunctionParameterNaming",
+              "name": "FunctionParameterNaming",
+              "shortDescription": {
+                "text": "Function parameter names should follow the naming convention set in the projects configuration."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/naming.html#functionnaming",
+              "id": "detekt.naming.FunctionNaming",
+              "name": "FunctionNaming",
+              "shortDescription": {
+                "text": "Function names should follow the naming convention set in the configuration."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/naming.html#functionminlength",
+              "id": "detekt.naming.FunctionMinLength",
+              "name": "FunctionMinLength",
+              "shortDescription": {
+                "text": "Function names should not be shorter than the minimum defined in the configuration."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/naming.html#functionmaxlength",
+              "id": "detekt.naming.FunctionMaxLength",
+              "name": "FunctionMaxLength",
+              "shortDescription": {
+                "text": "Function names should not be longer than the maximum set in the project configuration."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/naming.html#variablemaxlength",
+              "id": "detekt.naming.VariableMaxLength",
+              "name": "VariableMaxLength",
+              "shortDescription": {
+                "text": "Variable names should not be longer than the maximum set in the configuration."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/naming.html#variableminlength",
+              "id": "detekt.naming.VariableMinLength",
+              "name": "VariableMinLength",
+              "shortDescription": {
+                "text": "Variable names should not be shorter than the minimum defined in the configuration."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/naming.html#variablenaming",
+              "id": "detekt.naming.VariableNaming",
+              "name": "VariableNaming",
+              "shortDescription": {
+                "text": "Variable names should follow the naming convention set in the projects configuration."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/naming.html#nonbooleanpropertyprefixedwithis",
+              "id": "detekt.naming.NonBooleanPropertyPrefixedWithIs",
+              "name": "NonBooleanPropertyPrefixedWithIs",
+              "shortDescription": {
+                "text": "Only boolean property names can start with `is` prefix."
               }
             },
             {
@@ -1001,6 +1017,14 @@
               "name": "CouldBeSequence",
               "shortDescription": {
                 "text": "Several chained collection operations that should be a sequence."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/performance.html#unnecessarypartofbinaryexpression",
+              "id": "detekt.performance.UnnecessaryPartOfBinaryExpression",
+              "name": "UnnecessaryPartOfBinaryExpression",
+              "shortDescription": {
+                "text": "Detects duplicate condition into binary expression and recommends to remove unnecessary checks"
               }
             },
             {
@@ -1057,6 +1081,14 @@
               "name": "ThrowsCount",
               "shortDescription": {
                 "text": "Restrict the number of throw statements in methods."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/style.html#trimmultilinerawstring",
+              "id": "detekt.style.TrimMultilineRawString",
+              "name": "TrimMultilineRawString",
+              "shortDescription": {
+                "text": "Multiline raw strings should be followed by `trimMargin()` or `trimIndent()`."
               }
             },
             {
@@ -1140,14 +1172,6 @@
               }
             },
             {
-              "helpUri": "https://detekt.dev/style.html#forbiddenpublicdataclass",
-              "id": "detekt.style.ForbiddenPublicDataClass",
-              "name": "ForbiddenPublicDataClass",
-              "shortDescription": {
-                "text": "The data classes are bad for the binary compatibility in public APIs. Avoid to use it."
-              }
-            },
-            {
               "helpUri": "https://detekt.dev/style.html#forbiddensuppress",
               "id": "detekt.style.ForbiddenSuppress",
               "name": "ForbiddenSuppress",
@@ -1192,7 +1216,7 @@
               "id": "detekt.style.UnnecessaryAbstractClass",
               "name": "UnnecessaryAbstractClass",
               "shortDescription": {
-                "text": "An abstract class is unnecessary and can be refactored. An abstract class should have both abstract and concrete properties or functions. An abstract class without a concrete member can be refactored to an interface. An abstract class without an abstract member can be refactored to a concrete class."
+                "text": "An abstract class is unnecessary. May be refactored to an interface or to a concrete class."
               }
             },
             {
@@ -1524,22 +1548,6 @@
               }
             },
             {
-              "helpUri": "https://detekt.dev/style.html#libraryentitiesshouldnotbepublic",
-              "id": "detekt.style.LibraryEntitiesShouldNotBePublic",
-              "name": "LibraryEntitiesShouldNotBePublic",
-              "shortDescription": {
-                "text": "Library classes should not be public."
-              }
-            },
-            {
-              "helpUri": "https://detekt.dev/style.html#librarycodemustspecifyreturntype",
-              "id": "detekt.style.LibraryCodeMustSpecifyReturnType",
-              "name": "LibraryCodeMustSpecifyReturnType",
-              "shortDescription": {
-                "text": "Library functions/properties should have an explicit return type. Inferred return types can easily be changed by mistake which may lead to breaking changes."
-              }
-            },
-            {
               "helpUri": "https://detekt.dev/style.html#usearrayliteralsinannotations",
               "id": "detekt.style.UseArrayLiteralsInAnnotations",
               "name": "UseArrayLiteralsInAnnotations",
@@ -1596,6 +1604,14 @@
               }
             },
             {
+              "helpUri": "https://detekt.dev/style.html#multilinerawstringindentation",
+              "id": "detekt.style.MultilineRawStringIndentation",
+              "name": "MultilineRawStringIndentation",
+              "shortDescription": {
+                "text": "The indentation of the raw String should be consistent"
+              }
+            },
+            {
               "helpUri": "https://detekt.dev/style.html#useisnullorempty",
               "id": "detekt.style.UseIsNullOrEmpty",
               "name": "UseIsNullOrEmpty",
@@ -1634,10 +1650,26 @@
               "shortDescription": {
                 "text": "Chained calls beyond the maximum should be wrapped to a new line."
               }
+            },
+            {
+              "helpUri": "https://detekt.dev/style.html#alsocouldbeapply",
+              "id": "detekt.style.AlsoCouldBeApply",
+              "name": "AlsoCouldBeApply",
+              "shortDescription": {
+                "text": "When an `also` block contains only `it`-started expressions, simplify it to the `apply` block."
+              }
+            },
+            {
+              "helpUri": "https://detekt.dev/style.html#usesumofinsteadofflatmapsize",
+              "id": "detekt.style.UseSumOfInsteadOfFlatMapSize",
+              "name": "UseSumOfInsteadOfFlatMapSize",
+              "shortDescription": {
+                "text": "Use `sumOf` instead of `flatMap` and `size/count` calls"
+              }
             }
           ],
-          "semanticVersion": "1.21.0",
-          "version": "1.21.0"
+          "semanticVersion": "1.22.0",
+          "version": "1.22.0"
         }
       }
     }
