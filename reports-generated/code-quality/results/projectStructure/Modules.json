@@ -10,7 +10,7 @@
       ],
       "orderEntries": [
         {
-          "name": "jbr-11",
+          "name": "17",
           "type": "SDK"
         },
         {
@@ -29,7 +29,7 @@
       ],
       "orderEntries": [
         {
-          "name": "jbr-11",
+          "name": "17",
           "type": "SDK"
         },
         {
@@ -48,7 +48,7 @@
       ],
       "orderEntries": [
         {
-          "name": "jbr-11",
+          "name": "17",
           "type": "SDK"
         },
         {
@@ -499,7 +499,7 @@
       ],
       "orderEntries": [
         {
-          "name": "jbr-11",
+          "name": "17",
           "type": "SDK"
         },
         {
@@ -546,7 +546,7 @@
       ],
       "orderEntries": [
         {
-          "name": "jbr-11",
+          "name": "17",
           "type": "SDK"
         },
         {
@@ -2915,14 +2915,6 @@
       "name": "run-blocking-kmp.coroutines-run-blocking-all.jsMain",
       "contentEntries": [
         {
-          "path": "file://$PROJECT_DIR$/coroutines-run-blocking-all/build/externals/run-blocking-kmp-coroutines-run-blocking-all-js-ir/src",
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/coroutines-run-blocking-all/build/externals/run-blocking-kmp-coroutines-run-blocking-all-js-legacy/src",
-          "sourceFolders": []
-        },
-        {
           "path": "file://$PROJECT_DIR$/coroutines-run-blocking-all/js/main",
           "sourceFolders": [
             {
@@ -3087,7 +3079,7 @@
       ],
       "orderEntries": [
         {
-          "name": "jbr-11",
+          "name": "17",
           "type": "SDK"
         },
         {
@@ -3134,7 +3126,7 @@
       ],
       "orderEntries": [
         {
-          "name": "jbr-11",
+          "name": "17",
           "type": "SDK"
         },
         {

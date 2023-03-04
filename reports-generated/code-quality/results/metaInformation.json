@@ -3,16 +3,17 @@
   "tools inspection": {
     "Code Inspection": 0
   },
+  "linter": "QDJVMC",
   "attributes": {
     "vcs": {
       "sarifIdea": {
-        "repositoryUri": "https://github.com/JavierSegoviaCordoba/run-blocking-kmp",
-        "revisionId": "2e4948dff218a2ff9a58e37c1265f391f01e30a8",
+        "repositoryUri": "https://github.com/JavierSegoviaCordoba/run-blocking-kmp.git",
+        "revisionId": "e16ca62175d774a11be4cb2637588d57b664fc0a",
         "branch": "main"
       }
     },
     "deviceId": "200820300000000-915f-f685-10b7-14ac1cb0fc39",
-    "jobUrl": "https://github.com/JavierSegoviaCordoba/run-blocking-kmp/actions/runs/3564015932",
-    "repoUrl": "https://github.com/JavierSegoviaCordoba/run-blocking-kmp"
+    "jobUrl": "https://github.com/JavierSegoviaCordoba/run-blocking-kmp/actions/runs/4332943807",
+    "repoUrl": "https://github.com/JavierSegoviaCordoba/run-blocking-kmp.git"
   }
 }

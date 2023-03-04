@@ -2,279 +2,279 @@
   "modules": [
     {
       "name": "run-blocking-kmp",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.iosArm64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.iosArm64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.iosSimulatorArm64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.iosSimulatorArm64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.iosX64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.iosX64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.jvmMain",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.jvmTest",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.linuxX64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.linuxX64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.macosArm64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.macosArm64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.macosX64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.macosX64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.mingwX64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.mingwX64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.tvosArm64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.tvosArm64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.tvosSimulatorArm64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.tvosSimulatorArm64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.tvosX64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.tvosX64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.watchosArm64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.watchosArm64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.watchosSimulatorArm64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.watchosSimulatorArm64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.watchosX64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.watchosX64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.commonTest",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.nativeTest",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.iosArm64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.iosArm64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.iosSimulatorArm64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.iosSimulatorArm64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.iosX64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.iosX64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.jsMain",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.jsTest",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.jvmMain",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.jvmTest",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.linuxX64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.linuxX64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.macosArm64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.macosArm64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.macosX64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.macosX64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.mingwX64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.mingwX64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosArm64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosArm64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosSimulatorArm64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosSimulatorArm64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosX64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosX64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosArm64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosArm64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosSimulatorArm64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosSimulatorArm64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosX64Main",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosX64Test",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.commonTest",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
-      "languageLevel": 11
+      "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeTest",
-      "languageLevel": 11
+      "languageLevel": 17
     }
   ]
 }
