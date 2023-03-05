@@ -25,7 +25,7 @@ import kotlinx.coroutines.CoroutineScope
  * facilities that are available for a newly created coroutine.
  *
  * @param context the context of the coroutine. The default value is an event loop on the current
- * thread.
+ *   thread.
  * @param block the coroutine code.
  */
 public expect fun <T> runBlocking(

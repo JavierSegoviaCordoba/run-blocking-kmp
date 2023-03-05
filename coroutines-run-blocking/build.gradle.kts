@@ -4,6 +4,9 @@ plugins {
 
 hubdle {
     config {
+        documentation {
+            api()
+        }
         explicitApi()
         publishing()
     }
@@ -14,29 +17,36 @@ hubdle {
             }
 
             common()
-
-            iosArm64()
-            iosSimulatorArm64()
-            iosX64()
-
+            apple {
+                ios {
+                    iosArm64()
+                    iosSimulatorArm64()
+                    iosX64()
+                }
+                macos {
+                    macosArm64()
+                    macosX64()
+                }
+                tvos {
+                    tvosArm64()
+                    tvosSimulatorArm64()
+                    tvosX64()
+                }
+                watchos {
+                    watchosArm64()
+                    watchosSimulatorArm64()
+                    watchosX64()
+                }
+            }
             jvm()
-
-            linuxX64()
+            linux {
+                linuxX64()
+            }
+            mingw {
+                mingwX64()
+            }
 
             native()
-
-            macosArm64()
-            macosX64()
-
-            mingwX64()
-
-            tvosArm64()
-            tvosSimulatorArm64()
-            tvosX64()
-
-            watchosArm64()
-            watchosSimulatorArm64()
-            watchosX64()
         }
     }
 }
