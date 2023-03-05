@@ -8,12 +8,12 @@
     "vcs": {
       "sarifIdea": {
         "repositoryUri": "https://github.com/JavierSegoviaCordoba/run-blocking-kmp.git",
-        "revisionId": "e16ca62175d774a11be4cb2637588d57b664fc0a",
+        "revisionId": "67a77dab508672dfc6e96d89209a2c0c108ddd16",
         "branch": "main"
       }
     },
     "deviceId": "200820300000000-915f-f685-10b7-14ac1cb0fc39",
-    "jobUrl": "https://github.com/JavierSegoviaCordoba/run-blocking-kmp/actions/runs/4332943807",
+    "jobUrl": "https://github.com/JavierSegoviaCordoba/run-blocking-kmp/actions/runs/4335640417",
     "repoUrl": "https://github.com/JavierSegoviaCordoba/run-blocking-kmp.git"
   }
 }

@@ -125,6 +125,14 @@
       "languageLevel": 17
     },
     {
+      "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.appleTest",
+      "languageLevel": 17
+    },
+    {
       "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
       "languageLevel": 17
     },
@@ -133,11 +141,59 @@
       "languageLevel": 17
     },
     {
+      "name": "run-blocking-kmp.coroutines-run-blocking.iosMain",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.iosTest",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.linuxMain",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.linuxTest",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.macosMain",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.macosTest",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.mingwMain",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.mingwTest",
+      "languageLevel": 17
+    },
+    {
       "name": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
       "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking.nativeTest",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.tvosMain",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.tvosTest",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.watchosMain",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.watchosTest",
       "languageLevel": 17
     },
     {
@@ -261,6 +317,14 @@
       "languageLevel": 17
     },
     {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.appleTest",
+      "languageLevel": 17
+    },
+    {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
       "languageLevel": 17
     },
@@ -269,11 +333,59 @@
       "languageLevel": 17
     },
     {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.iosMain",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.iosTest",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.linuxMain",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.linuxTest",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.macosMain",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.macosTest",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.mingwMain",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.mingwTest",
+      "languageLevel": 17
+    },
+    {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
       "languageLevel": 17
     },
     {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeTest",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosMain",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosTest",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosMain",
+      "languageLevel": 17
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosTest",
       "languageLevel": 17
     }
   ]

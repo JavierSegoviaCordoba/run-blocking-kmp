@@ -75,11 +75,19 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.iosMain",
           "type": "Module"
         },
         {
@@ -122,8 +130,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
@@ -138,12 +154,24 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking.iosMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.iosTest",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
           "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.nativeTest",
           "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-iosarm64:klib:1.6.4",
@@ -162,11 +190,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-iosarm64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-iosarm64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -217,11 +253,19 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.iosMain",
           "type": "Module"
         },
         {
@@ -264,8 +308,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
@@ -276,7 +328,15 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking.iosMain",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking.iosSimulatorArm64Main",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.iosTest",
           "type": "Module"
         },
         {
@@ -286,6 +346,10 @@
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.nativeTest",
           "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-iossimulatorarm64:klib:1.6.4",
@@ -304,11 +368,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-iossimulatorarm64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-iossimulatorarm64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -359,11 +431,19 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.iosMain",
           "type": "Module"
         },
         {
@@ -406,8 +486,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
@@ -415,6 +503,14 @@
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.iosMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.iosTest",
           "type": "Module"
         },
         {
@@ -428,6 +524,10 @@
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.nativeTest",
           "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-iosx64:klib:1.6.4",
@@ -446,11 +546,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-iosx64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-iosx64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -511,7 +619,7 @@
           "type": "Module"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10",
           "type": "Library"
         },
         {
@@ -523,11 +631,11 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.8.10",
           "type": "Library"
         },
         {
@@ -570,11 +678,15 @@
           "type": "Module"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-test:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10",
           "type": "Library"
         },
         {
@@ -590,11 +702,15 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.7.20",
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit5:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-jvm:0.1.0-alpha.12",
           "type": "Library"
         },
         {
@@ -602,15 +718,11 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-jvm:0.1.0-alpha.12",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.jetbrains:annotations:13.0",
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -618,23 +730,7 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.junit.jupiter:junit-jupiter-api:5.6.0",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.junit.platform:junit-platform-commons:1.6.0",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.apiguardian:apiguardian-api:1.1.0",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.opentest4j:opentest4j:1.2.0",
+          "name": "Gradle: org.jetbrains:annotations:13.0",
           "type": "Library"
         },
         {
@@ -642,7 +738,7 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.junit.jupiter:junit-jupiter-engine:5.6.0",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
           "type": "Library"
         },
         {
@@ -654,11 +750,11 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.junit.platform:junit-platform-engine:1.6.0",
+          "name": "Gradle: io.github.java-diff-utils:java-diff-utils:4.12",
           "type": "Library"
         },
         {
-          "name": "Gradle: io.github.java-diff-utils:java-diff-utils:4.12",
+          "name": "Gradle: org.opentest4j:opentest4j:1.2.0",
           "type": "Library"
         }
       ]
@@ -681,7 +777,7 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
@@ -689,27 +785,31 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking.linuxMain",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
           "type": "Module"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - builtin | linux_x64",
+          "name": "Kotlin/Native 1.8.10 - builtin | linux_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - iconv | linux_x64",
+          "name": "Kotlin/Native 1.8.10 - iconv | linux_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - linux | linux_x64",
+          "name": "Kotlin/Native 1.8.10 - linux | linux_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - posix | linux_x64",
+          "name": "Kotlin/Native 1.8.10 - posix | linux_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - zlib | linux_x64",
+          "name": "Kotlin/Native 1.8.10 - zlib | linux_x64",
           "type": "Library"
         },
         {
@@ -748,7 +848,7 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
@@ -757,6 +857,14 @@
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.linuxMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.linuxTest",
           "type": "Module"
         },
         {
@@ -772,23 +880,27 @@
           "type": "Module"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - builtin | linux_x64",
+          "name": "Kotlin/Native 1.8.10 - builtin | linux_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - iconv | linux_x64",
+          "name": "Kotlin/Native 1.8.10 - iconv | linux_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - linux | linux_x64",
+          "name": "Kotlin/Native 1.8.10 - linux | linux_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - posix | linux_x64",
+          "name": "Kotlin/Native 1.8.10 - posix | linux_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - zlib | linux_x64",
+          "name": "Kotlin/Native 1.8.10 - zlib | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
           "type": "Library"
         },
         {
@@ -808,11 +920,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-linuxx64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-linuxx64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -863,11 +983,19 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.macosMain",
           "type": "Module"
         },
         {
@@ -910,8 +1038,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
@@ -926,12 +1062,24 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking.macosMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.macosTest",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
           "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.nativeTest",
           "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-macosarm64:klib:1.6.4",
@@ -950,11 +1098,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-macosarm64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-macosarm64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -1005,11 +1161,19 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.macosMain",
           "type": "Module"
         },
         {
@@ -1052,8 +1216,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
@@ -1061,6 +1233,14 @@
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.macosMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.macosTest",
           "type": "Module"
         },
         {
@@ -1074,6 +1254,10 @@
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.nativeTest",
           "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-macosx64:klib:1.6.4",
@@ -1092,11 +1276,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-macosx64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-macosx64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -1147,7 +1339,7 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
@@ -1155,35 +1347,43 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking.mingwMain",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
           "type": "Module"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - builtin | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - builtin | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - gdiplus | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - gdiplus | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - iconv | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - iconv | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - opengl32 | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - opengl32 | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - posix | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - posix | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - windows | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - windows | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - zlib | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - winhttp | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - zlib | mingw_x64",
           "type": "Library"
         },
         {
@@ -1222,7 +1422,7 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
@@ -1231,6 +1431,14 @@
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.mingwMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.mingwTest",
           "type": "Module"
         },
         {
@@ -1246,31 +1454,39 @@
           "type": "Module"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - builtin | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - builtin | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - gdiplus | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - gdiplus | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - iconv | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - iconv | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - opengl32 | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - opengl32 | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - posix | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - posix | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - windows | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - windows | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - zlib | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - winhttp | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - zlib | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
           "type": "Library"
         },
         {
@@ -1290,11 +1506,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-mingwx64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-mingwx64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -1345,8 +1569,12 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
@@ -1354,6 +1582,10 @@
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.tvosMain",
           "type": "Module"
         },
         {
@@ -1392,8 +1624,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
@@ -1416,6 +1656,18 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking.tvosMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.tvosTest",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-tvosarm64:klib:1.6.4",
           "type": "Library"
         },
@@ -1432,11 +1684,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-tvosarm64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-tvosarm64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -1487,8 +1747,12 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
@@ -1496,6 +1760,10 @@
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.tvosMain",
           "type": "Module"
         },
         {
@@ -1534,8 +1802,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
@@ -1554,8 +1830,20 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking.tvosMain",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking.tvosSimulatorArm64Main",
           "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.tvosTest",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-tvossimulatorarm64:klib:1.6.4",
@@ -1574,11 +1862,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-tvossimulatorarm64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-tvossimulatorarm64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -1629,8 +1925,12 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
@@ -1638,6 +1938,10 @@
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.tvosMain",
           "type": "Module"
         },
         {
@@ -1676,8 +1980,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
@@ -1696,8 +2008,20 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking.tvosMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.tvosTest",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking.tvosX64Main",
           "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-tvosx64:klib:1.6.4",
@@ -1716,11 +2040,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-tvosx64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-tvosx64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -1771,8 +2103,12 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
@@ -1780,6 +2116,10 @@
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.watchosMain",
           "type": "Module"
         },
         {
@@ -1818,8 +2158,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
@@ -1842,6 +2190,18 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking.watchosMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.watchosTest",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-watchosarm64:klib:1.6.4",
           "type": "Library"
         },
@@ -1858,11 +2218,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-watchosarm64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-watchosarm64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -1913,8 +2281,12 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
@@ -1922,6 +2294,10 @@
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.watchosMain",
           "type": "Module"
         },
         {
@@ -1960,8 +2336,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
@@ -1980,8 +2364,20 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking.watchosMain",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking.watchosSimulatorArm64Main",
           "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.watchosTest",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-watchossimulatorarm64:klib:1.6.4",
@@ -2000,11 +2396,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-watchossimulatorarm64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-watchossimulatorarm64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -2055,8 +2459,12 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
@@ -2064,6 +2472,10 @@
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.watchosMain",
           "type": "Module"
         },
         {
@@ -2102,8 +2514,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
@@ -2122,8 +2542,20 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking.watchosMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.watchosTest",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking.watchosX64Main",
           "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-watchosx64:klib:1.6.4",
@@ -2142,11 +2574,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-watchosx64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-watchosx64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -2180,6 +2620,184 @@
       ]
     },
     {
+      "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking/apple/main",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.appleTest",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking/apple/test",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-core:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-shared:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-api:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
       "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
       "contentEntries": [
         {
@@ -2203,7 +2821,7 @@
           "type": "Own sources"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
           "type": "Library"
         },
         {
@@ -2248,7 +2866,7 @@
           "type": "Module"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
           "type": "Library"
         },
         {
@@ -2272,7 +2890,15 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5:commonMain:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.8.10",
           "type": "Library"
         },
         {
@@ -2284,11 +2910,847 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.7.20",
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.iosMain",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking/ios/main",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.iosTest",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking/ios/test",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.iosMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-core:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-shared:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-api:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.linuxMain",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking/linux/main",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - builtin | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - iconv | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - linux | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - posix | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - zlib | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeOtherMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.linuxTest",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking/linux/test",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.linuxMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.linuxX64Main",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - builtin | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - iconv | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - linux | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - posix | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - zlib | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeOtherMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-core:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-shared:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-api:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.macosMain",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking/macos/main",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.macosTest",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking/macos/test",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.macosMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-core:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-shared:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-api:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.mingwMain",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking/mingw/main",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - builtin | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - gdiplus | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - iconv | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - opengl32 | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - posix | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - windows | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - winhttp | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - zlib | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeOtherMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.mingwTest",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking/mingw/test",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.mingwMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.mingwX64Main",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - builtin | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - gdiplus | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - iconv | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - opengl32 | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - posix | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - windows | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - winhttp | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - zlib | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeOtherMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-core:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-shared:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-api:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         }
       ]
@@ -2317,7 +3779,7 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
@@ -2325,23 +3787,23 @@
           "type": "Module"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - builtin | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+          "name": "Kotlin/Native 1.8.10 - builtin | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - iconv | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+          "name": "Kotlin/Native 1.8.10 - iconv | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - posix | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+          "name": "Kotlin/Native 1.8.10 - posix | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+          "name": "Kotlin/Native 1.8.10 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
           "type": "Library"
         },
         {
@@ -2392,7 +3854,7 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
@@ -2408,23 +3870,23 @@
           "type": "Module"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - builtin | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+          "name": "Kotlin/Native 1.8.10 - builtin | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - iconv | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+          "name": "Kotlin/Native 1.8.10 - iconv | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - posix | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+          "name": "Kotlin/Native 1.8.10 - posix | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+          "name": "Kotlin/Native 1.8.10 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
           "type": "Library"
         },
         {
@@ -2464,7 +3926,15 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5:commonMain:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.8.10",
           "type": "Library"
         },
         {
@@ -2476,11 +3946,379 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.7.20",
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.tvosMain",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking/tvos/main",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.tvosTest",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking/tvos/test",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.tvosMain",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-core:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-shared:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-api:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.watchosMain",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking/watchos/main",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking.watchosTest",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking/watchos/test",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking.watchosMain",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-core:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-shared:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-api:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         }
       ]
@@ -2503,11 +4341,19 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.iosMain",
           "type": "Module"
         },
         {
@@ -2550,8 +4396,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
@@ -2566,12 +4420,24 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.iosMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.iosTest",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
           "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeTest",
           "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-iosarm64:klib:1.6.4",
@@ -2590,11 +4456,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-iosarm64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-iosarm64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -2645,11 +4519,19 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.iosMain",
           "type": "Module"
         },
         {
@@ -2692,8 +4574,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
@@ -2704,7 +4594,15 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.iosMain",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.iosSimulatorArm64Main",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.iosTest",
           "type": "Module"
         },
         {
@@ -2714,6 +4612,10 @@
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeTest",
           "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-iossimulatorarm64:klib:1.6.4",
@@ -2732,11 +4634,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-iossimulatorarm64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-iossimulatorarm64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -2787,11 +4697,19 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.iosMain",
           "type": "Module"
         },
         {
@@ -2834,8 +4752,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
@@ -2843,6 +4769,14 @@
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.iosMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.iosTest",
           "type": "Module"
         },
         {
@@ -2856,6 +4790,10 @@
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeTest",
           "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-iosx64:klib:1.6.4",
@@ -2874,11 +4812,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-iosx64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-iosx64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -2915,6 +4861,14 @@
       "name": "run-blocking-kmp.coroutines-run-blocking-all.jsMain",
       "contentEntries": [
         {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking-all/build/externals/run-blocking-kmp-coroutines-run-blocking-all-js-legacy/src",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking-all/build/externals/run-blocking-kmp-coroutines-run-blocking-all-js-ir/src",
+          "sourceFolders": []
+        },
+        {
           "path": "file://$PROJECT_DIR$/coroutines-run-blocking-all/js/main",
           "sourceFolders": [
             {
@@ -2939,7 +4893,7 @@
           "type": "Module"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-js:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-js:1.8.10",
           "type": "Library"
         },
         {
@@ -3002,7 +4956,11 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-js:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-js:1.8.10",
           "type": "Library"
         },
         {
@@ -3018,7 +4976,15 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-js:1.7.20",
+          "name": "Gradle: junit:junit:4.13.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-js:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-js:0.1.0-alpha.12",
           "type": "Library"
         },
         {
@@ -3026,11 +4992,11 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-js:0.1.0-alpha.12",
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu-js:0.17.3",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlinx:atomicfu-js:0.17.3",
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -3091,7 +5057,7 @@
           "type": "Module"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10",
           "type": "Library"
         },
         {
@@ -3103,11 +5069,11 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.8.10",
           "type": "Library"
         },
         {
@@ -3150,11 +5116,15 @@
           "type": "Module"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-test:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10",
           "type": "Library"
         },
         {
@@ -3170,11 +5140,15 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.7.20",
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit5:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-jvm:0.1.0-alpha.12",
           "type": "Library"
         },
         {
@@ -3182,15 +5156,11 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-jvm:0.1.0-alpha.12",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.jetbrains:annotations:13.0",
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -3198,23 +5168,7 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.junit.jupiter:junit-jupiter-api:5.6.0",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.junit.platform:junit-platform-commons:1.6.0",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.apiguardian:apiguardian-api:1.1.0",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.opentest4j:opentest4j:1.2.0",
+          "name": "Gradle: org.jetbrains:annotations:13.0",
           "type": "Library"
         },
         {
@@ -3222,7 +5176,7 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.junit.jupiter:junit-jupiter-engine:5.6.0",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
           "type": "Library"
         },
         {
@@ -3234,11 +5188,11 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.junit.platform:junit-platform-engine:1.6.0",
+          "name": "Gradle: io.github.java-diff-utils:java-diff-utils:4.12",
           "type": "Library"
         },
         {
-          "name": "Gradle: io.github.java-diff-utils:java-diff-utils:4.12",
+          "name": "Gradle: org.opentest4j:opentest4j:1.2.0",
           "type": "Library"
         }
       ]
@@ -3261,7 +5215,7 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
@@ -3269,27 +5223,31 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.linuxMain",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
           "type": "Module"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - builtin | linux_x64",
+          "name": "Kotlin/Native 1.8.10 - builtin | linux_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - iconv | linux_x64",
+          "name": "Kotlin/Native 1.8.10 - iconv | linux_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - linux | linux_x64",
+          "name": "Kotlin/Native 1.8.10 - linux | linux_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - posix | linux_x64",
+          "name": "Kotlin/Native 1.8.10 - posix | linux_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - zlib | linux_x64",
+          "name": "Kotlin/Native 1.8.10 - zlib | linux_x64",
           "type": "Library"
         },
         {
@@ -3328,7 +5286,7 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
@@ -3337,6 +5295,14 @@
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.linuxMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.linuxTest",
           "type": "Module"
         },
         {
@@ -3352,23 +5318,27 @@
           "type": "Module"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - builtin | linux_x64",
+          "name": "Kotlin/Native 1.8.10 - builtin | linux_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - iconv | linux_x64",
+          "name": "Kotlin/Native 1.8.10 - iconv | linux_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - linux | linux_x64",
+          "name": "Kotlin/Native 1.8.10 - linux | linux_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - posix | linux_x64",
+          "name": "Kotlin/Native 1.8.10 - posix | linux_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - zlib | linux_x64",
+          "name": "Kotlin/Native 1.8.10 - zlib | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
           "type": "Library"
         },
         {
@@ -3388,11 +5358,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-linuxx64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-linuxx64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -3443,11 +5421,19 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.macosMain",
           "type": "Module"
         },
         {
@@ -3490,8 +5476,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
@@ -3506,12 +5500,24 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.macosMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.macosTest",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
           "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeTest",
           "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-macosarm64:klib:1.6.4",
@@ -3530,11 +5536,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-macosarm64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-macosarm64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -3585,11 +5599,19 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.macosMain",
           "type": "Module"
         },
         {
@@ -3632,8 +5654,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
@@ -3641,6 +5671,14 @@
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.macosMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.macosTest",
           "type": "Module"
         },
         {
@@ -3654,6 +5692,10 @@
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeTest",
           "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-macosx64:klib:1.6.4",
@@ -3672,11 +5714,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-macosx64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-macosx64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -3727,7 +5777,7 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
@@ -3735,35 +5785,43 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.mingwMain",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
           "type": "Module"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - builtin | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - builtin | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - gdiplus | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - gdiplus | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - iconv | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - iconv | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - opengl32 | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - opengl32 | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - posix | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - posix | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - windows | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - windows | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - zlib | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - winhttp | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - zlib | mingw_x64",
           "type": "Library"
         },
         {
@@ -3802,7 +5860,7 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
@@ -3811,6 +5869,14 @@
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.mingwMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.mingwTest",
           "type": "Module"
         },
         {
@@ -3826,31 +5892,39 @@
           "type": "Module"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - builtin | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - builtin | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - gdiplus | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - gdiplus | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - iconv | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - iconv | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - opengl32 | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - opengl32 | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - posix | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - posix | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - windows | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - windows | mingw_x64",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - zlib | mingw_x64",
+          "name": "Kotlin/Native 1.8.10 - winhttp | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - zlib | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
           "type": "Library"
         },
         {
@@ -3870,11 +5944,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-mingwx64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-mingwx64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -3925,8 +6007,12 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
@@ -3934,6 +6020,10 @@
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosMain",
           "type": "Module"
         },
         {
@@ -3972,8 +6062,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
@@ -3996,6 +6094,18 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosTest",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-tvosarm64:klib:1.6.4",
           "type": "Library"
         },
@@ -4012,11 +6122,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-tvosarm64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-tvosarm64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -4067,8 +6185,12 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
@@ -4076,6 +6198,10 @@
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosMain",
           "type": "Module"
         },
         {
@@ -4114,8 +6240,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
@@ -4134,8 +6268,20 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosMain",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosSimulatorArm64Main",
           "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosTest",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-tvossimulatorarm64:klib:1.6.4",
@@ -4154,11 +6300,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-tvossimulatorarm64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-tvossimulatorarm64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -4209,8 +6363,12 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
@@ -4218,6 +6376,10 @@
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosMain",
           "type": "Module"
         },
         {
@@ -4256,8 +6418,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
@@ -4276,8 +6446,20 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosTest",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosX64Main",
           "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-tvosx64:klib:1.6.4",
@@ -4296,11 +6478,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-tvosx64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-tvosx64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -4351,8 +6541,12 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
@@ -4360,6 +6554,10 @@
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosMain",
           "type": "Module"
         },
         {
@@ -4398,8 +6596,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
@@ -4422,6 +6628,18 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosTest",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-watchosarm64:klib:1.6.4",
           "type": "Library"
         },
@@ -4438,11 +6656,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-watchosarm64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-watchosarm64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -4493,8 +6719,12 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
@@ -4502,6 +6732,10 @@
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosMain",
           "type": "Module"
         },
         {
@@ -4540,8 +6774,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
@@ -4560,8 +6802,20 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosMain",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosSimulatorArm64Main",
           "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosTest",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-watchossimulatorarm64:klib:1.6.4",
@@ -4580,11 +6834,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-watchossimulatorarm64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-watchossimulatorarm64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -4635,8 +6897,12 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
@@ -4644,6 +6910,10 @@
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosMain",
           "type": "Module"
         },
         {
@@ -4682,8 +6952,16 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleTest",
+          "type": "Module"
         },
         {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
@@ -4702,8 +6980,20 @@
           "type": "Module"
         },
         {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosTest",
+          "type": "Module"
+        },
+        {
           "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosX64Main",
           "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test-watchosx64:klib:1.6.4",
@@ -4722,11 +7012,19 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5-watchosx64:klib:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit-watchosx64:klib:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.21",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         },
         {
@@ -4760,6 +7058,184 @@
       ]
     },
     {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking-all/apple/main",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.appleTest",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking-all/apple/test",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-core:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-shared:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-api:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
       "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
       "contentEntries": [
         {
@@ -4783,7 +7259,7 @@
           "type": "Own sources"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
           "type": "Library"
         },
         {
@@ -4824,7 +7300,7 @@
           "type": "Module"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
           "type": "Library"
         },
         {
@@ -4844,7 +7320,15 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5:commonMain:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.8.10",
           "type": "Library"
         },
         {
@@ -4856,11 +7340,847 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.7.20",
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.iosMain",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking-all/ios/main",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.iosTest",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking-all/ios/test",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.iosMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-core:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-shared:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-api:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.linuxMain",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking-all/linux/main",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - builtin | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - iconv | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - linux | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - posix | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - zlib | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeOtherMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.linuxTest",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking-all/linux/test",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.linuxMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.linuxX64Main",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - builtin | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - iconv | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - linux | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - posix | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - zlib | linux_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeOtherMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-core:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-shared:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-api:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.macosMain",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking-all/macos/main",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.macosTest",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking-all/macos/test",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.macosMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-core:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-shared:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-api:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.mingwMain",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking-all/mingw/main",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - builtin | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - gdiplus | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - iconv | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - opengl32 | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - posix | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - windows | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - winhttp | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - zlib | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeOtherMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.mingwTest",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking-all/mingw/test",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.mingwMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.mingwX64Main",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - builtin | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - gdiplus | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - iconv | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - opengl32 | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - posix | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - windows | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - winhttp | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - zlib | mingw_x64",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeOtherMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-core:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-shared:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-api:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         }
       ]
@@ -4889,7 +8209,7 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
@@ -4897,23 +8217,23 @@
           "type": "Module"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - builtin | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+          "name": "Kotlin/Native 1.8.10 - builtin | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - iconv | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+          "name": "Kotlin/Native 1.8.10 - iconv | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - posix | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+          "name": "Kotlin/Native 1.8.10 - posix | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+          "name": "Kotlin/Native 1.8.10 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
           "type": "Library"
         },
         {
@@ -4964,7 +8284,7 @@
           "type": "Own sources"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - stdlib",
+          "name": "Kotlin/Native 1.8.10 - stdlib",
           "type": "Library"
         },
         {
@@ -4980,23 +8300,23 @@
           "type": "Module"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - builtin | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+          "name": "Kotlin/Native 1.8.10 - builtin | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - iconv | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+          "name": "Kotlin/Native 1.8.10 - iconv | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - posix | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+          "name": "Kotlin/Native 1.8.10 - posix | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
           "type": "Library"
         },
         {
-          "name": "Kotlin/Native 1.7.20 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
+          "name": "Kotlin/Native 1.8.10 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64, linux_x64, macos_arm64, macos_x64, mingw_x64, tvos_arm64, tvos_simulator_arm64, tvos_x64, watchos_arm64, watchos_simulator_arm64, watchos_x64)]",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
           "type": "Library"
         },
         {
@@ -5036,7 +8356,15 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit5:commonMain:0.1.0-alpha.12",
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.8.10",
           "type": "Library"
         },
         {
@@ -5048,11 +8376,379 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.7.20",
+          "name": "Gradle: junit:junit:4.13.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.7.20",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosMain",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking-all/tvos/main",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosTest",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking-all/tvos/test",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.tvosMain",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-core:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-shared:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-api:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosMain",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking-all/watchos/main",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        }
+      ]
+    },
+    {
+      "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosTest",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$/coroutines-run-blocking-all/watchos/test",
+          "sourceFolders": []
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "Kotlin SDK",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Kotlin/Native 1.8.10 - stdlib",
+          "type": "Library"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.appleMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.commonTest",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.nativeMain",
+          "type": "Module"
+        },
+        {
+          "name": "run-blocking-kmp.coroutines-run-blocking-all.watchosMain",
+          "type": "Module"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-test:commonMain:1.6.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-stdlib:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-core:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.javiersc.kotlin:kotlin-test-junit:commonMain:0.1.0-alpha.12",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-shared:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: io.kotest:kotest-assertions-api:commonMain:5.5.4",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: junit:junit:4.13.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-test-common:1.8.10",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.hamcrest:hamcrest-core:1.3",
           "type": "Library"
         }
       ]
