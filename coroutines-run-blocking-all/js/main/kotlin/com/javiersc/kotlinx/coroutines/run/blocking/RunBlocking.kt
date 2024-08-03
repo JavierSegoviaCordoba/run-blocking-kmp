@@ -9,4 +9,4 @@ import kotlinx.coroutines.promise
 public actual fun <T> runBlocking(
     context: CoroutineContext,
     block: suspend CoroutineScope.() -> T
-): dynamic = GlobalScope.promise(context) { block() }
+): T = GlobalScope.promise(context) { block() } as T
