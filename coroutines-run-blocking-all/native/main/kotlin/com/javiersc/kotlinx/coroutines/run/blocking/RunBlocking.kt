@@ -7,5 +7,5 @@ import kotlinx.coroutines.runBlocking
 /** Native `runBlocking` implementation */
 public actual fun <T> runBlocking(
     context: CoroutineContext,
-    block: suspend CoroutineScope.() -> T
+    block: suspend CoroutineScope.() -> T,
 ): T = runBlocking(context, block)

@@ -8,5 +8,5 @@ import kotlinx.coroutines.promise
 /** JS `runBlocking` implementation */
 public actual fun <T> runBlocking(
     context: CoroutineContext,
-    block: suspend CoroutineScope.() -> T
+    block: suspend CoroutineScope.() -> T,
 ): T = GlobalScope.promise(context) { block() } as T
