@@ -30,5 +30,5 @@ import kotlinx.coroutines.CoroutineScope
  */
 public expect fun <T> runBlocking(
     context: CoroutineContext = EmptyCoroutineContext,
-    block: suspend CoroutineScope.() -> T
+    block: suspend CoroutineScope.() -> T,
 ): T
