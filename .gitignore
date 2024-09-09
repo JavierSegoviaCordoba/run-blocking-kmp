@@ -3,6 +3,8 @@
 
 .idea/
 
+.kotlin/
+
 build
 **/build/**/*
 
