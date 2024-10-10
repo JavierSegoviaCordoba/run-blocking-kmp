@@ -42,6 +42,7 @@ hubdle {
                 nodejs()
             }
             linux {
+                linuxArm64()
                 linuxX64()
             }
             mingw {

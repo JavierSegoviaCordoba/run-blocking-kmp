@@ -4,6 +4,8 @@
 
 ### Added
 
+- `linuxArm64` target support
+
 ### Changed
 
 ### Deprecated
