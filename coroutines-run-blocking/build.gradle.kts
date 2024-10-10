@@ -38,6 +38,7 @@ hubdle {
             }
             jvm()
             linux {
+                linuxArm64()
                 linuxX64()
             }
             mingw {
